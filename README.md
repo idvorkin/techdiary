@@ -1,6 +1,6 @@
 # Igor's Technical Diary
 
-I love technical journeys, but often lose of why I started, what my priorities are, and where I've been. Explorers of old solved these problems by keeping a journal, so I'll try the same.
+I love technical journeys, but I often lose track of why I started, what my priorities are, and where I've been. Explorers of old solved these problems by keeping a journal, so I'll try the same.
 
 <!-- TOC -->
 
@@ -23,7 +23,6 @@ I love technical journeys, but often lose of why I started, what my priorities a
         - [Powershell](#powershell)
 
 <!-- /TOC -->
-
 
 ## Journeys
 
