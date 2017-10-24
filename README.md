@@ -18,6 +18,8 @@ I love technical journeys, but often lose of why I started, what my priorities a
         - [Java](#java)
         - [Python](#python)
         - [Typescript](#typescript)
+        - [Apple](#apple)
+        - [Home Automation](#home-automation)
 
 <!-- /TOC -->
 
@@ -65,3 +67,13 @@ _Nothing is really completed, but you need to stop somewhere._
 - Hug
 
 ### Typescript
+
+- TBD
+
+### Apple
+
+- Copy files **without** itunes - [CopyTrans Manager](https://www.copytrans.net/copytransmanager/)
+
+### Home Automation
+
+- Bridge from HomeKit to Wink - [Homebridge-wink3](https://github.com/sibartlett/homebridge-wink3)
