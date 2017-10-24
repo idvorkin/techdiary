@@ -20,6 +20,7 @@ I love technical journeys, but often lose of why I started, what my priorities a
         - [Typescript](#typescript)
         - [Apple](#apple)
         - [Home Automation](#home-automation)
+        - [Powershell](#powershell)
 
 <!-- /TOC -->
 
@@ -77,3 +78,8 @@ _Nothing is really completed, but you need to stop somewhere._
 ### Home Automation
 
 - Bridge from HomeKit to Wink - [Homebridge-wink3](https://github.com/sibartlett/homebridge-wink3)
+
+### Powershell
+
+- Vim keybindings (built in psreadline)
+- Jump to arbitrary directory based on frequency (z) 
