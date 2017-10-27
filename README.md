@@ -21,6 +21,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Apple](#apple)
         - [Home Automation](#home-automation)
         - [Powershell](#powershell)
+        - [Text manipulation tools](#text-manipulation-tools)
 
 <!-- /TOC -->
 
@@ -65,6 +66,7 @@ _Nothing is really completed, but you need to stop somewhere._
 ### Python
 
 - Hug
+- Httpie
 
 ### Typescript
 
@@ -82,3 +84,9 @@ _Nothing is really completed, but you need to stop somewhere._
 
 - Vim keybindings (built in psreadline)
 - Jump to arbitrary directory based on frequency (z) 
+
+### Text manipulation tools
+
+- XPath and HtmlAgilityPack
+- Regexp + VIM
+- Beautiful soup
