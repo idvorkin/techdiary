@@ -22,6 +22,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Home Automation](#home-automation)
         - [Powershell](#powershell)
         - [Text manipulation tools](#text-manipulation-tools)
+        - [Cool shell tools](#cool-shell-tools)
 
 <!-- /TOC -->
 
@@ -34,6 +35,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
 ### In progress
 
 - [Redshift from Linqpad](notes/linqpad_from_redshift.md)
+- [Deploy a private web site](notes/private_web_site.md)
 
 ### Blocked
 
@@ -90,3 +92,9 @@ _Nothing is really completed, but you need to stop somewhere._
 - XPath and HtmlAgilityPack
 - Regexp + VIM
 - Beautiful soup
+
+### Cool shell tools
+
+- Tig - Command Line git gui/gitk
+- Mosh - A better ssh
+- fasd - An awesome command line completion tool.
