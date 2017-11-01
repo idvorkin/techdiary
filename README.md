@@ -98,3 +98,4 @@ _Nothing is really completed, but you need to stop somewhere._
 - Tig - Command Line git gui/gitk
 - Mosh - A better ssh
 - fasd - An awesome command line completion tool.
+- w3m -  Text based web browser
