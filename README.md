@@ -99,3 +99,5 @@ _Nothing is really completed, but you need to stop somewhere._
 - Mosh - A better ssh
 - fasd - An awesome command line completion tool.
 - w3m -  Text based web browser
+- fzf - Fuzzy file inder
+- Rg - RipGrep (like ag) 
