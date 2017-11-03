@@ -101,3 +101,6 @@ _Nothing is really completed, but you need to stop somewhere._
 - w3m -  Text based web browser
 - fzf - Fuzzy file inder
 - Rg - RipGrep (like ag) 
+
+### Githbu
+ - Serve HTML files directly from github: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
