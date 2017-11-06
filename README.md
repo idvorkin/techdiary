@@ -23,6 +23,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Powershell](#powershell)
         - [Text manipulation tools](#text-manipulation-tools)
         - [Cool shell tools](#cool-shell-tools)
+        - [Github](#github)
 
 <!-- /TOC -->
 
@@ -36,6 +37,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
 
 - [Redshift from Linqpad](notes/linqpad_from_redshift.md)
 - [Deploy a private web site](notes/private_web_site.md)
+- [Debug clr using windbg](notes/windbg.md)
 
 ### Blocked
 
@@ -102,5 +104,16 @@ _Nothing is really completed, but you need to stop somewhere._
 - fzf - Fuzzy file inder
 - Rg - RipGrep (like ag) 
 
-### Githbu
- - Serve HTML files directly from github: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
+### Github
+
+- Serve HTML files directly from github: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
+
+### Random 1-liners
+
+Clean up dead MOSH instances
+
+    kill $(ps --no-headers --sort=start_time -C mosh-server -o pid | head -n -1)
+
+zsh path append
+
+    path+="/my/new/path"
