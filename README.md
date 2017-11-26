@@ -49,8 +49,9 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 
 _Nothing is really completed, but you need to stop somewhere._
 
-- [VLC Player Tips ](notes/vlc_player.md)
+- [VLC Player Tips](notes/vlc_player.md)
 - [iOS Usage](notes/ios.md)
+- [Mosh](notes/mosh.md)
 
 ## Awesome Lists
 
