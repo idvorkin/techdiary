@@ -66,7 +66,7 @@ Close Tab - Pull top of page down and to right
 New Tab - Pull top of page down and to left
 
 Keyboard: Test if these work
-https://support.google.com/chrome/answer/157179?hl=en
+https://productforums.google.com/forum/#!topic/chrome/fiR1lQ0mpbw;context-place=forum/chrome
 
 ### Magic Launcher
 
