@@ -1,4 +1,4 @@
-Make linqpad work with redshift.
+## Make linqpad work with redshift.
 
 Sounds easy there is already a  [linqpad driver for postrgres SQL](https://github.com/fknx/linqpad-postgresql-driver) which wraps a C# driver for postrgres SQL which support redshift [ngpsql](https://blog.rthand.com/post/2016/09/19/linqpad-llblgenpro-and-npgsql.aspx).
 
@@ -13,3 +13,48 @@ Issues:
 
 * How to run tests (need localhost DB)
 * How to run in linqpad (no lpx generated?)
+
+## Debugging: connecting to Redshift from Windows
+
+Install PSQL 
+```
+cinst postgressql 
+```
+
+Need to set encoding: 
+```
+set PGCLIENTENCODING=UTF8 
+```
+
+
+Launch psql 
+```
+psql -h idvorkin1.co7ezfmxj5tg.us-east-1.redshift.amazonaws.com -p 5439 -d idvorkin1 -U idvorkin
+```
+
+See tables
+```
+idvorkin1=# SELECT distinct(schemaname)  from pg_catalog.pg_tables;
+
+     schemaname
+--------------------
+ information_schema
+ pg_catalog
+ ```
+
+Describe
+```
+\d # describe tables
+\d <tablename> # describe columns
+ ```
+
+ Reverse engineer using peewee:
+ ```
+ python -m pwiz -H idvorkin1.co7ezfmxj5tg.us-east-1.redshift.amazonaws.com -p 5439 -e postgresql -u idvorkin idvorkin1 -P idvorkin1
+ ```
+
+Create helper table (notice no primary key as serial columns are **not** supported):
+```
+CREATE TABLE scratch( username VARCHAR (50) UNIQUE NOT NULL, password VARCHAR (50) NOT NULL, email VARCHAR (355) UNIQUE NOT NULL, created_on TIMESTAMP NOT NULL, last_login TIMESTAMP);
+```
+
