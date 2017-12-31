@@ -13,6 +13,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
             - [[Deploy a private web site](notes/private_web_site.md)](#deploy-a-private-web-sitenotesprivate_web_sitemd)
             - [[Debug clr using windbg](notes/windbg.md)](#debug-clr-using-windbgnoteswindbgmd)
             - [[Notes on all things security](notes/better-security-design.md)](#notes-on-all-things-securitynotesbetter-security-designmd)
+            - [[Visual Vocabulary](notes/visual-vocabulary.md)](#visual-vocabularynotesvisual-vocabularymd)
         - [Blocked](#blocked)
         - [Too early to start](#too-early-to-start)
         - [Completed](#completed)
@@ -32,6 +33,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Powershell](#powershell)
         - [Text manipulation tools](#text-manipulation-tools)
         - [Cool shell tools](#cool-shell-tools)
+        - [Natural Language Processing](#natural-language-processing)
         - [Github](#github)
         - [Random 1-liners](#random-1-liners)
 
@@ -49,6 +51,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
 #### [Deploy a private web site](notes/private_web_site.md)
 #### [Debug clr using windbg](notes/windbg.md)
 #### [Notes on all things security](notes/better-security-design.md)
+#### [Visual Vocabulary](notes/visual-vocabulary.md)
 
 ### Blocked
 
@@ -119,6 +122,12 @@ _Nothing is really completed, but you need to stop somewhere._
 - w3m -  Text based web browser
 - fzf - Fuzzy file inder
 - Rg - RipGrep (like ag) 
+
+### Natural Language Processing
+
+- Rant - a cool c# human [language generator](http://berkin.me/rant/)
+- Rhymebrain - 
+- Tranquil
 
 ### Github
 
