@@ -7,10 +7,18 @@ I love technical journeys, but I often lose track of why I started, what my prio
 - [Igor's Technical Diary](#igors-technical-diary)
     - [Journeys](#journeys)
         - [To be started](#to-be-started)
+            - [Rule the world](#rule-the-world)
         - [In progress](#in-progress)
+            - [[Redshift from Linqpad](notes/linqpad_from_redshift.md)](#redshift-from-linqpadnoteslinqpad_from_redshiftmd)
+            - [[Deploy a private web site](notes/private_web_site.md)](#deploy-a-private-web-sitenotesprivate_web_sitemd)
+            - [[Debug clr using windbg](notes/windbg.md)](#debug-clr-using-windbgnoteswindbgmd)
         - [Blocked](#blocked)
         - [Too early to start](#too-early-to-start)
         - [Completed](#completed)
+            - [[VLC Player Tips](notes/vlc_player.md)](#vlc-player-tipsnotesvlc_playermd)
+            - [[iOS Usage](notes/ios.md)](#ios-usagenotesiosmd)
+            - [[Mosh](notes/mosh.md)](#moshnotesmoshmd)
+            - [[USB Tech](notes/usbtech.md)](#usb-technotesusbtechmd)
     - [Awesome Lists](#awesome-lists)
         - [Markdown](#markdown)
         - [VIM](#vim)
@@ -24,6 +32,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Text manipulation tools](#text-manipulation-tools)
         - [Cool shell tools](#cool-shell-tools)
         - [Github](#github)
+        - [Random 1-liners](#random-1-liners)
 
 <!-- /TOC -->
 
@@ -31,27 +40,28 @@ I love technical journeys, but I often lose track of why I started, what my prio
 
 ### To be started
 
-- Rule the world
+#### Rule the world
 
 ### In progress
 
-- [Redshift from Linqpad](notes/linqpad_from_redshift.md)
-- [Deploy a private web site](notes/private_web_site.md)
-- [Debug clr using windbg](notes/windbg.md)
+#### [Redshift from Linqpad](notes/linqpad_from_redshift.md)
+#### [Deploy a private web site](notes/private_web_site.md)
+#### [Debug clr using windbg](notes/windbg.md)
 
 ### Blocked
 
 ### Too early to start
 
-_The bleeding edge can be fun, but you burn lots of time dealing with sharp edges. Here's my list of things I want to get into once they stabalize._
+_The bleeding edge can be fun, but you burn lots of time dealing with sharp edges. Here's my list of things I want to get into once they stabilize._
 
 ### Completed
 
 _Nothing is really completed, but you need to stop somewhere._
 
-- [VLC Player Tips](notes/vlc_player.md)
-- [iOS Usage](notes/ios.md)
-- [Mosh](notes/mosh.md)
+#### [VLC Player Tips](notes/vlc_player.md)
+#### [iOS Usage](notes/ios.md)
+#### [Mosh](notes/mosh.md)
+#### [USB Tech](notes/usbtech.md)
 
 ## Awesome Lists
 
