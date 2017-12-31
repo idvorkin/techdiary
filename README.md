@@ -12,6 +12,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
             - [[Redshift from Linqpad](notes/linqpad_from_redshift.md)](#redshift-from-linqpadnoteslinqpad_from_redshiftmd)
             - [[Deploy a private web site](notes/private_web_site.md)](#deploy-a-private-web-sitenotesprivate_web_sitemd)
             - [[Debug clr using windbg](notes/windbg.md)](#debug-clr-using-windbgnoteswindbgmd)
+            - [[Notes on all things security](notes/better-security-design.md)](#notes-on-all-things-securitynotesbetter-security-designmd)
         - [Blocked](#blocked)
         - [Too early to start](#too-early-to-start)
         - [Completed](#completed)
@@ -47,6 +48,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
 #### [Redshift from Linqpad](notes/linqpad_from_redshift.md)
 #### [Deploy a private web site](notes/private_web_site.md)
 #### [Debug clr using windbg](notes/windbg.md)
+#### [Notes on all things security](notes/better-security-design.md)
 
 ### Blocked
 
