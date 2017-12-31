@@ -82,3 +82,35 @@ tbd
 - MagicPlan: Determine floor plan interactively.
 - LightSpace: Paint in AR
 - AR Dragon: Play with a toy dragon
+
+## Pen 
+
+### Notability 
+   
+ Syncronized audio playback and writing
+
+### Notes Plus 
+ 
+  * Prettiest Render
+  * Very simple iCloud sync format
+  * Smart Gestures (Scratch to erase, deduce shape)
+  * Good OCR
+
+### OneNote
+   
+* Best cross platform app
+* Hand writing in native, but it’s meh compared to the others 
+
+### Adobe Sketch
+
+  * My favorite drawing app - nice intuitive controls
+  * Nice ink
+ 
+
+### Inkflow
+
+  * I haven’t actually used it, but apparently it can turn photos into vector graphics (pretty cool)
+
+### Nebo
+
+  * Augmented drawing. Cool idea you can draw connected diagrams and move them around, but it feels great for a demo, but doesn’t actually work well yet. 
