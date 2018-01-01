@@ -6,29 +6,29 @@ For now it’ll be confusing as I’m brain dumping to various audiences with va
 
 - [Good Security](#good-security)
     - [Single Sign On: One account to rule them all.](#single-sign-on-one-account-to-rule-them-all)
-    - [0.0.1.2. Great design: Microsoft Authenticator](#0012-great-design-microsoft-authenticator)
-    - [0.0.1.3. Git tools, personal access tokens](#0013-git-tools-personal-access-tokens)
-    - [0.0.1.4. Googles OTP reset codes](#0014-googles-otp-reset-codes)
-    - [0.0.1.5. Multi Factor Authentication](#0015-multi-factor-authentication)
-    - [0.0.1.6. Full Device Encryption (Bitlocker, TPM, Truecrypt)](#0016-full-device-encryption-bitlocker-tpm-truecrypt)
-    - [0.0.1.7. Public Key sign in via SSH](#0017-public-key-sign-in-via-ssh)
-    - [0.0.1.8. Live sign in for windows](#0018-live-sign-in-for-windows)
-    - [0.0.1.9. Single Payment System: Paypal, Amazon, Google Express](#0019-single-payment-system-paypal-amazon-google-express)
-- [0.0.2. Bad Security](#002-bad-security)
-    - [0.0.2.1. E-mail password resets](#0021-e-mail-password-resets)
-    - [0.0.2.2. SMS Password reset tools  weakness](#0022-sms-password-reset-tools--weakness)
-- [0.0.3. Funny](#003-funny)
-    - [0.0.3.1. Can’t unlock the door w/Amazon Alexa](#0031-cant-unlock-the-door-wamazon-alexa)
-- [0.0.4. Uncategorized](#004-uncategorized)
-    - [0.0.4.1. Apple Pay](#0041-apple-pay)
-    - [0.0.4.2. Chip and PIN and tap in rest of world](#0042-chip-and-pin-and-tap-in-rest-of-world)
-    - [0.0.4.3. Credit card vs Debit Card security](#0043-credit-card-vs-debit-card-security)
-    - [0.0.4.4. Account vs Identity](#0044-account-vs-identity)
-    - [0.0.4.5. The end of privacy](#0045-the-end-of-privacy)
-    - [0.0.4.6. ICloud vs OneDrive: Why do I need to login](#0046-icloud-vs-onedrive-why-do-i-need-to-login)
-    - [0.0.4.7. YubiKey: Proof of human](#0047-yubikey-proof-of-human)
-    - [0.0.4.8. RSA Secure ID](#0048-rsa-secure-id)
-    - [0.0.4.9. Secure Boot](#0049-secure-boot)
+    - [Great design: Microsoft Authenticator](#great-design-microsoft-authenticator)
+    - [Git tools, personal access tokens](#git-tools-personal-access-tokens)
+    - [Googles OTP reset codes](#googles-otp-reset-codes)
+    - [Multi Factor Authentication](#multi-factor-authentication)
+    - [Full Device Encryption (Bitlocker, TPM, Truecrypt)](#full-device-encryption-bitlocker-tpm-truecrypt)
+    - [Public Key sign in via SSH](#public-key-sign-in-via-ssh)
+    - [Live sign in for windows](#live-sign-in-for-windows)
+    - [Single Payment System: Paypal, Amazon, Google Express](#single-payment-system-paypal-amazon-google-express)
+- [Bad Security](#bad-security)
+    - [E-mail password resets](#e-mail-password-resets)
+    - [SMS Password reset tools  weakness](#sms-password-reset-tools--weakness)
+- [Funny](#funny)
+    - [Can’t unlock the door w/Amazon Alexa](#cant-unlock-the-door-wamazon-alexa)
+- [Uncategorized](#uncategorized)
+    - [Apple Pay](#apple-pay)
+    - [Chip and PIN and tap in rest of world](#chip-and-pin-and-tap-in-rest-of-world)
+    - [Credit card vs Debit Card security](#credit-card-vs-debit-card-security)
+    - [Account vs Identity](#account-vs-identity)
+    - [The end of privacy](#the-end-of-privacy)
+    - [ICloud vs OneDrive: Why do I need to login](#icloud-vs-onedrive-why-do-i-need-to-login)
+    - [YubiKey: Proof of human](#yubikey-proof-of-human)
+    - [RSA Secure ID](#rsa-secure-id)
+    - [Secure Boot](#secure-boot)
 
 <!-- /TOC -->
 ### Good Security
@@ -60,7 +60,7 @@ I believe this belief is an outdated myth.  In the past, before the standardizat
 
 Moreover, when you look at the total cost of password system ownership, like secure password storage, password resets, and security leaks, I believe rolling your own AuthN system very quickly becomes the higher cost solution. 
 
-#### 0.0.1.2. Great design: Microsoft Authenticator
+#### Great design: Microsoft Authenticator
 The best authenticor applicaiton I’ve seen is Microsoft’s for iOS. In this solution, when you a user logs into a service with Microsoft SSO on any device, they are presented with a 2 digit number on the device accessing the service, **and** a notification pops up on the user’s mobile device to open Microsoft Authenticator. 
 
 On the users mobile device, in Microsoft Authenticator, a choice of 2 digit numbers are presented. When the user clicks on the matching 2 digit number the users is logged into the service. 
@@ -75,25 +75,25 @@ I’m not sure, I suspect a few things:
   This sounds odd, but the auth model where you can enter a 6 digit number allows the SSO provider to use multiple transport channels to provide the 6 digit number (e.g. SMS, E-mail, etc)
 
 
-#### 0.0.1.3. Git tools, personal access tokens
-#### 0.0.1.4. Googles OTP reset codes
-#### 0.0.1.5. Multi Factor Authentication
-#### 0.0.1.6. Full Device Encryption (Bitlocker, TPM, Truecrypt)
-#### 0.0.1.7. Public Key sign in via SSH
-#### 0.0.1.8. Live sign in for windows
-#### 0.0.1.9. Single Payment System: Paypal, Amazon, Google Express
-### 0.0.2. Bad Security
-#### 0.0.2.1. E-mail password resets
-#### 0.0.2.2. SMS Password reset tools  weakness
-### 0.0.3. Funny
-#### 0.0.3.1. Can’t unlock the door w/Amazon Alexa
-### 0.0.4. Uncategorized
-#### 0.0.4.1. Apple Pay
-#### 0.0.4.2. Chip and PIN and tap in rest of world
-#### 0.0.4.3. Credit card vs Debit Card security
-#### 0.0.4.4. Account vs Identity
-#### 0.0.4.5. The end of privacy
-#### 0.0.4.6. ICloud vs OneDrive: Why do I need to login
-#### 0.0.4.7. YubiKey: Proof of human
-#### 0.0.4.8. RSA Secure ID
-#### 0.0.4.9. Secure Boot
+#### Git tools, personal access tokens
+#### Googles OTP reset codes
+#### Multi Factor Authentication
+#### Full Device Encryption (Bitlocker, TPM, Truecrypt)
+#### Public Key sign in via SSH
+#### Live sign in for windows
+#### Single Payment System: Paypal, Amazon, Google Express
+### Bad Security
+#### E-mail password resets
+#### SMS Password reset tools  weakness
+### Funny
+#### Can’t unlock the door w/Amazon Alexa
+### Uncategorized
+#### Apple Pay
+#### Chip and PIN and tap in rest of world
+#### Credit card vs Debit Card security
+#### Account vs Identity
+#### The end of privacy
+#### ICloud vs OneDrive: Why do I need to login
+#### YubiKey: Proof of human
+#### RSA Secure ID
+#### Secure Boot
