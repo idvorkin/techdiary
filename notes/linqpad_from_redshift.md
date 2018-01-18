@@ -18,7 +18,8 @@ Issues:
 
 Install PSQL 
 ```
-cinst postgressql 
+    chocolatey package is crufy, install directly from website.
+
 ```
 
 Need to set encoding: 
@@ -29,6 +30,7 @@ set PGCLIENTENCODING=UTF8
 
 Launch psql 
 ```
+"C:\Program Files\PostgreSQL\10\bin\psql.exe"
 psql -h idvorkin1.co7ezfmxj5tg.us-east-1.redshift.amazonaws.com -p 5439 -d idvorkin1 -U idvorkin
 ```
 

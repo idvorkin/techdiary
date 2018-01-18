@@ -93,7 +93,7 @@ _Nothing is really completed, but you need to stop somewhere._
 
 ### Typescript
 
-- TBD
+- [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from json 
 
 ### Apple
 
