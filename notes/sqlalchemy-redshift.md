@@ -25,3 +25,21 @@ Reflect Tables
     pg_catalog = sa.MetaData(schema="pg_catalog")
     pg_catalog.reflect(bind=engine)
     for table in pg_catalog.tables: print (table) 
+
+    public = sa.MetaData()
+    public.reflect(bind=engine)
+    for table in public.tables: print (table) 
+
+Note we don't query on tables, we query on mappings. Mappings can be generated from metadata.
+
+    # http://docs.sqlalchemy.org/en/latest/orm/extensions/automap.html
+    Base = automap_base(metadata=metadata)
+    Base.prepare()
+    Base.classes.keys()
+
+Query using a session
+
+    Session = sa.orm.sessionmaker(bind=engine)
+    session = Session()
+    # Top 5
+    rows = session.query(jobs).limit(5).all()
