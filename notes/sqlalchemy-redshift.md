@@ -19,6 +19,9 @@ Load sqlalchamey
 
 Reflect Tables
 
-    meta = sa.MetaData()
-    meta.reflect(bind=engine)
-    or table in meta.tables: print (table) 
+    # not sure why can't enumarete pg_catalog.
+    # using psql can enumerate with \dn
+    # https://dba.stackexchange.com/questions/40045/how-do-i-list-all-schemas-in-postgresql
+    pg_catalog = sa.MetaData(schema="pg_catalog")
+    pg_catalog.reflect(bind=engine)
+    for table in pg_catalog.tables: print (table) 
