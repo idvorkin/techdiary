@@ -1,21 +1,29 @@
 I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I use.
+<!-- vim-markdown-toc GFM -->
 
-<!-- TOC -->
+* [General](#general)
+    * [Global Controls (For iPhone X)](#global-controls-(for-iphone-x))
+    * [Siri (For iPhone X)](#siri-(for-iphone-x))
+    * [HomeKit](#homekit)
+    * [Health Kit](#health-kit)
+    * [Photos](#photos)
+* [Apps](#apps)
+    * [All](#all)
+    * [Chrome](#chrome)
+    * [Launcher](#launcher)
+    * [Workflow](#workflow)
+* [Watch](#watch)
+* [Augmented Reality Apps](#augmented-reality-apps)
+* [Pen](#pen)
+    * [Notability](#notability)
+    * [Notes Plus](#notes-plus)
+    * [OneNote](#onenote)
+    * [Adobe Sketch](#adobe-sketch)
+    * [Inkflow](#inkflow)
+    * [Nebo](#nebo)
+    * [Keyboards](#keyboards)
 
-- [General](#general)
-    - [Global Controls (For iPhone X)](#global-controls-for-iphone-x)
-    - [Siri (For iPhone X)](#siri-for-iphone-x)
-    - [HomeKit](#homekit)
-    - [Photos](#photos)
-- [Apps](#apps)
-    - [All](#all)
-    - [Chrome](#chrome)
-    - [Magic Launcher](#magic-launcher)
-- [Watch](#watch)
-- [Augmented Reality Apps](#augmented-reality-apps)
-
-<!-- /TOC -->
-
+<!-- vim-markdown-toc -->
 ## General
 
 ### Global Controls (For iPhone X)
@@ -34,6 +42,10 @@ tbd
 ### HomeKit
 
 tbd
+
+### Health Kit
+
+[QS Access](https://itunes.apple.com/us/app/qs-access/id920297614?mt=8) - Allow you to export your health data in tabular format - pretty nice. 
 
 ### Photos
 
@@ -68,9 +80,13 @@ New Tab - Pull top of page down and to left
 Keyboard: Test if these work
 https://productforums.google.com/forum/#!topic/chrome/fiR1lQ0mpbw;context-place=forum/chrome
 
-### Magic Launcher
+### Launcher
 
-tbd 
+A launch center which can execute url's best use case is from a today widget.
+
+### Workflow
+
+Automate common tasks - like send text to person (which can be added as a share extension) and send last screen shot to person. Can also add "shortcuts" to launcher.
 
 ## Watch
 
@@ -86,8 +102,10 @@ tbd
 ## Pen 
 
 ### Notability 
-   
- Syncronized audio playback and writing
+
+ * Syncronized audio playback and writing
+ * Nice iCloud syncing
+
 
 ### Notes Plus 
  
@@ -114,3 +132,9 @@ tbd
 ### Nebo
 
   * Augmented drawing. Cool idea you can draw connected diagrams and move them around, but it feels great for a demo, but doesn’t actually work well yet. 
+
+### Keyboards
+
+* Google Keyboard - lets you use a swype like gesture
+* Stylus  - lets you write by actually writing on the screen (similar to windows ink)
+
