@@ -48,8 +48,14 @@ Describe
 ```
 \d # describe tables
 \d <tablename> # describe columns
+\dn List schemas
  ```
 
+ Change Schema
+ ```
+ SET  search_path TO public;
+ SET  search_path TO public
+ ```
  Reverse engineer using peewee:
  ```
  python -m pwiz -H idvorkin1.co7ezfmxj5tg.us-east-1.redshift.amazonaws.com -p 5439 -e postgresql -u idvorkin idvorkin1 -P idvorkin1

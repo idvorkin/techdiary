@@ -13,6 +13,8 @@ Install required certificates:
 Load sqlalchamey
 
     import sqlalchemy as sa
+    import sqlalchemy.orm
+    from sqlalchemy.ext.automap import automap_base
     username="idvorkin"
     connect_args={'sslmode':'verify-ca'} # see issues with cert remapping -sigh
     engine = sa.create_engine(f'redshift+psycopg2://{username}:{password}@{db}',connect_args=connect_args)
