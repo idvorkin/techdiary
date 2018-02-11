@@ -52,7 +52,6 @@ I love technical journeys, but I often lose track of why I started, what my prio
 #### [Debug clr using windbg](notes/windbg.md)
 #### [Notes on all things security](notes/better-security-design.md)
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
-#### [Ring Video Downloader](notes/ring-video-download.md)
 
 ### Blocked
 
@@ -68,6 +67,7 @@ _Nothing is really completed, but you need to stop somewhere._
 #### [iOS Usage](notes/ios.md)
 #### [Mosh](notes/mosh.md)
 #### [USB Tech](notes/usbtech.md)
+#### [Ring Video Downloader](notes/ring-video-download.md)
 
 ## Awesome Lists
 
@@ -89,8 +89,9 @@ _Nothing is really completed, but you need to stop somewhere._
 
 ### Python
 
-- Hug
-- Httpie
+- Hug: Python API generator
+- Httpie: wget replacement
+- Pendulum: The best datetime library (better then arrow).
 
 ### Typescript
 
