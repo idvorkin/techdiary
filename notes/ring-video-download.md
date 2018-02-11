@@ -1,13 +1,14 @@
 ## Success Critera
 
-[x] Have an archive of all my ring videos.
-[x] Learn python web download technology
-[x] Cloud sync videos.
+- [x] Have an archive of all my ring videos.
+- [x] Learn python web download technology
+- [x] Cloud sync videos.
+
 
 ## Aritifacts
 
-[Implementation](https://github.com/idvorkin/LinqPadSnippets/blob/master/python/ring-video-doorbell.py)
-[Bug: Can't download more then last 100 events from API](https://github.com/tchellomello/python-ring-doorbell/issues/84)
+* [Implementation](https://github.com/idvorkin/LinqPadSnippets/blob/master/python/ring-video-doorbell.py)
+* [Bug: Can't download more then last 100 events from API](https://github.com/tchellomello/python-ring-doorbell/issues/84)
 
 
 ## Use cases - Functional
