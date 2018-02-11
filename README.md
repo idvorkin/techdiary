@@ -92,6 +92,7 @@ _Nothing is really completed, but you need to stop somewhere._
 - Hug: Python API generator
 - Httpie: wget replacement
 - Pendulum: The best datetime library (better then arrow).
+- PipEnv - Finally sane dependency management for python!
 
 ### Typescript
 
