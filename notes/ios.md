@@ -61,8 +61,7 @@ tbd
 - Fantastical - Best Calender app - period.
 - Magic Launcher - Cool idea, app launch from widget menu.
 - Dark Sky - Micro weather
-- Bear - Writing tool.
-- MOSH - ssh but much better.
+- Bear - Writing tool
 - LightX - photo editor with magic wand.
 
 ### Chrome
@@ -138,3 +137,8 @@ tbd
 * Google Keyboard - lets you use a swype like gesture
 * Stylus  - lets you write by actually writing on the screen (similar to windows ink)
 
+## Development
+
+* Working Copy - the best git (only?) git edior
+* MOSH - ssh but much better.
+* ByWord - Markdown editor that can interact with Working Copy
