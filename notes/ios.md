@@ -141,4 +141,5 @@ tbd
 
 * Working Copy - the best git (only?) git edior
 * MOSH - ssh but much better.
+* Editorial - Markdown editor that can interact with Working Copy  (seems nicer then ByWord)
 * ByWord - Markdown editor that can interact with Working Copy
