@@ -27,7 +27,6 @@ Need to set encoding:
 set PGCLIENTENCODING=UTF8 
 ```
 
-
 Launch psql 
 ```
 "C:\Program Files\PostgreSQL\10\bin\psql.exe"
@@ -66,3 +65,17 @@ Create helper table (notice no primary key as serial columns are **not** support
 CREATE TABLE scratch( username VARCHAR (50) UNIQUE NOT NULL, password VARCHAR (50) NOT NULL, email VARCHAR (355) UNIQUE NOT NULL, created_on TIMESTAMP NOT NULL, last_login TIMESTAMP);
 ```
 
+### Helpful SQL
+
+Time based group by in redshift
+
+    select 
+        date_trunc('week',creation_date) as DATE, 
+        count(*)
+        from mytable
+        where 
+            creation_date >  '2017-1-1'
+        group by 
+            date_trunc('week',creation_date)
+        order by    
+            date_trunc('week',creation_date)
