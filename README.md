@@ -53,7 +53,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
 #### [Debug clr using windbg](notes/windbg.md)
 #### [Notes on all things security](notes/better-security-design.md)
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
-#### [ManageMe](notes/manage-me.md)
+#### [ManageMe](https://github.com/idvorkin/manage-me)
 
 ### Blocked
 
