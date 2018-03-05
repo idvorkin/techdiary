@@ -53,6 +53,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
 #### [Debug clr using windbg](notes/windbg.md)
 #### [Notes on all things security](notes/better-security-design.md)
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
+#### [ManageMe](notes/manage-me.md)
 
 ### Blocked
 
@@ -65,6 +66,7 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 _Nothing is really completed, but you need to stop somewhere._
 
 #### [VLC Player Tips](notes/vlc_player.md)
+#### [Pandas Tips](notes/pandas-tutorial.md)
 #### [iOS Usage](notes/ios.md)
 #### [Mosh](notes/mosh.md)
 #### [USB Tech](notes/usbtech.md)
