@@ -94,6 +94,9 @@ _Nothing is really completed, but you need to stop somewhere._
 - Httpie: wget replacement
 - Pendulum: The best datetime library (better then arrow).
 - PipEnv - Finally sane dependency management for python!
+- [Datalore](https://datalore.io/) - Jetbrain's version of Jupyter
+- [Requests] (http://docs.python-requests.org/en/master/) Http requests for humans
+- [Scapy] (https://scrapy.org/) Web crawling for humans.
 
 ### Typescript
 
