@@ -126,6 +126,7 @@ _Nothing is really completed, but you need to stop somewhere._
 - w3m -  Text based web browser
 - fzf - Fuzzy file inder
 - Rg - RipGrep (like ag) 
+- [linuxbrew](http://linuxbrew.sh/) - Brew for linux
 
 ### Natural Language Processing
 
