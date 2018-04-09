@@ -17,6 +17,10 @@
     *  Cheated and used One Drive.
 * Do not re-download duplicate videos.
 
+## Up next
+Erase video content that hasn't changed, so videos  are actually interesting:
+https://stackoverflow.com/questions/13142541/extract-thumbnails-of-every-camera-change-on-a-video-file
+
 ## Notes
 
 Ring video doorbell
@@ -25,3 +29,4 @@ https://github.com/tchellomello/python-ring-doorbell
 
 Requests Library
 http://docs.python-requests.org/en/master/
+
