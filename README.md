@@ -53,6 +53,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
 #### [Debug clr using windbg](notes/windbg.md)
 #### [Notes on all things security](notes/better-security-design.md)
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
+#### [ManageMe](https://github.com/idvorkin/manage-me)
 
 ### Blocked
 
@@ -65,6 +66,7 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 _Nothing is really completed, but you need to stop somewhere._
 
 #### [VLC Player Tips](notes/vlc_player.md)
+#### [Pandas Tips](notes/pandas-tutorial.md)
 #### [iOS Usage](notes/ios.md)
 #### [Mosh](notes/mosh.md)
 #### [USB Tech](notes/usbtech.md)
@@ -94,6 +96,13 @@ _Nothing is really completed, but you need to stop somewhere._
 - Httpie: wget replacement
 - Pendulum: The best datetime library (better then arrow).
 - PipEnv - Finally sane dependency management for python!
+- [Datalore](https://datalore.io/) - Jetbrain's version of Jupyter
+- [Requests] (http://docs.python-requests.org/en/master/) Http requests for humans
+- [Requests-HTML] (https://github.com/kennethreitz/requests-html) Web Parsing for humans
+- [Scapy] (https://scrapy.org/) Web crawling for humans.
+- [Records] (https://github.com/kennethreitz/records) Raw SQL for humans
+- [Delegator] (https://github.com/kennethreitz/delegator.py) Sub process for humans
+-
 
 ### Typescript
 
