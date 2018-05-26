@@ -5,33 +5,28 @@
 * [Why?](#why)
     * [Success criteria For this post](#success-criteria-for-this-post)
 * [ML at 10,000 feet](#ml-at-10000-feet)
-    * [What problems can ML solve](#what-problems-can-ml-solve)
-        * [Classification](#classification)
-        * [Regression](#regression)
-        * [Clustering](#clustering)
+* [Heirarchy of Abstraction in the ML space](#heirarchy-of-abstraction-in-the-ml-space)
+    * [Using an ML Model](#using-an-ml-model)
+    * [Building an ML model by training an ML algorithom.](#building-an-ml-model-by-training-an-ml-algorithom)
+    * [Implementing ML Algorithom](#implementing-ml-algorithom)
+    * [Converting an ML model to hardware](#converting-an-ml-model-to-hardware)
+* [What category of problems can ML algorithoms solve](#what-category-of-problems-can-ml-algorithoms-solve)
+    * [Classification](#classification)
+    * [Regression](#regression)
+    * [Clustering](#clustering)
         * [Dimension Reduction](#dimension-reduction)
-    * [The ML steps](#the-ml-steps)
-        * [Requirements gathering and problem definition](#requirements-gathering-and-problem-definition)
-        * [Exploratory Data analysis](#exploratory-data-analysis)
-        * [Data preparation](#data-preparation)
-        * [Model Selection](#model-selection)
-        * [Training](#training)
-        * [Evaluation and hyper parameter tuning](#evaluation-and-hyper-parameter-tuning)
-        * [Validation](#validation)
-        * [Present Results, Use it](#present-results-use-it)
-    * [Categories of ML](#categories-of-ml)
-        * [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
-        * [Batch vs Online](#batch-vs-online)
-    * [How to measure the effectiveness of ML](#how-to-measure-the-effectiveness-of-ml)
-        * [Precision and Recall](#precision-and-recall)
-        * [Accuracy](#accuracy)
-* [When ML fails](#when-ml-fails)
+* [Other ML Concepts](#other-ml-concepts)
+    * [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
+    * [Batch vs Online](#batch-vs-online)
+    * [Instance vs Model](#instance-vs-model)
+* [How to measure the effectiveness of ML](#how-to-measure-the-effectiveness-of-ml)
+    * [Precision and Recall](#precision-and-recall)
+    * [Accuracy](#accuracy)
     * [The ML learning challenges](#the-ml-learning-challenges)
     * [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
-    * [Epic Failures](#epic-failures)
-        * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
-        * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesnt-recognize-black-people)
-        * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
+    * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
+    * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesnt-recognize-black-people)
+    * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
 * [Computing Power, Hardware,](#computing-power-hardware)
     * [Why can't big computer do all of it](#why-cant-big-computer-do-all-of-it)
     * [Why GPU vs CPU](#why-gpu-vs-cpu)
@@ -40,13 +35,22 @@
         * [What does on device ML cores do](#what-does-on-device-ml-cores-do)
     * [Model building vs Model Execution](#model-building-vs-model-execution)
     * [Computation power required for cat pictures](#computation-power-required-for-cat-pictures)
+* [The steps in training an ML model.](#the-steps-in-training-an-ml-model)
+    * [Requirements gathering and problem definition](#requirements-gathering-and-problem-definition)
+    * [Exploratory Data analysis](#exploratory-data-analysis)
+    * [Data preparation](#data-preparation)
+    * [Algorithm Selection](#algorithm-selection)
+    * [Training](#training)
+    * [Evaluation and hyper parameter tuning](#evaluation-and-hyper-parameter-tuning)
+    * [Validation](#validation)
+    * [Present Results, Use it](#present-results-use-it)
 * [ML Algorithoms](#ml-algorithoms)
     * [Regression](#regression-1)
     * [SVM](#svm)
     * [Neural Networks](#neural-networks)
     * [Deep learning](#deep-learning)
-* [Deep learning](#deep-learning-1)
-* [Misc](#misc)
+    * [Deep learning](#deep-learning-1)
+* [Misc Topics](#misc-topics)
     * [Feature transparency](#feature-transparency)
     * [What is ML vs AI.](#what-is-ml-vs-ai)
     * [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
@@ -59,7 +63,7 @@
 
 ## Why?
 
-When I started programming ML was very weak, and I basically ignored it. Like all technology, ML has gotten cheaper and more powerful. And like many hot technologies, it's become full of hype. Here's my attempt to build a high level understanding of ML
+When I started programming ML was very weak, and I basically ignored it. Like all technology, ML has gotten cheaper and more powerful. And like many hot technologies, it's become full of hype. Here's my attempt to build a high level understanding of ML that is useful for non-ML programmers.
 
 ### Success criteria For this post
 
@@ -75,9 +79,43 @@ When I started programming ML was very weak, and I basically ignored it. Like al
 
 ML is the ability for computers to build algorithms without explicit programming by having the algorithm be inferred by data. This is especially powerful as the computer can usually find patterns in large data sets that are too complicated for humans to find and express.
 
-### What problems can ML solve
+## Heirarchy of Abstraction in the ML space
 
-#### Classification
+Just like programming has various levels of abstraction so does ML.  From most general to most specific.
+
+### Using an ML Model
+
+This is the equivalent of using a high level API or library, something like IsPlural(word). These APIs can run locally like a library, or using a web service.
+
+Notice that from an API's users perspective, you don't know the implementation of the function, so you don't know (or care if low error rate) if the API is implemented with ML or explicit programming.
+
+Usable ML Models running in the coud are exposed from services like Microsoft's Cognative Servies and Amazon Translate.
+
+### Building an ML model by training an ML algorithom.
+
+This is the equivalent of using data structures and algorithms to build high level libraries. Think of creating a file system from B-Trees.
+
+Because the model is inferred implicitly, we need to provide data to build the model. These models are built by providing training data and hyper parameters (think parameters to data structures like the initial capacity of an auto-growing array)
+
+Models are relatively simple to describe but require data to train.
+
+Models can be created and trained locally with tools like sci-kit for small sets of training data. With large amounts of training data, models can built using large scale cloud providers like Amazon SageMaker or Azure ML Studio.
+
+### Implementing ML Algorithom
+
+This is the equivalent of implementing data structures and algorithoms. As an example from convential algorithoms, a linked list and linked list insertion routine.
+
+At this level of abstraction no data is required, as we're just building algothoms.  Building these algorithoms requires knowledge of hard math.
+
+The algorithm would usually be hard math, and written in languages like TensorFlow and PyTorch.
+
+### Converting an ML model to hardware
+
+This is the equivelant of compiling C or assembly code to machine code.  The machine code can execute on different hardware.  Unlike convential programming ML algoriths are slow on CPUs fast on GPUs and fast on specialized hardware like CoreML for iOS and TensorFlow Lite for Android.  CPU's are slowest because they are optimized for integer operations on few threads (E.g. high end CPU has 8 threads). GPUs are optimized for parallel floating point optimization (E.g.high end GPU has 560K threads). I'm not sure the performance of CoreML, but it can always be improved with hardare revisions (and I suspect it will be).
+
+## What category of problems can ML algorithoms solve
+
+### Classification
 
 Given a sample, classify into a discrete set of known values.  Mathematically F(sample):Enum. Training data must be labelled, into a discrete set of data.
 
@@ -85,14 +123,14 @@ Classification can be binary (spam detection), or categorical (image recognition
 
 Algorithms used include decision trees, and Baseyian classifiers.
 
-#### Regression
+### Regression
 
 Given a sample, what is the output value.  Mathematically F(sample):Number.  Determine F.
 
 For example, how much does age impact the probability of having cancer. Given an income, what is the happiness quotient. Linear Regression has been around for a long time (you might remember newton's method from high school)
 
 
-#### Clustering
+### Clustering
 
 Given a set of unlabeled data, classify it into groups.  Mathematically F(List[Data]):List[Set(Data)].
 
@@ -107,42 +145,21 @@ Algorithms used include decision trees, and Baseyian classifiers.
 #### Dimension Reduction
 
 
-### The ML steps
 
-Just like traditional programming progresses through requirements, design, implementation, and testing there is set of steps required for ML.
+## Other ML Concepts
 
-#### Requirements gathering and problem definition
-#### Exploratory Data analysis
-Often done in pandas
-
-#### Data preparation
-
-Often pre-processing in SciKit
-
-#### Model Selection
-#### Training
-#### Evaluation and hyper parameter tuning
-#### Validation
-#### Present Results, Use it
-
-### Categories of ML
-
-#### Supervised vs Unsupervised vs Semi Supervised
-#### Batch vs Online
+### Supervised vs Unsupervised vs Semi Supervised
+### Batch vs Online
 In batch learning the model is built once, and ignores incoming data.
 
 In online learning (better called incremental learning) an initial model is deployed but is then re-deployed with an updated model based on the incoming data. The rate at which the model is updated is the Learning Rate, and is an important parameter, if the model is updated quickly, it can break quickly based on a string of un-representative data, if the model is updated slowly there can be a prologed period of time while the model performance ispoor.
 
-* Instance vs Model
+###  Instance vs Model
 
+## How to measure the effectiveness of ML
 
-
-### How to measure the effectiveness of ML
-
-#### Precision and Recall
-#### Accuracy
-
-## When ML fails
+### Precision and Recall
+### Accuracy
 
 ### The ML learning challenges
 
@@ -159,17 +176,16 @@ Because ML features are not transpart, they can sometimes detect features which 
 i
 You can find great examples  here[Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://arxiv.org/pdf/1412.1897v1.pdf)
 
-### Epic Failures
-#### Google Photos recognizing black people as gorillas
+### Google Photos recognizing black people as gorillas
 From: https://www.theverge.com/2015/7/1/8880363/google-apologizes-photos-app-tags-two-black-people-gorillas
 
 Google came under fire this week after its new Photos app categorized photos in one of the most racist ways possible. On June 28th, computer programmer Jacky Alciné found that the feature kept tagging pictures of him and his girlfriend as "gorillas." He tweeted at Google asking what kind of sample images the company had used that would allow such a terrible mistake to happen.
 
 Google attempted to fix the algorithm, but ultimately removed the gorilla label altogether. Zunger noted that the company is working on longer-term fixes that revolve around which labels could be problematic and better recognition of dark-skinned faces.
 
-#### HP face tracking doesn't recognize black people
+### HP face tracking doesn't recognize black people
 
-#### Likely hood of death from Pneumonia given asthma
+### Likely hood of death from Pneumonia given asthma
 
 [Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission](http://people.dbmi.columbia.edu/noemie/papers/15kdd.pdf)
 
@@ -201,21 +217,37 @@ Tensor flow is a library that lets you build models (as opposed to just use mode
 ### Computation power required for cat pictures
 
 
+## The steps in training an ML model.
+
+Just like traditional programming progresses through requirements, design, implementation, and testing there is set of steps required for ML.
+
+### Requirements gathering and problem definition
+### Exploratory Data analysis
+Often done in pandas
+
+### Data preparation
+
+Often pre-processing in SciKit
+
+### Algorithm Selection
+### Training
+### Evaluation and hyper parameter tuning
+### Validation
+### Present Results, Use it
+
 ## ML Algorithoms
 
 ### Regression
 ### SVM
 ### Neural Networks
 ### Deep learning
+### Deep learning
 
-## Deep learning
-
-## Misc
+## Misc Topics
 
 ### Feature transparency
 
 Can a human understand how a ML model works. This is often necassary to validate the computer is using reasonable features, and to train humans to do similar tasks.
-
 
 ### What is ML vs AI.
 
@@ -226,12 +258,9 @@ AI is the idea that computers can do activiites traditionally performed by human
 When most people say AI, they think about an AI that they can interact with like a human. This is very complex of AI.  Narrow AI, is simpler, and limits the AI to a simpler task - e.g. helping you find a good vacation.
 
 
-
 ### Why is ML stuff so complicated
 
 ### Do i need to run special software to run AI.
-
-
 
 ## Resources
 
