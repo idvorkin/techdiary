@@ -2,6 +2,7 @@
 
 I love technical journeys, but I often lose track of why I started, what my priorities are, and where I've been. Explorers of old solved these problems by keeping a journal, so I'll try the same.
 
+<<<<<<< HEAD
 <!-- TOC -->
 
 - [Igor's Technical Diary](#igors-technical-diary)
@@ -42,6 +43,47 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Random 1-liners](#random-1-liners)
 
 <!-- /TOC -->
+=======
+<!-- vim-markdown-toc GFM -->
+
+* [Journeys](#journeys)
+    * [To be started](#to-be-started)
+        * [Rule the world](#rule-the-world)
+    * [In progress](#in-progress)
+        * [Redshift from Linqpad](#redshift-from-linqpad)
+        * [Deploy a private web site](#deploy-a-private-web-site)
+        * [Debug clr using windbg](#debug-clr-using-windbg)
+        * [Notes on all things security](#notes-on-all-things-security)
+        * [Visual Vocabulary](#visual-vocabulary)
+        * [ManageMe](#manageme)
+    * [Blocked](#blocked)
+    * [Too early to start](#too-early-to-start)
+    * [Completed](#completed)
+        * [VLC Player Tips](#vlc-player-tips)
+        * [Pandas Tips](#pandas-tips)
+        * [iOS Usage](#ios-usage)
+        * [Mosh](#mosh)
+        * [USB Tech](#usb-tech)
+        * [Ring Video Downloader](#ring-video-downloader)
+* [Awesome Lists](#awesome-lists)
+    * [Markdown](#markdown)
+    * [VIM](#vim)
+    * [C Sharp](#c-sharp)
+    * [Java](#java)
+    * [Python](#python)
+    * [Typescript](#typescript)
+    * [Apple](#apple)
+    * [Home Automation](#home-automation)
+    * [Powershell](#powershell)
+    * [Text manipulation tools](#text-manipulation-tools)
+    * [Cool shell tools](#cool-shell-tools)
+    * [Natural Language Processing](#natural-language-processing)
+    * [Github](#github)
+    * [Random 1-liners](#random-1-liners)
+    * [App Launchers (Alfred/Wox)](#app-launchers-(alfred/wox))
+
+<!-- vim-markdown-toc -->
+>>>>>>> refs/remotes/origin/master
 
 ## Journeys
 
@@ -108,12 +150,11 @@ _Nothing is really completed, but you need to stop somewhere._
 - Pendulum: The best datetime library (better then arrow).
 - PipEnv - Finally sane dependency management for python!
 - [Datalore](https://datalore.io/) - Jetbrain's version of Jupyter
-- [Requests] (http://docs.python-requests.org/en/master/) Http requests for humans
-- [Requests-HTML] (https://github.com/kennethreitz/requests-html) Web Parsing for humans
-- [Scapy] (https://scrapy.org/) Web crawling for humans.
-- [Records] (https://github.com/kennethreitz/records) Raw SQL for humans
-- [Delegator] (https://github.com/kennethreitz/delegator.py) Sub process for humans
--
+- [Requests](http://docs.python-requests.org/en/master/) Http requests for humans
+- [Requests-HTML](https://github.com/kennethreitz/requests-html) Web Parsing for humans
+- [Scapy](https://scrapy.org/) Web crawling for humans.
+- [Records](https://github.com/kennethreitz/records) Raw SQL for humans
+- [Delegator](https://github.com/kennethreitz/delegator.py) Sub process for humans
 
 ### Typescript
 
@@ -167,3 +208,9 @@ Clean up dead MOSH instances
 zsh path append
 
     path+="/my/new/path"
+
+### App Launchers (Alfred/Wox)
+
+- Alfred on OSX
+- WoX on Windows + (switcheroo to switch windows) [win - app name]
+
