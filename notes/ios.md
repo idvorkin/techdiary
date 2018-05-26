@@ -22,6 +22,7 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
     * [Inkflow](#inkflow)
     * [Nebo](#nebo)
     * [Keyboards](#keyboards)
+* [Development](#development)
 
 <!-- vim-markdown-toc -->
 ## General
@@ -30,10 +31,10 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
 
 - Goto Launcher - Rigth Ear -> Swipe Right
 - Goto Control Panel - Left Ear -> Mid screen
-- Screen Capture  - Power and Volume Up 
+- Screen Capture  - Power and Volume Up
 - Screen Capture Video -  Control Panel Round dot (enable through configuraiton)
 - Siri - Hold Power
-- Hey Siri -  A better way to launch Siri 
+- Hey Siri -  A better way to launch Siri
 
 ### Siri (For iPhone X)
 
@@ -45,7 +46,7 @@ tbd
 
 ### Health Kit
 
-[QS Access](https://itunes.apple.com/us/app/qs-access/id920297614?mt=8) - Allow you to export your health data in tabular format - pretty nice. 
+[QS Access](https://itunes.apple.com/us/app/qs-access/id920297614?mt=8) - Allow you to export your health data in tabular format - pretty nice.
 
 ### Photos
 
@@ -57,7 +58,7 @@ tbd
 
 ### All
 
-- Just press record - Keep full voice recording (not just transcription) 
+- Just press record - Keep full voice recording (not just transcription)
 - Fantastical - Best Calender app - period.
 - Magic Launcher - Cool idea, app launch from widget menu.
 - Dark Sky - Micro weather
@@ -98,39 +99,41 @@ tbd
 - LightSpace: Paint in AR
 - AR Dragon: Play with a toy dragon
 
-## Pen 
+## Pen
 
-### Notability 
+### Notability
 
- * Syncronized audio playback and writing
+ * My recommended writing application.
+ * Synchronized audio playback and writing
  * Nice iCloud syncing
+ * Google Drive PDF creation
+ * Excellent Hand Writing Recognition and search.
+ * Side by side page view
 
+### Notes Plus
 
-### Notes Plus 
- 
+I now recommend using Notability, however a few places where Notes Plus still has superior features:
+
   * Prettiest Render
-  * Very simple iCloud sync format
   * Smart Gestures (Scratch to erase, deduce shape)
-  * Good OCR
 
 ### OneNote
-   
+
 * Best cross platform app
-* Hand writing in native, but it’s meh compared to the others 
+* Hand writing in native, but it's meh compared to the others
 
 ### Adobe Sketch
 
   * My favorite drawing app - nice intuitive controls
   * Nice ink
- 
 
 ### Inkflow
 
-  * I haven’t actually used it, but apparently it can turn photos into vector graphics (pretty cool)
+  * I haven't actually used it, but apparently it can turn photos into vector graphics (pretty cool)
 
 ### Nebo
 
-  * Augmented drawing. Cool idea you can draw connected diagrams and move them around, but it feels great for a demo, but doesn’t actually work well yet. 
+  * Augmented drawing. Cool idea you can draw connected diagrams and move them around, but it feels great for a demo, but doesn’t actually work well yet.
 
 ### Keyboards
 
