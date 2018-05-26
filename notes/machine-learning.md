@@ -14,15 +14,19 @@
     * [Classification](#classification)
     * [Regression](#regression)
     * [Clustering](#clustering)
-        * [Dimension Reduction](#dimension-reduction)
+    * [Dimension Reduction](#dimension-reduction)
 * [Other ML Concepts](#other-ml-concepts)
     * [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
     * [Batch vs Online](#batch-vs-online)
     * [Instance vs Model](#instance-vs-model)
-* [How to measure the effectiveness of ML](#how-to-measure-the-effectiveness-of-ml)
-    * [Precision and Recall](#precision-and-recall)
-    * [Accuracy](#accuracy)
+* [How to measure the effectiveness of ML by problem category.](#how-to-measure-the-effectiveness-of-ml-by-problem-category.)
+    * [Regression: Distance of predication from actual](#regression:-distance-of-predication-from-actual)
+    * [Classification: Precision and Recall](#classification:-precision-and-recall)
+    * [Clustering: Complex](#clustering:-complex)
+    * [PCA: Complex](#pca:-complex)
+* [About ML errors](#about-ml-errors)
     * [The ML learning challenges](#the-ml-learning-challenges)
+    * [Model and feature opaqueness.](#model-and-feature-opaqueness.)
     * [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
     * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
     * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
@@ -30,9 +34,8 @@
 * [Computing Power, Hardware,](#computing-power,-hardware,)
     * [Why can't big computer do all of it](#why-can't-big-computer-do-all-of-it)
     * [Why GPU vs CPU](#why-gpu-vs-cpu)
-    * [What is tensor flow](#what-is-tensor-flow)
-    * [Tensor flow is hard, are there alternatives](#tensor-flow-is-hard,-are-there-alternatives)
-        * [What does on device ML cores do](#what-does-on-device-ml-cores-do)
+    * [What is a tensor](#what-is-a-tensor)
+    * [What do on device ML cores do](#what-do-on-device-ml-cores-do)
     * [Model building vs Model Execution](#model-building-vs-model-execution)
     * [Computation power required for cat pictures](#computation-power-required-for-cat-pictures)
 * [The steps in training an ML model.](#the-steps-in-training-an-ml-model.)
@@ -51,11 +54,9 @@
     * [Deep learning](#deep-learning)
     * [Deep learning](#deep-learning-1)
 * [Misc Topics](#misc-topics)
-    * [Feature transparency](#feature-transparency)
     * [What is ML vs AI.](#what-is-ml-vs-ai.)
     * [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
     * [Why is ML stuff so complicated](#why-is-ml-stuff-so-complicated)
-    * [Do i need to run special software to run AI.](#do-i-need-to-run-special-software-to-run-ai.)
 * [Resources](#resources)
     * [What should I read to learn more](#what-should-i-read-to-learn-more)
 
@@ -142,9 +143,7 @@ Another example is anomaly detection. Amazingly I have a published [paper](https
 
 Algorithms used include decision trees, and Baseyian classifiers.
 
-#### Dimension Reduction
-
-
+### Dimension Reduction
 
 ## Other ML Concepts
 
@@ -156,10 +155,56 @@ In online learning (better called incremental learning) an initial model is depl
 
 ###  Instance vs Model
 
-## How to measure the effectiveness of ML
+## How to measure the effectiveness of ML by problem category.
 
-### Precision and Recall
-### Accuracy
+Because conventional computing tends not to be probabilistic, we tend not to measure effectiveness. However, in conventional programming we often care about performance, and for that we need a standard benchmark. Various benchmarks exist for various measures, E.g. crystal mark for disk, and battery burner for power utilization.
+Similarly to measure effectiveness you need to use a standard data set. Also "good values" is a function of the data set and domain. E.g. a precision of 99% might be great on the MNIST data set, but 50% might be good on a handwriting recognition dataset.
+
+
+The effectiveness of ML depends on the category of problem being solved. Also to measure effectiveness, you must have a dataset, as precision and recall will vary from
+
+### Regression: Distance of predication from actual
+
+### Classification: Precision and Recall
+
+Precision (Exactness) - Likely hood a result is a true positive. TP / (TP + FP)
+Recall (Completeness) - Likely a true positive. TP / (TP + FN)
+
+An example for laymen:
+
+You have to understand these terms completely before you are moving forward.
+
+Say, you have 10 balls (6 white and 4 red balls) in a box. I know you are not colorblind but still somebody asked you to pick up the red balls from them. What you did is that you thought 7 balls as red, picked them from the box and put them in a tray. Among these 7 balls, you picked 2 red balls and 5 white balls (but you thought all of them are red).
+
+Your precision in picking red ball is number of correct pick-ups/(number of correct pick-ups + number of wrong pick-ups) which is 2/(2+5) = 2/7 = 28% in this case. Now, look carefully that your denominator can also be like (total pick-ups).
+
+Your recall in picking red ball is number of correct pick-ups/(number of correct pick-ups + number of red balls that you missed) which is 2/(2+2) = 2/4 = 50% in this case.
+
+Now, what do they mean? Precision says how exact you were among your pick-ups. So, as you picked them up as red balls, you were 28% exact. Recall says, how complete you were among your pick-ups. So, as you picked them up as red balls, you were 50% complete in identifying all the red balls.
+
+We learn at this point- Precision describes exactness and Recall describes completeness.
+
+From the same example, we will now take a look how to combine various terminology with these simple examples.
+
+Number of correct pick-ups can be said "true positives" as they were red ball that you picked up and you were asked to pick the red ones. The balls you picked as red but eventually are white can be called "false positives"- you thought they are positive but they are not.
+
+So, if we modify this formula of precision with these terms, it turns into-
+
+Precision = true positives / (true positives + false positives)
+
+Again, the number of red balls you missed are thought as you missed them thinking them as white. So, they can be called "false negatives", which means you thought they are not red balls, but they are.
+
+So, if we modify this formula of recall with this new terminology, it turns into-
+
+Recall = true positives / (true positives + false negatives)
+
+So, from this "re-written" version of recall formula can pop-up one thing: this is the "rate of true positives". In other words, from all the red balls, what percentage of red balls were grabbed. You had 4 red balls but you got 2 and missed 2: means you could took 50% of the red balls!
+
+### Clustering: Complex
+
+### PCA: Complex
+
+## About ML errors
 
 ### The ML learning challenges
 
@@ -169,6 +214,13 @@ In online learning (better called incremental learning) an initial model is depl
 * Incorrect features
 * Over fitting the data
 * Under fitting the data (choosing the wrong model)
+
+### Model and feature opaqueness.
+
+Because many complex models have opaque features and parameters, humans can't validate which features are used, which can result in many difficult to solve errors like the below. Also, when features are opaque, humans can't be trained from the ML.
+
+When models are transparent, like PCA, that's great because human SMEs  can validate and use the result for further exploration.
+
 
 ### ML Image Recognition Optical Illusions
 
@@ -204,13 +256,11 @@ Put simply, a researcher taking actions based on this information would be mista
 
 CPU's are optimized for integer operations on few threads (E.g. high end CPU has 8 threads). GPUs are optimized for parallel floating point optimization (E.g.high end GPU has 560K threads).
 
-### What is tensor flow
+### What is a tensor
 
-Tensor flow is a library that lets you build models (as opposed to just use models like scikit-learn), and have the models be compiled to GPU/CPU on device ML processors.
+Tensor is a name for a multi-dimensional array.
 
-### Tensor flow is hard, are there alternatives
-
-#### What does on device ML cores do
+### What do on device ML cores do
 
 ### Model building vs Model Execution
 
@@ -244,10 +294,6 @@ Often pre-processing in SciKit
 
 ## Misc Topics
 
-### Feature transparency
-
-Can a human understand how a ML model works. This is often necessary to validate the computer is using reasonable features, and to train humans to do similar tasks.
-
 ### What is ML vs AI.
 
 AI is the idea that computers can do activities traditionally performed by humans . E.g. diagnose a disease, argue a case like a defence lawyer, drive a car, have a conversation.  ML is a method to achieve artificial intelligence. Artificial intelligence can be achieved without ML using explicit human programmed algorithms.  This was done for early medical diagnosis via explicit decision trees.
@@ -258,8 +304,6 @@ When most people say AI, they think about an AI that they can interact with like
 
 
 ### Why is ML stuff so complicated
-
-### Do i need to run special software to run AI.
 
 ## Resources
 
