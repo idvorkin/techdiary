@@ -2,9 +2,9 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Why?](#why?)
+* [Why?](#why)
     * [Success criteria For this post](#success-criteria-for-this-post)
-* [ML at 10,000 feet](#ml-at-10,000-feet)
+* [ML at 10,000 feet](#ml-at-10000-feet)
     * [What problems can ML solve](#what-problems-can-ml-solve)
         * [Classification](#classification)
         * [Regression](#regression)
@@ -18,7 +18,7 @@
         * [Training](#training)
         * [Evaluation and hyper parameter tuning](#evaluation-and-hyper-parameter-tuning)
         * [Validation](#validation)
-        * [Present Results, Use it](#present-results,-use-it)
+        * [Present Results, Use it](#present-results-use-it)
     * [Categories of ML](#categories-of-ml)
         * [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
         * [Batch vs Online](#batch-vs-online)
@@ -27,21 +27,31 @@
         * [Accuracy](#accuracy)
 * [When ML fails](#when-ml-fails)
     * [The ML learning challenges](#the-ml-learning-challenges)
+    * [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
     * [Epic Failures](#epic-failures)
         * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
-        * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
+        * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesnt-recognize-black-people)
         * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
-* [Computing Power, Hardware,](#computing-power,-hardware,)
-    * [Why can't big computer do all of it](#why-can't-big-computer-do-all-of-it)
+* [Computing Power, Hardware,](#computing-power-hardware)
+    * [Why can't big computer do all of it](#why-cant-big-computer-do-all-of-it)
     * [Why GPU vs CPU](#why-gpu-vs-cpu)
     * [What is tensor flow](#what-is-tensor-flow)
-    * [Tensor flow is hard, are there alternatives](#tensor-flow-is-hard,-are-there-alternatives)
+    * [Tensor flow is hard, are there alternatives](#tensor-flow-is-hard-are-there-alternatives)
         * [What does on device ML cores do](#what-does-on-device-ml-cores-do)
     * [Model building vs Model Execution](#model-building-vs-model-execution)
     * [Computation power required for cat pictures](#computation-power-required-for-cat-pictures)
+* [ML Algorithoms](#ml-algorithoms)
+    * [Regression](#regression-1)
+    * [SVM](#svm)
+    * [Neural Networks](#neural-networks)
+    * [Deep learning](#deep-learning)
+* [Deep learning](#deep-learning-1)
 * [Misc](#misc)
+    * [Feature transparency](#feature-transparency)
+    * [What is ML vs AI.](#what-is-ml-vs-ai)
+    * [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
     * [Why is ML stuff so complicated](#why-is-ml-stuff-so-complicated)
-    * [ML Optical Illusions](#ml-optical-illusions)
+    * [Do i need to run special software to run AI.](#do-i-need-to-run-special-software-to-run-ai)
 * [Resources](#resources)
     * [What should I read to learn more](#what-should-i-read-to-learn-more)
 
@@ -143,6 +153,12 @@ In online learning (better called incremental learning) an initial model is depl
 * Over fitting the data
 * Under fitting the data (choosing the wrong model)
 
+### ML Image Recognition Optical Illusions
+
+Because ML features are not transpart, they can sometimes detect features which are wrong. By manuplating these incorrect features, you can apply an optical illusion. For example, a penguin  ML detector has been followed by showing it a picture of static. o
+i
+You can find great examples  here[Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://arxiv.org/pdf/1412.1897v1.pdf)
+
 ### Epic Failures
 #### Google Photos recognizing black people as gorillas
 From: https://www.theverge.com/2015/7/1/8880363/google-apologizes-photos-app-tags-two-black-people-gorillas
@@ -185,12 +201,36 @@ Tensor flow is a library that lets you build models (as opposed to just use mode
 ### Computation power required for cat pictures
 
 
+## ML Algorithoms
+
+### Regression
+### SVM
+### Neural Networks
+### Deep learning
+
+## Deep learning
+
 ## Misc
+
+### Feature transparency
+
+Can a human understand how a ML model works. This is often necassary to validate the computer is using reasonable features, and to train humans to do similar tasks.
+
+
+### What is ML vs AI.
+
+AI is the idea that computers can do activiites traditionally performed by humans . E.g. diagnose a disease, argue a case like a defence lawyer, drive a car, have a conversation.  ML is a method to achieve arfitifial intelligence. Arfitifial intelligence can be achieved without ML using explicit human programmed algorithoms.  This was done for early medical diagnosis via explicit decision trees.
+
+### Generalize vs Narrow AI
+
+When most people say AI, they think about an AI that they can interact with like a human. This is very complex of AI.  Narrow AI, is simpler, and limits the AI to a simpler task - e.g. helping you find a good vacation.
+
+
 
 ### Why is ML stuff so complicated
 
+### Do i need to run special software to run AI.
 
-### ML Optical Illusions
 
 
 ## Resources
