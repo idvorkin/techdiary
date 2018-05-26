@@ -11,24 +11,26 @@
         * [Clustering](#clustering)
         * [Dimension Reduction](#dimension-reduction)
     * [The ML steps](#the-ml-steps)
-        * [Requirements gathering (problem definition)](#requirements-gathering-(problem-definition))
-        * [Data analysis](#data-analysis)
-        * [Data preparation (pre-processing in SciKit)](#data-preparation-(pre-processing-in-scikit))
+        * [Requirements gathering and problem definition](#requirements-gathering-and-problem-definition)
+        * [Exploratory Data analysis](#exploratory-data-analysis)
+        * [Data preparation](#data-preparation)
         * [Model Selection](#model-selection)
         * [Training](#training)
-        * [Evaluation](#evaluation)
-        * [Hyper parameter tuning](#hyper-parameter-tuning)
+        * [Evaluation and hyper parameter tuning](#evaluation-and-hyper-parameter-tuning)
         * [Validation](#validation)
         * [Present Results, Use it](#present-results,-use-it)
     * [Categories of ML](#categories-of-ml)
         * [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
         * [Batch vs Online](#batch-vs-online)
-    * [The ML learning challenges](#the-ml-learning-challenges)
     * [How to measure the effectiveness of ML](#how-to-measure-the-effectiveness-of-ml)
         * [Precision and Recall](#precision-and-recall)
         * [Accuracy](#accuracy)
-        * [Failures:  Google Photos recognizing black people as gorillas](#failures:--google-photos-recognizing-black-people-as-gorillas)
-        * [Failures:  HP face tracking doesn't recognize black people](#failures:--hp-face-tracking-doesn't-recognize-black-people)
+* [When ML fails](#when-ml-fails)
+    * [The ML learning challenges](#the-ml-learning-challenges)
+    * [Epic Failures](#epic-failures)
+        * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
+        * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
+        * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
 * [Computing Power, Hardware,](#computing-power,-hardware,)
     * [Why can't big computer do all of it](#why-can't-big-computer-do-all-of-it)
     * [Why GPU vs CPU](#why-gpu-vs-cpu)
@@ -99,13 +101,17 @@ Algorithms used include decision trees, and Baseyian classifiers.
 
 Just like traditional programming progresses through requirements, design, implementation, and testing there is set of steps required for ML.
 
-#### Requirements gathering (problem definition)
-#### Data analysis
-#### Data preparation (pre-processing in SciKit)
+#### Requirements gathering and problem definition
+#### Exploratory Data analysis
+Often done in pandas
+
+#### Data preparation
+
+Often pre-processing in SciKit
+
 #### Model Selection
 #### Training
-#### Evaluation
-#### Hyper parameter tuning
+#### Evaluation and hyper parameter tuning
 #### Validation
 #### Present Results, Use it
 
@@ -119,6 +125,15 @@ In online learning (better called incremental learning) an initial model is depl
 
 * Instance vs Model
 
+
+
+### How to measure the effectiveness of ML
+
+#### Precision and Recall
+#### Accuracy
+
+## When ML fails
+
 ### The ML learning challenges
 
 * Insufficient Training Data
@@ -128,20 +143,26 @@ In online learning (better called incremental learning) an initial model is depl
 * Over fitting the data
 * Under fitting the data (choosing the wrong model)
 
-
-### How to measure the effectiveness of ML
-
-#### Precision and Recall
-#### Accuracy
-#### Failures:  Google Photos recognizing black people as gorillas
+### Epic Failures
+#### Google Photos recognizing black people as gorillas
 From: https://www.theverge.com/2015/7/1/8880363/google-apologizes-photos-app-tags-two-black-people-gorillas
 
 Google came under fire this week after its new Photos app categorized photos in one of the most racist ways possible. On June 28th, computer programmer Jacky Alciné found that the feature kept tagging pictures of him and his girlfriend as "gorillas." He tweeted at Google asking what kind of sample images the company had used that would allow such a terrible mistake to happen.
 
 Google attempted to fix the algorithm, but ultimately removed the gorilla label altogether. Zunger noted that the company is working on longer-term fixes that revolve around which labels could be problematic and better recognition of dark-skinned faces.
 
-#### Failures:  HP face tracking doesn't recognize black people
+#### HP face tracking doesn't recognize black people
 
+#### Likely hood of death from Pneumonia given asthma
+
+[Intelligible Models for HealthCare: Predicting Pneumonia Risk and Hospital 30-day Readmission](http://people.dbmi.columbia.edu/noemie/papers/15kdd.pdf)
+
+A model trained to predict risk of death for pneumonia patients concluded that
+asthma was predictive of lower risk.
+
+This was a true correlation in the data, but it owed to the more aggressive treatment such co-morbid patients received.
+
+Put simply, a researcher taking actions based on this information would be mistaking correlation for causation. And if a hospital used the risk score for triage, they would actually recklessly put the asthma patients at risk, thus invalidating the learned model model.
 
 ## Computing Power, Hardware,
 
