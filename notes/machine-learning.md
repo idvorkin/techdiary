@@ -2,15 +2,15 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Why?](#why)
+* [Why?](#why?)
     * [Success criteria For this post](#success-criteria-for-this-post)
-* [ML at 10,000 feet](#ml-at-10000-feet)
-* [Heirarchy of Abstraction in the ML space](#heirarchy-of-abstraction-in-the-ml-space)
+* [ML at 10,000 feet](#ml-at-10,000-feet)
+* [Hierarchy of Abstraction in the ML space](#hierarchy-of-abstraction-in-the-ml-space)
     * [Using an ML Model](#using-an-ml-model)
-    * [Building an ML model by training an ML algorithom.](#building-an-ml-model-by-training-an-ml-algorithom)
-    * [Implementing ML Algorithom](#implementing-ml-algorithom)
+    * [Building an ML model by training an ML algorithm.](#building-an-ml-model-by-training-an-ml-algorithm.)
+    * [Implementing ML Algorithm](#implementing-ml-algorithm)
     * [Converting an ML model to hardware](#converting-an-ml-model-to-hardware)
-* [What category of problems can ML algorithoms solve](#what-category-of-problems-can-ml-algorithoms-solve)
+* [What category of problems can ML algorithms solve](#what-category-of-problems-can-ml-algorithms-solve)
     * [Classification](#classification)
     * [Regression](#regression)
     * [Clustering](#clustering)
@@ -25,17 +25,17 @@
     * [The ML learning challenges](#the-ml-learning-challenges)
     * [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
     * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
-    * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesnt-recognize-black-people)
+    * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
     * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
-* [Computing Power, Hardware,](#computing-power-hardware)
-    * [Why can't big computer do all of it](#why-cant-big-computer-do-all-of-it)
+* [Computing Power, Hardware,](#computing-power,-hardware,)
+    * [Why can't big computer do all of it](#why-can't-big-computer-do-all-of-it)
     * [Why GPU vs CPU](#why-gpu-vs-cpu)
     * [What is tensor flow](#what-is-tensor-flow)
-    * [Tensor flow is hard, are there alternatives](#tensor-flow-is-hard-are-there-alternatives)
+    * [Tensor flow is hard, are there alternatives](#tensor-flow-is-hard,-are-there-alternatives)
         * [What does on device ML cores do](#what-does-on-device-ml-cores-do)
     * [Model building vs Model Execution](#model-building-vs-model-execution)
     * [Computation power required for cat pictures](#computation-power-required-for-cat-pictures)
-* [The steps in training an ML model.](#the-steps-in-training-an-ml-model)
+* [The steps in training an ML model.](#the-steps-in-training-an-ml-model.)
     * [Requirements gathering and problem definition](#requirements-gathering-and-problem-definition)
     * [Exploratory Data analysis](#exploratory-data-analysis)
     * [Data preparation](#data-preparation)
@@ -43,8 +43,8 @@
     * [Training](#training)
     * [Evaluation and hyper parameter tuning](#evaluation-and-hyper-parameter-tuning)
     * [Validation](#validation)
-    * [Present Results, Use it](#present-results-use-it)
-* [ML Algorithoms](#ml-algorithoms)
+    * [Present Results, Use it](#present-results,-use-it)
+* [ML Algorithms](#ml-algorithms)
     * [Regression](#regression-1)
     * [SVM](#svm)
     * [Neural Networks](#neural-networks)
@@ -52,10 +52,10 @@
     * [Deep learning](#deep-learning-1)
 * [Misc Topics](#misc-topics)
     * [Feature transparency](#feature-transparency)
-    * [What is ML vs AI.](#what-is-ml-vs-ai)
+    * [What is ML vs AI.](#what-is-ml-vs-ai.)
     * [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
     * [Why is ML stuff so complicated](#why-is-ml-stuff-so-complicated)
-    * [Do i need to run special software to run AI.](#do-i-need-to-run-special-software-to-run-ai)
+    * [Do i need to run special software to run AI.](#do-i-need-to-run-special-software-to-run-ai.)
 * [Resources](#resources)
     * [What should I read to learn more](#what-should-i-read-to-learn-more)
 
@@ -79,7 +79,7 @@ When I started programming ML was very weak, and I basically ignored it. Like al
 
 ML is the ability for computers to build algorithms without explicit programming by having the algorithm be inferred by data. This is especially powerful as the computer can usually find patterns in large data sets that are too complicated for humans to find and express.
 
-## Heirarchy of Abstraction in the ML space
+## Hierarchy of Abstraction in the ML space
 
 Just like programming has various levels of abstraction so does ML.  From most general to most specific.
 
@@ -89,9 +89,9 @@ This is the equivalent of using a high level API or library, something like IsPl
 
 Notice that from an API's users perspective, you don't know the implementation of the function, so you don't know (or care if low error rate) if the API is implemented with ML or explicit programming.
 
-Usable ML Models running in the coud are exposed from services like Microsoft's Cognative Servies and Amazon Translate.
+Usable ML Models running in the cloud are exposed from services like Microsoft's Cognitive Services and Amazon Translate.
 
-### Building an ML model by training an ML algorithom.
+### Building an ML model by training an ML algorithm.
 
 This is the equivalent of using data structures and algorithms to build high level libraries. Think of creating a file system from B-Trees.
 
@@ -101,19 +101,19 @@ Models are relatively simple to describe but require data to train.
 
 Models can be created and trained locally with tools like sci-kit for small sets of training data. With large amounts of training data, models can built using large scale cloud providers like Amazon SageMaker or Azure ML Studio.
 
-### Implementing ML Algorithom
+### Implementing ML Algorithm
 
-This is the equivalent of implementing data structures and algorithoms. As an example from convential algorithoms, a linked list and linked list insertion routine.
+This is the equivalent of implementing data structures and algorithms. As an example from conventional algorithms, a linked list and linked list insertion routine.
 
-At this level of abstraction no data is required, as we're just building algothoms.  Building these algorithoms requires knowledge of hard math.
+At this level of abstraction no data is required, as we're just building algorithms.  Building these algorithms requires knowledge of hard math.
 
 The algorithm would usually be hard math, and written in languages like TensorFlow and PyTorch.
 
 ### Converting an ML model to hardware
 
-This is the equivelant of compiling C or assembly code to machine code.  The machine code can execute on different hardware.  Unlike convential programming ML algoriths are slow on CPUs fast on GPUs and fast on specialized hardware like CoreML for iOS and TensorFlow Lite for Android.  CPU's are slowest because they are optimized for integer operations on few threads (E.g. high end CPU has 8 threads). GPUs are optimized for parallel floating point optimization (E.g.high end GPU has 560K threads). I'm not sure the performance of CoreML, but it can always be improved with hardare revisions (and I suspect it will be).
+This is the equivalent of compiling C or assembly code to machine code.  The machine code can execute on different hardware.  Unlike conventional programming ML algorithms are slow on CPUs fast on GPUs and fast on specialized hardware like CoreML for iOS and TensorFlow Lite for Android.  CPU's are slowest because they are optimized for integer operations on few threads (E.g. high end CPU has 8 threads). GPUs are optimized for parallel floating point optimization (E.g.high end GPU has 560K threads). I'm not sure the performance of CoreML, but it can always be improved with hardware revisions (and I suspect it will be).
 
-## What category of problems can ML algorithoms solve
+## What category of problems can ML algorithms solve
 
 ### Classification
 
@@ -134,7 +134,7 @@ For example, how much does age impact the probability of having cancer. Given an
 
 Given a set of unlabeled data, classify it into groups.  Mathematically F(List[Data]):List[Set(Data)].
 
-For example, given all netflix users, these are the group of users which are similar. The categories can then be combined with regression to determine which groups of movies a set of users would enjoy.
+For example, given all Netflix users, these are the group of users which are similar. The categories can then be combined with regression to determine which groups of movies a set of users would enjoy.
 
 Another example is given a social network, deduce the communities.
 
@@ -152,7 +152,7 @@ Algorithms used include decision trees, and Baseyian classifiers.
 ### Batch vs Online
 In batch learning the model is built once, and ignores incoming data.
 
-In online learning (better called incremental learning) an initial model is deployed but is then re-deployed with an updated model based on the incoming data. The rate at which the model is updated is the Learning Rate, and is an important parameter, if the model is updated quickly, it can break quickly based on a string of un-representative data, if the model is updated slowly there can be a prologed period of time while the model performance ispoor.
+In online learning (better called incremental learning) an initial model is deployed but is then re-deployed with an updated model based on the incoming data. The rate at which the model is updated is the Learning Rate, and is an important parameter, if the model is updated quickly, it can break quickly based on a string of un-representative data, if the model is updated slowly there can be a prolonged period of time while the model performance is poor.
 
 ###  Instance vs Model
 
@@ -172,9 +172,9 @@ In online learning (better called incremental learning) an initial model is depl
 
 ### ML Image Recognition Optical Illusions
 
-Because ML features are not transpart, they can sometimes detect features which are wrong. By manuplating these incorrect features, you can apply an optical illusion. For example, a penguin  ML detector has been followed by showing it a picture of static. o
-i
-You can find great examples  here[Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://arxiv.org/pdf/1412.1897v1.pdf)
+Because ML features are not transparent, they can sometimes detect features which are wrong. By manipulating these incorrect features, you can apply an optical illusion. For example, a penguin  ML detector has been followed by showing it a picture of static.
+
+You can find great examples  here: [Synthesizing the preferred inputs for neurons in neural networks via deep generator networks](https://arxiv.org/pdf/1412.1897v1.pdf)
 
 ### Google Photos recognizing black people as gorillas
 From: https://www.theverge.com/2015/7/1/8880363/google-apologizes-photos-app-tags-two-black-people-gorillas
@@ -216,7 +216,6 @@ Tensor flow is a library that lets you build models (as opposed to just use mode
 
 ### Computation power required for cat pictures
 
-
 ## The steps in training an ML model.
 
 Just like traditional programming progresses through requirements, design, implementation, and testing there is set of steps required for ML.
@@ -235,7 +234,7 @@ Often pre-processing in SciKit
 ### Validation
 ### Present Results, Use it
 
-## ML Algorithoms
+## ML Algorithms
 
 ### Regression
 ### SVM
@@ -247,11 +246,11 @@ Often pre-processing in SciKit
 
 ### Feature transparency
 
-Can a human understand how a ML model works. This is often necassary to validate the computer is using reasonable features, and to train humans to do similar tasks.
+Can a human understand how a ML model works. This is often necessary to validate the computer is using reasonable features, and to train humans to do similar tasks.
 
 ### What is ML vs AI.
 
-AI is the idea that computers can do activiites traditionally performed by humans . E.g. diagnose a disease, argue a case like a defence lawyer, drive a car, have a conversation.  ML is a method to achieve arfitifial intelligence. Arfitifial intelligence can be achieved without ML using explicit human programmed algorithoms.  This was done for early medical diagnosis via explicit decision trees.
+AI is the idea that computers can do activities traditionally performed by humans . E.g. diagnose a disease, argue a case like a defence lawyer, drive a car, have a conversation.  ML is a method to achieve artificial intelligence. Artificial intelligence can be achieved without ML using explicit human programmed algorithms.  This was done for early medical diagnosis via explicit decision trees.
 
 ### Generalize vs Narrow AI
 
