@@ -2,61 +2,21 @@
 
 I love technical journeys, but I often lose track of why I started, what my priorities are, and where I've been. Explorers of old solved these problems by keeping a journal, so I'll try the same.
 
-<<<<<<< HEAD
-<!-- TOC -->
 
-- [Igor's Technical Diary](#igors-technical-diary)
-    - [Journeys](#journeys)
-        - [To be started](#to-be-started)
-            - [Rule the world](#rule-the-world)
-        - [In progress](#in-progress)
-            - [[Machine Learning for Igors](notes/machine-learning.md)](#machine-learning-for-igorsnotesmachine-learningmd)
-            - [[Deploy a private web site](notes/private_web_site.md)](#deploy-a-private-web-sitenotesprivate_web_sitemd)
-            - [[Notes on all things security](notes/better-security-design.md)](#notes-on-all-things-securitynotesbetter-security-designmd)
-            - [[Visual Vocabulary](notes/visual-vocabulary.md)](#visual-vocabularynotesvisual-vocabularymd)
-            - [[ManageMe](https://github.com/idvorkin/manage-me)](#managemehttpsgithubcomidvorkinmanage-me)
-        - [Blocked](#blocked)
-            - [[Redshift from Linqpad](notes/linqpad_from_redshift.md)](#redshift-from-linqpadnoteslinqpad_from_redshiftmd)
-            - [[Debug clr using windbg](notes/windbg.md)](#debug-clr-using-windbgnoteswindbgmd)
-        - [Too early to start](#too-early-to-start)
-        - [Completed](#completed)
-            - [[VLC Player Tips](notes/vlc_player.md)](#vlc-player-tipsnotesvlc_playermd)
-            - [[Pandas Tips](notes/pandas-tutorial.md)](#pandas-tipsnotespandas-tutorialmd)
-            - [[iOS Usage](notes/ios.md)](#ios-usagenotesiosmd)
-            - [[Mosh](notes/mosh.md)](#moshnotesmoshmd)
-            - [[USB Tech](notes/usbtech.md)](#usb-technotesusbtechmd)
-            - [[Ring Video Downloader](notes/ring-video-download.md)](#ring-video-downloadernotesring-video-downloadmd)
-    - [Awesome Lists](#awesome-lists)
-        - [Markdown](#markdown)
-        - [VIM](#vim)
-        - [C Sharp](#c-sharp)
-        - [Java](#java)
-        - [Python](#python)
-        - [Typescript](#typescript)
-        - [Apple](#apple)
-        - [Home Automation](#home-automation)
-        - [Powershell](#powershell)
-        - [Text manipulation tools](#text-manipulation-tools)
-        - [Cool shell tools](#cool-shell-tools)
-        - [Natural Language Processing](#natural-language-processing)
-        - [Github](#github)
-        - [Random 1-liners](#random-1-liners)
-
-<!-- /TOC -->
-=======
 <!-- vim-markdown-toc GFM -->
 
 * [Journeys](#journeys)
     * [To be started](#to-be-started)
         * [Rule the world](#rule-the-world)
     * [In progress](#in-progress)
-        * [Redshift from Linqpad](#redshift-from-linqpad)
+        * [Machine Learning for Igors](#machine-learning-for-igors)
         * [Deploy a private web site](#deploy-a-private-web-site)
-        * [Debug clr using windbg](#debug-clr-using-windbg)
         * [Notes on all things security](#notes-on-all-things-security)
         * [Visual Vocabulary](#visual-vocabulary)
         * [ManageMe](#manageme)
     * [Blocked](#blocked)
+        * [Redshift from Linqpad](#redshift-from-linqpad)
+        * [Debug clr using windbg](#debug-clr-using-windbg)
     * [Too early to start](#too-early-to-start)
     * [Completed](#completed)
         * [VLC Player Tips](#vlc-player-tips)
@@ -83,7 +43,6 @@ I love technical journeys, but I often lose track of why I started, what my prio
     * [App Launchers (Alfred/Wox)](#app-launchers-(alfred/wox))
 
 <!-- vim-markdown-toc -->
->>>>>>> refs/remotes/origin/master
 
 ## Journeys
 
