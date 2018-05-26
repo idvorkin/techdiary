@@ -9,15 +9,18 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [To be started](#to-be-started)
             - [Rule the world](#rule-the-world)
         - [In progress](#in-progress)
-            - [[Redshift from Linqpad](notes/linqpad_from_redshift.md)](#redshift-from-linqpadnoteslinqpad_from_redshiftmd)
+            - [[Machine Learning for Igors](notes/machine-learning.md)](#machine-learning-for-igorsnotesmachine-learningmd)
             - [[Deploy a private web site](notes/private_web_site.md)](#deploy-a-private-web-sitenotesprivate_web_sitemd)
-            - [[Debug clr using windbg](notes/windbg.md)](#debug-clr-using-windbgnoteswindbgmd)
             - [[Notes on all things security](notes/better-security-design.md)](#notes-on-all-things-securitynotesbetter-security-designmd)
             - [[Visual Vocabulary](notes/visual-vocabulary.md)](#visual-vocabularynotesvisual-vocabularymd)
+            - [[ManageMe](https://github.com/idvorkin/manage-me)](#managemehttpsgithubcomidvorkinmanage-me)
         - [Blocked](#blocked)
+            - [[Redshift from Linqpad](notes/linqpad_from_redshift.md)](#redshift-from-linqpadnoteslinqpad_from_redshiftmd)
+            - [[Debug clr using windbg](notes/windbg.md)](#debug-clr-using-windbgnoteswindbgmd)
         - [Too early to start](#too-early-to-start)
         - [Completed](#completed)
             - [[VLC Player Tips](notes/vlc_player.md)](#vlc-player-tipsnotesvlc_playermd)
+            - [[Pandas Tips](notes/pandas-tutorial.md)](#pandas-tipsnotespandas-tutorialmd)
             - [[iOS Usage](notes/ios.md)](#ios-usagenotesiosmd)
             - [[Mosh](notes/mosh.md)](#moshnotesmoshmd)
             - [[USB Tech](notes/usbtech.md)](#usb-technotesusbtechmd)
@@ -48,14 +51,22 @@ I love technical journeys, but I often lose track of why I started, what my prio
 
 ### In progress
 
-#### [Redshift from Linqpad](notes/linqpad_from_redshift.md)
+#### [Machine Learning for Igors](notes/machine-learning.md)
 #### [Deploy a private web site](notes/private_web_site.md)
-#### [Debug clr using windbg](notes/windbg.md)
 #### [Notes on all things security](notes/better-security-design.md)
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
 #### [ManageMe](https://github.com/idvorkin/manage-me)
 
 ### Blocked
+
+#### [Redshift from Linqpad](notes/linqpad_from_redshift.md)
+    Linqpad is awesome, but it'll be a while till I get back to an MS shop.
+
+#### [Debug clr using windbg](notes/windbg.md)
+    I'm too old to pound on assembly language. Although I'm still proud of [this](http://ig2600.blogspot.com/2012/12/run-time-costs-of-small-operations-in-c.html)
+
+
+
 
 ### Too early to start
 
@@ -106,7 +117,7 @@ _Nothing is really completed, but you need to stop somewhere._
 
 ### Typescript
 
-- [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from json 
+- [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from json
 
 ### Apple
 
@@ -119,7 +130,7 @@ _Nothing is really completed, but you need to stop somewhere._
 ### Powershell
 
 - Vim keybindings (built in psreadline)
-- Jump to arbitrary directory based on frequency (z) 
+- Jump to arbitrary directory based on frequency (z)
 
 ### Text manipulation tools
 
@@ -134,13 +145,13 @@ _Nothing is really completed, but you need to stop somewhere._
 - fasd - An awesome command line completion tool.
 - w3m -  Text based web browser
 - fzf - Fuzzy file inder
-- Rg - RipGrep (like ag) 
+- Rg - RipGrep (like ag)
 - [linuxbrew](http://linuxbrew.sh/) - Brew for linux
 
 ### Natural Language Processing
 
 - Rant - a cool c# human [language generator](http://berkin.me/rant/)
-- Rhymebrain - 
+- Rhymebrain -
 - Tranquil
 
 ### Github
