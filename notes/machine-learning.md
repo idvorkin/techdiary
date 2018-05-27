@@ -32,7 +32,7 @@
     * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
     * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
 * [Computing Power, Hardware,](#computing-power,-hardware,)
-    * [Why can't big computer do all of it](#why-can't-big-computer-do-all-of-it)
+    * [Why can't a big computer do all the tuning](#why-can't-a-big-computer-do-all-the-tuning)
     * [Why GPU vs CPU](#why-gpu-vs-cpu)
     * [What is a tensor](#what-is-a-tensor)
     * [What do on device ML cores do](#what-do-on-device-ml-cores-do)
@@ -61,7 +61,7 @@
 * [Misc Topics](#misc-topics)
     * [What is ML vs AI.](#what-is-ml-vs-ai.)
     * [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
-    * [Why is ML stuff so complicated](#why-is-ml-stuff-so-complicated)
+    * [Why is ML so complicated](#why-is-ml-so-complicated)
 * [Resources](#resources)
     * [What should I read to learn more](#what-should-i-read-to-learn-more)
 
@@ -69,7 +69,7 @@
 
 ## Why?
 
-When I started programming ML was very weak, and I basically ignored it. Like all technology, ML has gotten cheaper and more powerful. And like many hot technologies, it's become full of hype. Here's my attempt to build a high level understanding of ML that is useful for non-ML programmers.
+When I started programming ML was weak, and I ignored most of it. Like all technology, ML has gotten cheaper and more powerful. And like many hot technologies, it's become full of hype. Here's my attempt to build a high level understanding of ML that is useful for non-ML programmers.
 
 ### Success criteria For this post
 
@@ -82,51 +82,51 @@ When I started programming ML was very weak, and I basically ignored it. Like al
 
 ## ML at 10,000 feet
 
-ML is the ability for computers to build algorithms without explicit programming by having the algorithm be inferred by data. This is especially powerful as the computer can usually find patterns in large data sets that are too complicated for humans to find and express.
+ML is the ability for computers to build algorithms without explicit programming by having the machine infer the algorithm by looking at data. This is powerful as the computer can find patterns in large data sets that are too complicated for humans to find and express.
 
-The human equivalent of programming would be following a check list which someone else provided us.  E.g. bake a cake by following the recipe.
+The human version of programming is following a check list which someone else provided.  E.g. bake a cake by following the recipe.
 
-The human equivalent of ML would be following your intuition in making a stir fry. That intuition which you probably can't even articulate, has been built through countless experiences, some of which had positive and negative outcomes. (To remind you of the intuitive nature of this, you know not to put a strawberry into a stirfry)
+The human version of ML would be following your intuition. E.g making a stir fry from the stuff you find in the fridge. Your intuition which you can't even articulate, is built through countless experiences. That intuition knows not to put a banana in your stirfry.
 
 ## Hierarchy of Abstraction in the ML space
 
-Just like programming has various levels of abstraction so does ML.  From most general to most specific.
+Programming has levels of abstraction and so does ML.  The levels from most general to most specific are below.
 
 ### Using an ML Model
 
-This is the equivalent of using a high level API or library, something like IsPlural(word). These APIs can run locally like a library, or using a web service.
+This is the same as using a high level API or library, something like IsPlural(word). These APIs can run locally in a library, or remotely in a web service.
 
-Notice that from an API's users perspective, you don't know the implementation of the function, so you don't know (or care if low error rate) if the API is implemented with ML or explicit programming.
+Notice that the user of an API doesn't care about the implementation and so doesn't care if ML or programming implements the API.
 
-Usable ML Models running in the cloud are exposed from services like Microsoft's Cognitive Services and Amazon Translate.
+Web Services, like Microsoft's Cognitive Services and Amazon Translate, expose models for your application to use.
 
 ### Building an ML model by training an ML algorithm.
 
-This is the equivalent of using data structures and algorithms to build high level libraries. Think of creating a file system from B-Trees.
+This is the same as using data structures and algorithms to build high level libraries. Think of creating a file system from B-Trees.
 
 Because the model is inferred implicitly, we need to provide data to build the model. These models are built by providing training data and hyper parameters (think parameters to data structures like the initial capacity of an auto-growing array)
 
 Models are relatively simple to describe but require data to train.
 
-Models can be created and trained locally with tools like sci-kit for small sets of training data. With large amounts of training data, models can built using large scale cloud providers like Amazon SageMaker or Azure ML Studio.
+To train a model on a reasonable sized dataset, use a tool like sci-kit. To train a model on a large data set, model use a cloud provider like Amazon SageMaker or Azure ML Studio.
 
 ### Implementing ML Algorithm
 
-This is the equivalent of implementing data structures and algorithms. As an example from conventional algorithms, a linked list and linked list insertion routine.
+This is the same as implementing data structures and algorithms. As an example from programming, a linked list data structure and insert routine.
 
-At this level of abstraction no data is required, as we're just building algorithms.  Building these algorithms requires knowledge of hard math.
+At this level of abstraction no data is required, as we're building algorithms.  Building these algorithms requires knowledge of hard math.
 
-The algorithm would usually be hard math, and written in languages like TensorFlow and PyTorch.
+The algorithm is often hard math, and written in languages like TensorFlow and PyTorch.
 
 ### Converting an ML model to hardware
 
-This is the equivalent of compiling C or assembly code to machine code.  The machine code can execute on different hardware.  Unlike conventional programming ML algorithms are slow on CPUs fast on GPUs and fast on specialized hardware like CoreML for iOS and TensorFlow Lite for Android.  CPU's are slowest because they are optimized for integer operations on few threads (E.g. high end CPU has 8 threads). GPUs are optimized for parallel floating point optimization (E.g.high end GPU has 560K threads). I'm not sure the performance of CoreML, but it can always be improved with hardware revisions (and I suspect it will be).
+This is the same as compiling C or assembly code to machine code.  The machine code can execute on different hardware.  Unlike conventional programming ML algorithms are slow on CPUs fast on GPUs and fast on specialized hardware like CoreML for iOS and TensorFlow Lite for Android.  CPU's are slowest because they are optimized for integer operations on few threads (E.g. high end CPU has 8 threads). GPUs are optimized for parallel floating point optimization (E.g.high end GPU has 560K threads). I'm not sure the performance of CoreML, but it can always be improved with hardware revisions (and I suspect it will be).
 
 ## What category of problems can ML algorithms solve
 
 ### Classification
 
-Given a sample, classify into a discrete set of known values.  Mathematically F(sample):Enum. Training data must be labelled, into a discrete set of data.
+Given a sample, classify into a discrete set of known values.  Mathematically F(sample):Enum. Find F. Training data must be labelled, into a discrete set of data.
 
 Classification can be binary (spam detection), or categorical (image recognition, sentiment analysis, speech recognition). Many classifier provide a confidence score (I'm 90% sure this is a cat, but 20% sure it's dog).
 
@@ -134,17 +134,17 @@ Algorithms used include decision trees, and Baseyian classifiers.
 
 ### Regression
 
-Given a sample, what is the output value.  Mathematically F(sample):Number.  Determine F.
+Given a sample, what is the output value.  Mathematically F(sample):Number.  Find F.
 
-For example, how much does age impact the probability of having cancer. Given an income, what is the happiness quotient. Linear Regression has been around for a long time (you might remember newton's method from high school)
+For example, how much does age impact the probability of having cancer. Given an income, what is the happiness quotient. Linear Regression has been around for a long time (remember newton's method from high school)
 
 ### Clustering
 
-Given a set of unlabeled data, classify it into groups.  Mathematically F(List[Data]):List[Set(Data)].
+Given a set of unlabeled data, classify it into groups.  Mathematically F(List[Data]):List[Set(Data)]. Find F, and List[Set(Data)]
 
-For example, given all Netflix users, these are the group of users which are similar. The categories can then be combined with regression to determine which groups of movies a set of users would enjoy.
+For example, given all Netflix users, these are the group of users which are similar. The categories can then be combined with regression to decide which groups of movies a set of users would enjoy.
 
-Another example is given a social network, deduce the communities.
+Another example is deduce the communities from a social network.
 
 Another example is anomaly detection. Amazingly I have a published [paper](https://www.microsoft.com/en-us/research/publication/perfaugur-robust-diagnostics-for-performance-anomalies-in-cloud-services/) on anomaly detection.
 
@@ -164,11 +164,11 @@ In online learning (better called incremental learning) an initial model is depl
 
 ## How to measure the effectiveness of ML by problem category.
 
-Because conventional computing tends not to be probabilistic, we tend not to measure effectiveness. However, in conventional programming we often care about performance, and for that we need a standard benchmark. Various benchmarks exist for various measures, E.g. crystal mark for disk, and battery burner for power utilization.
-Similarly to measure effectiveness you need to use a standard data set. Also "good values" is a function of the data set and domain. E.g. a precision of 99% might be great on the MNIST data set, but 50% might be good on a handwriting recognition dataset.
+Because programming tends not to be probabilistic, we tend not to measure effectiveness. In programming we often care about performance, and for that we need a standard benchmark. Various benchmarks exist for various measures, E.g. crystal mark for disk, and battery burner for power utilization.
+Similarly to measure effectiveness you need to use a standard data set. Also "good values" is a function of the data set and domain. E.g. a precision of 99% is OK on the MINST data set, but 50% fantastic good on a handwriting recognition dataset.
 
 
-The effectiveness of ML depends on the category of problem being solved. Also to measure effectiveness, you must have a dataset, as precision and recall will vary from
+The class of problem being solved determines the effectiveness of ML. To measure effectiveness, you must do so over a dataset.
 
 ### Regression: Distance of predication from actual
 
@@ -177,7 +177,7 @@ The effectiveness of ML depends on the category of problem being solved. Also to
 Precision (Exactness) - Likely hood a result is a true positive. TP / (TP + FP)
 Recall (Completeness) - Likely a true positive. TP / (TP + FN)
 
-Precison and Recall are usually in opposition, and you need to decide which of these values you'll optimize for.
+Precision and Recall are in opposition, and you need to decide which of these values you'll optimize for.
 
 Examples from the hiring process:
 
@@ -230,7 +230,7 @@ So, from this "re-written" version of recall formula can pop-up one thing: this 
 
 ### Model and feature interpretability
 
-Because many complex models have opaque features and parameters, humans can't validate which features are used, which can result in many difficult to solve errors like the below. Also, when features are opaque, humans can't be trained from the ML.
+Because some algorithms have opaque features and parameters, humans can't verify which features are used, which can result in many difficult to solve errors like the below. Also, when features are opaque, humans can't be trained from the ML.
 
 When models are transparent, like PCA, that's great because human SMEs  can validate and use the result for further exploration.
 
@@ -262,7 +262,7 @@ Put simply, a researcher taking actions based on this information would be mista
 
 ## Computing Power, Hardware,
 
-### Why can't big computer do all of it
+### Why can't a big computer do all the tuning
 
 ### Why GPU vs CPU
 
@@ -280,7 +280,7 @@ Tensor is a name for a multi-dimensional array.
 
 ## The steps in training an ML model.
 
-Just like traditional programming progresses through requirements, design, implementation, and testing there is set of steps required for ML.
+Traditional programming progresses through requirements, design, implementation, and testing. Likewise there is a set of steps required for ML.
 
 ### Requirements gathering and problem definition
 ### Exploratory Data analysis
@@ -317,17 +317,17 @@ Often pre-processing in SciKit
 
 ### What is ML vs AI.
 
-AI is the idea that computers can do activities traditionally performed by humans . E.g. diagnose a disease, argue a case like a defence lawyer, drive a car, have a conversation.  ML is a method to achieve artificial intelligence. Artificial intelligence can be achieved without ML using explicit human programmed algorithms.  This was done for early medical diagnosis via explicit decision trees.
+AI is the idea that computers can do activities traditionally performed by humans . E.g. diagnose a disease, argue a case like a defence lawyer, drive a car, have a conversation.  ML is a method to achieve artificial intelligence, but not the only one. Early medical diagnosis AI was implemented by human programmers using decision trees created by subject matter experts.
 
 ### Generalize vs Narrow AI
 
-When most people say AI, they think about an AI that they can interact with like a human. This is very complex of AI.  Narrow AI, is simpler, and limits the AI to a simpler task - e.g. helping you find a good vacation.
+When most people say AI, they think about an AI that they can interact with like a human. This is complex of AI.  Narrow AI, is simpler, and limits the AI to a simpler task - e.g. helping you find a good vacation.
 
-### Why is ML stuff so complicated
+### Why is ML so complicated
 
-I don't think it is. Imagine asking someone how HTML works, and they describe to you how assembly is compiled for an ARM processor. If someone did that you'd find HTML incredibly complicated.
+Imagine asking someone how HTML works, and they describe to you how an ARM processor works. If someone did that you'd find HTML incredibly complicated.
 
-I think that's what's happening in ML today. The issue is the field is nascant and tools and abstractions haven't been well formulated and described yet.
+That's what's happening in ML today. The issue is the field is nascent and tools and abstractions haven't been well formulated and described yet.
 
 ## Resources
 
