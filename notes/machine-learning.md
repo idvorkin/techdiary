@@ -22,11 +22,11 @@
 * [How to measure the effectiveness of ML by problem category.](#how-to-measure-the-effectiveness-of-ml-by-problem-category.)
     * [Regression: Distance of predication from actual](#regression:-distance-of-predication-from-actual)
     * [Classification: Precision and Recall](#classification:-precision-and-recall)
-    * [Clustering: Complex](#clustering:-complex)
-    * [PCA: Complex](#pca:-complex)
+    * [Clustering complex measures](#clustering-complex-measures)
+    * [PCA complex measures](#pca-complex-measures)
 * [About ML errors](#about-ml-errors)
     * [The ML learning challenges](#the-ml-learning-challenges)
-    * [Model and feature opaqueness.](#model-and-feature-opaqueness.)
+    * [Model and feature interpretability](#model-and-feature-interpretability)
     * [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
     * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
     * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
@@ -49,10 +49,15 @@
     * [Present Results, Use it](#present-results,-use-it)
 * [ML Algorithms](#ml-algorithms)
     * [Regression](#regression-1)
+    * [PCA](#pca)
     * [SVM](#svm)
     * [Neural Networks](#neural-networks)
     * [Deep learning](#deep-learning)
-    * [Deep learning](#deep-learning-1)
+* [Topics to be explored](#topics-to-be-explored)
+    * [DevOps for ML](#devops-for-ml)
+    * [Ethical AI](#ethical-ai)
+    * [Measuring within the wider business context](#measuring-within-the-wider-business-context)
+    * [Guard rails for inputs versus training data](#guard-rails-for-inputs-versus-training-data)
 * [Misc Topics](#misc-topics)
     * [What is ML vs AI.](#what-is-ml-vs-ai.)
     * [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
@@ -69,16 +74,19 @@ When I started programming ML was very weak, and I basically ignored it. Like al
 ### Success criteria For this post
 
 * I have a good enough understanding of ML to tell if someone is full of shit.
-* I can explain ML to a PM or executive.
+* I can explain ML to a non-ML programmer, a PM or an executive.
 * I know the problems ML can solve.
 * I know the common words used in ML.
 * I can make some PoC projects to test my understanding.
-* I can tell if a problem can be solved by ML.
-* I can keep track of the ML concepts I've learned and cross check them with a PhD.
+* I can keep track of the ML concepts I've learned and cross check them with a PhD wielding ML guru.
 
 ## ML at 10,000 feet
 
 ML is the ability for computers to build algorithms without explicit programming by having the algorithm be inferred by data. This is especially powerful as the computer can usually find patterns in large data sets that are too complicated for humans to find and express.
+
+The human equivalent of programming would be following a check list which someone else provided us.  E.g. bake a cake by following the recipe.
+
+The human equivalent of ML would be following your intuition in making a stir fry. That intuition which you probably can't even articulate, has been built through countless experiences, some of which had positive and negative outcomes. (To remind you of the intuitive nature of this, you know not to put a strawberry into a stirfry)
 
 ## Hierarchy of Abstraction in the ML space
 
@@ -130,7 +138,6 @@ Given a sample, what is the output value.  Mathematically F(sample):Number.  Det
 
 For example, how much does age impact the probability of having cancer. Given an income, what is the happiness quotient. Linear Regression has been around for a long time (you might remember newton's method from high school)
 
-
 ### Clustering
 
 Given a set of unlabeled data, classify it into groups.  Mathematically F(List[Data]):List[Set(Data)].
@@ -170,9 +177,15 @@ The effectiveness of ML depends on the category of problem being solved. Also to
 Precision (Exactness) - Likely hood a result is a true positive. TP / (TP + FP)
 Recall (Completeness) - Likely a true positive. TP / (TP + FN)
 
-An example for laymen:
+Precison and Recall are usually in opposition, and you need to decide which of these values you'll optimize for.
 
-You have to understand these terms completely before you are moving forward.
+Examples from the hiring process:
+
+When recruiting, you're happy to talk to lots of candidates, even if you're not sure they're good. E.g. High recall, low precision.
+
+When hiring, it's essential you don't hire a bozo, and you're willing to not hire someone good, to avoid hiring the bozo. E.g. High precision, low recall.
+
+An example for laymen:
 
 Say, you have 10 balls (6 white and 4 red balls) in a box. I know you are not colorblind but still somebody asked you to pick up the red balls from them. What you did is that you thought 7 balls as red, picked them from the box and put them in a tray. Among these 7 balls, you picked 2 red balls and 5 white balls (but you thought all of them are red).
 
@@ -200,9 +213,9 @@ Recall = true positives / (true positives + false negatives)
 
 So, from this "re-written" version of recall formula can pop-up one thing: this is the "rate of true positives". In other words, from all the red balls, what percentage of red balls were grabbed. You had 4 red balls but you got 2 and missed 2: means you could took 50% of the red balls!
 
-### Clustering: Complex
+### Clustering complex measures
 
-### PCA: Complex
+### PCA complex measures
 
 ## About ML errors
 
@@ -215,12 +228,11 @@ So, from this "re-written" version of recall formula can pop-up one thing: this 
 * Over fitting the data
 * Under fitting the data (choosing the wrong model)
 
-### Model and feature opaqueness.
+### Model and feature interpretability
 
 Because many complex models have opaque features and parameters, humans can't validate which features are used, which can result in many difficult to solve errors like the below. Also, when features are opaque, humans can't be trained from the ML.
 
 When models are transparent, like PCA, that's great because human SMEs  can validate and use the result for further exploration.
-
 
 ### ML Image Recognition Optical Illusions
 
@@ -231,7 +243,7 @@ You can find great examples  here: [Synthesizing the preferred inputs for neuron
 ### Google Photos recognizing black people as gorillas
 From: https://www.theverge.com/2015/7/1/8880363/google-apologizes-photos-app-tags-two-black-people-gorillas
 
-Google came under fire this week after its new Photos app categorized photos in one of the most racist ways possible. On June 28th, computer programmer Jacky Alciné found that the feature kept tagging pictures of him and his girlfriend as "gorillas." He tweeted at Google asking what kind of sample images the company had used that would allow such a terrible mistake to happen.
+Google came under fire this week after its new Photos app categorized photos in one of the most racist ways possible. On June 28th, computer programmer Jacky Alcinï¿½ found that the feature kept tagging pictures of him and his girlfriend as "gorillas." He tweeted at Google asking what kind of sample images the company had used that would allow such a terrible mistake to happen.
 
 Google attempted to fix the algorithm, but ultimately removed the gorilla label altogether. Zunger noted that the company is working on longer-term fixes that revolve around which labels could be problematic and better recognition of dark-skinned faces.
 
@@ -287,10 +299,19 @@ Often pre-processing in SciKit
 ## ML Algorithms
 
 ### Regression
+### PCA
 ### SVM
 ### Neural Networks
 ### Deep learning
-### Deep learning
+
+## Topics to be explored
+
+*Thanks Dan Massey for your recommendation to discuss these topics*
+
+### DevOps for ML
+### Ethical AI
+### Measuring within the wider business context
+### Guard rails for inputs versus training data
 
 ## Misc Topics
 
@@ -302,12 +323,17 @@ AI is the idea that computers can do activities traditionally performed by human
 
 When most people say AI, they think about an AI that they can interact with like a human. This is very complex of AI.  Narrow AI, is simpler, and limits the AI to a simpler task - e.g. helping you find a good vacation.
 
-
 ### Why is ML stuff so complicated
+
+I don't think it is. Imagine asking someone how HTML works, and they describe to you how assembly is compiled for an ARM processor. If someone did that you'd find HTML incredibly complicated.
+
+I think that's what's happening in ML today. The issue is the field is nascant and tools and abstractions haven't been well formulated and described yet.
 
 ## Resources
 
 ### What should I read to learn more
+
+[Google's rules of ML](https://developers.google.com/machine-learning/rules-of-ml/)
 
 [Hands on machine learning with SciKit-Learn and tensor flow](https://www.amazon.com//dp/1491962291)
 
