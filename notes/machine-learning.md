@@ -1,8 +1,7 @@
 # Machine learning for regular programmers.
-
+## Why?
 <!-- vim-markdown-toc GFM -->
 
-* [Why?](#why?)
     * [Success criteria For this post](#success-criteria-for-this-post)
 * [ML at 10,000 feet](#ml-at-10,000-feet)
 * [Hierarchy of Abstraction in the ML space](#hierarchy-of-abstraction-in-the-ml-space)
@@ -20,16 +19,17 @@
     * [Batch vs Online](#batch-vs-online)
     * [Instance vs Model](#instance-vs-model)
 * [How to measure the effectiveness of ML by problem category.](#how-to-measure-the-effectiveness-of-ml-by-problem-category.)
-    * [Regression: Distance of predication from actual](#regression:-distance-of-predication-from-actual)
-    * [Classification: Precision and Recall](#classification:-precision-and-recall)
-    * [Clustering complex measures](#clustering-complex-measures)
-    * [PCA complex measures](#pca-complex-measures)
+    * [Regression - Distance from predication to actual](#regression---distance-from-predication-to-actual)
+    * [Classification - Precision and Recall](#classification---precision-and-recall)
+    * [Clustering - its complicated](#clustering---its-complicated)
+    * [PCA - its complicated](#pca---its-complicated)
 * [About ML errors](#about-ml-errors)
     * [The ML learning challenges](#the-ml-learning-challenges)
     * [Model and feature interpretability](#model-and-feature-interpretability)
     * [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
     * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
     * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
+    * [Clever Hans - the horse that could count](#clever-hans---the-horse-that-could-count)
     * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
 * [Computing Power, Hardware,](#computing-power,-hardware,)
     * [Why can't a big computer do all the tuning](#why-can't-a-big-computer-do-all-the-tuning)
@@ -67,16 +67,11 @@
 
 <!-- vim-markdown-toc -->
 
-## Why?
-
-When I started programming ML was weak, and I ignored most of it. Like all technology, ML has gotten cheaper and more powerful. And like many hot technologies, it's become full of hype. Here's my attempt to build a high level understanding of ML that is useful for non-ML programmers.
-
 ### Success criteria For this post
 
+* I know the problems ML can solve, and the ML vocabulary.
 * I have a good enough understanding of ML to tell if someone is full of shit.
 * I can explain ML to a non-ML programmer, a PM or an executive.
-* I know the problems ML can solve.
-* I know the common words used in ML.
 * I can make some PoC projects to test my understanding.
 * I can keep track of the ML concepts I've learned and cross check them with a PhD wielding ML guru.
 
@@ -170,9 +165,9 @@ Similarly to measure effectiveness you need to use a standard data set. Also "go
 
 The class of problem being solved determines the effectiveness of ML. To measure effectiveness, you must do so over a dataset.
 
-### Regression: Distance of predication from actual
+### Regression - Distance from predication to actual
 
-### Classification: Precision and Recall
+### Classification - Precision and Recall
 
 Precision (Exactness) - Likely hood a result is a true positive. TP / (TP + FP)
 Recall (Completeness) - Likely a true positive. TP / (TP + FN)
@@ -213,9 +208,9 @@ Recall = true positives / (true positives + false negatives)
 
 So, from this "re-written" version of recall formula can pop-up one thing: this is the "rate of true positives". In other words, from all the red balls, what percentage of red balls were grabbed. You had 4 red balls but you got 2 and missed 2: means you could took 50% of the red balls!
 
-### Clustering complex measures
+### Clustering - its complicated
 
-### PCA complex measures
+### PCA - its complicated
 
 ## About ML errors
 
@@ -248,6 +243,9 @@ Google came under fire this week after its new Photos app categorized photos in 
 Google attempted to fix the algorithm, but ultimately removed the gorilla label altogether. Zunger noted that the company is working on longer-term fixes that revolve around which labels could be problematic and better recognition of dark-skinned faces.
 
 ### HP face tracking doesn't recognize black people
+
+### Clever Hans - the horse that could count
+Using opaque features isnt just a problem for ML systems. There was a horse that [could count](https://en.wikipedia.org/wiki/Clever_Hans), but it didn't work by counting, it worked by understanding human emotions. I guess that's one of our first fails of machine learnings.
 
 ### Likely hood of death from Pneumonia given asthma
 
