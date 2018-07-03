@@ -2,7 +2,7 @@
 
 I love technical journeys, but I often lose track of why I started, what my priorities are, and where I've been. Explorers of old solved these problems by keeping a journal, so I'll try the same.
 
-<!-- vim-markdown-toc GFM -->
+<!-- TOC -->
 
 - [Igor's Technical Diary](#igors-technical-diary)
     - [Journeys](#journeys)
@@ -40,9 +40,10 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Natural Language Processing](#natural-language-processing)
         - [Github](#github)
         - [Random 1-liners](#random-1-liners)
-        - [App Launchers (Alfred/Wox)](#app-launchers-alfredwox)
+        - [App Launchers](#app-launchers)
+        - [Chrome extensions](#chrome-extensions)
 
-<!-- vim-markdown-toc -->
+<!-- /TOC -->
 
 ## Journeys
 
@@ -144,6 +145,7 @@ _Nothing is really completed, but you need to stop somewhere._
 
 -   XPath and HtmlAgilityPack
 -   Regexp + VIM
+-
 -   Beautiful soup
 
 ### Cool shell tools
@@ -166,6 +168,8 @@ _Nothing is really completed, but you need to stop somewhere._
 
 -   Serve HTML files directly from github: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
 
+-   Keyboard shortcuts: https://help.github.com/articles/using-keyboard-shortcuts/
+
 ### Random 1-liners
 
 Clean up dead MOSH instances
@@ -176,7 +180,15 @@ zsh path append
 
     path+="/my/new/path"
 
-### App Launchers (Alfred/Wox)
+### App Launchers
 
 -   Alfred on OSX
 -   WoX on Windows + (switcheroo to switch windows) [win - app name]
+
+### Chrome extensions
+
+-   Hibernate unused tabs [The great suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=en)
+-   Close unused tabs [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=en)
+-   Vim based web [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
+-   Vim in any text box [Wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe)
+-   Speed up youtube playback via keyboard shortcut [YouTube playback speed control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)
