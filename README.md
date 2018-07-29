@@ -157,6 +157,8 @@ _Nothing is really completed, but you need to stop somewhere._
 -   fzf - Fuzzy file inder
 -   Rg - RipGrep (like ag)
 -   [linuxbrew](http://linuxbrew.sh/) - Brew for linux
+-   Ngrok - Pipe ports to the internet web site (great for local host development on ios)
+
 
 ### Natural Language Processing
 
