@@ -150,6 +150,10 @@ _Nothing is really completed, but you need to stop somewhere._
 
 ### Cool shell tools
 
+Decent blog posts:
+
+    https://remysharp.com/2018/08/23/cli-improved
+
 -   Tig - Command Line git gui/gitk
 -   Mosh - A better ssh
 -   fasd - An awesome command line completion tool.
@@ -158,6 +162,10 @@ _Nothing is really completed, but you need to stop somewhere._
 -   Rg - RipGrep (like ag)
 -   [linuxbrew](http://linuxbrew.sh/) - Brew for linux
 -   Ngrok - Pipe ports to the internet web site (great for local host development on ios)
+-   [Bat](https://github.com/sharkdp/bat) - cat but with paging/git intgration.
+-   Pretty ping - Graphical Ping
+-   hTop - Nicer Top
+-   [fd](https://github.com/sharkdp/fd) - Better find/recurse.
 
 
 ### Natural Language Processing
