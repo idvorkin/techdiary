@@ -296,6 +296,9 @@ Often pre-processing in SciKit
 
 ## ML Algorithms
 
+Algorithms in [plain english](https://hackerbits.com/data/top-10-data-mining-algorithms-in-plain-english/).
+
+
 ### Regression
 ### PCA
 ### SVM
