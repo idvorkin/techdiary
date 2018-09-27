@@ -7,6 +7,7 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
     * [HomeKit](#homekit)
     * [Health Kit](#health-kit)
     * [Photos](#photos)
+    * [Gestures](#gestures)
 * [Apps](#apps)
     * [All](#all)
     * [Chrome](#chrome)
@@ -47,12 +48,19 @@ tbd
 ### Health Kit
 
 [QS Access](https://itunes.apple.com/us/app/qs-access/id920297614?mt=8) - Allow you to export your health data in tabular format - pretty nice.
+Sleep cycle - Smart wake up alarm.
+Heart Watch - Crazy level of detail on your heart rate.
+Auto Sleep - Watch based sleep tracking.
 
 ### Photos
 
-- Take picture by pressing power up.
+- Take picture by pressing volume up.
 - Hey Siri take a selfie
 - App: LightX
+
+### Gestures
+
+- Press on Time - Scroll to top of page.
 
 ## Apps
 
