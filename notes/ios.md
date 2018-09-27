@@ -7,7 +7,6 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
     * [HomeKit](#homekit)
     * [Health Kit](#health-kit)
     * [Photos](#photos)
-    * [Gestures](#gestures)
 * [Apps](#apps)
     * [All](#all)
     * [Chrome](#chrome)
@@ -34,8 +33,10 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
 - Goto Control Panel - Left Ear -> Mid screen
 - Screen Capture  - Power and Volume Up
 - Screen Capture Video -  Control Panel Round dot (enable through configuraiton)
-- Siri - Hold Power
-- Hey Siri -  A better way to launch Siri
+- Siri -> Hold Power
+- Hey Siri ->  A better way to launch Siri
+- Scroll to top of page -> press on time
+- Reboot -> Volume up then Volume down, then press side button for 10 seconds.
 
 ### Siri (For iPhone X)
 
@@ -47,10 +48,10 @@ tbd
 
 ### Health Kit
 
-[QS Access](https://itunes.apple.com/us/app/qs-access/id920297614?mt=8) - Allow you to export your health data in tabular format - pretty nice.
-Sleep cycle - Smart wake up alarm.
-Heart Watch - Crazy level of detail on your heart rate.
-Auto Sleep - Watch based sleep tracking.
+- [QS Access](https://itunes.apple.com/us/app/qs-access/id920297614?mt=8) - Allow you to export your health data in tabular format - pretty nice.
+- Sleep cycle - Smart wake up alarm.
+- Heart Watch - Crazy level of detail on your heart rate.
+- Auto Sleep - Watch based sleep tracking.
 
 ### Photos
 
@@ -58,9 +59,6 @@ Auto Sleep - Watch based sleep tracking.
 - Hey Siri take a selfie
 - App: LightX
 
-### Gestures
-
-- Press on Time - Scroll to top of page.
 
 ## Apps
 
