@@ -42,6 +42,8 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Random 1-liners](#random-1-liners)
         - [App Launchers](#app-launchers)
         - [Chrome extensions](#chrome-extensions)
+        - [App Launchers (Alfred/Wox)](#app-launchers-alfredwox)
+        - [Linters and formatters](#linters-and-formatters)
 
 <!-- /TOC -->
 
@@ -204,3 +206,10 @@ zsh path append
 -   Vim based web [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 -   Vim in any text box [Wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe)
 -   Speed up youtube playback via keyboard shortcut [YouTube playback speed control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)
+
+### Linters and formatters
+
+You know what sucks less then coding standards? Arguing about coding standards. Nothing pains me more then arguing about formatting (and other minutia). As such I love having lint failures being build breaks and including formatting on save. Even better when you have [opinionated](https://stackoverflow.com/questions/802050/what-is-opinionated-software) formatters that don't have options. Sure standards suck, but they suck much less then arguing.
+
+-   Front End Stuff - [Prettier](https://prettier.io)
+-   Python - [Black](https://github.com/ambv/black)
