@@ -98,7 +98,14 @@ Automate common tasks - like send text to person (which can be added as a share 
 
 ## Watch
 
-tbd
+Here are my favorite watch apps:
+
+Next appointment - Fantastical
+Exercise/Heart rate monitor - Heart Watch
+Smart Wakeup - Auto Wake
+Weather - Dark Sky
+
+A great feature on the watch folks don't know about is multiple watch faces. I use one face for off work (photos), one for work (calendar view), and one for sleeping (smart alarm clock view)
 
 ## Augmented Reality Apps
 
