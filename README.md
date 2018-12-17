@@ -61,6 +61,8 @@ I love technical journeys, but I often lose track of why I started, what my prio
 
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
 
+#### [Windows Virtual Desktop](notes/virtual-desktops.md)
+
 #### [ManageMe](https://github.com/idvorkin/manage-me)
 
 ### Blocked
