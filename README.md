@@ -127,6 +127,7 @@ _Nothing is really completed, but you need to stop somewhere._
 -   [Scapy](https://scrapy.org/) Web crawling for humans.
 -   [Records](https://github.com/kennethreitz/records) Raw SQL for humans
 -   [Delegator](https://github.com/kennethreitz/delegator.py) Sub process for humans
+-   Pylinkvalidator -  Crawl a web site for errors (great for web testing)
 
 ### Typescript
 
@@ -149,8 +150,21 @@ _Nothing is really completed, but you need to stop somewhere._
 
 -   XPath and HtmlAgilityPack
 -   Regexp + VIM
--
 -   Beautiful soup
+
+####   jq
+jq is the javascript equivelant of regexp
+I'm very enemared with it!
+
+By default it colorizes:
+
+    cat x.json | jq
+
+
+It has funny escaping syntax - so I'll list out some recipes. Notice the specific of dots open brackets and quote types. They matter.
+Select every object in the array and string interpolat out object elements of name defaultHostName and appServicePlanId
+
+    cat x.json | jq '.[] | "\(.defaultHostName) \(.appServicePlanId) "'
 
 ### Cool shell tools
 
