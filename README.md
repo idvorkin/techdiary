@@ -13,6 +13,7 @@ I love technical journeys, but I often lose track of why I started, what my prio
         - [Notes on all things security](#notes-on-all-things-security)
         - [Visual Vocabulary](#visual-vocabulary)
         - [Windows Virtual Desktop](#windows-virtual-desktop)
+        - [Alexa Skill](#alexa-skill)
         - [ManageMe](#manageme)
     - [Blocked](#blocked)
         - [Redshift from Linqpad](#redshift-from-linqpad)
@@ -64,6 +65,8 @@ I love technical journeys, but I often lose track of why I started, what my prio
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
 
 #### [Windows Virtual Desktop](notes/virtual-desktops.md)
+
+#### [Alexa Skill](notes/alexa-skill.md)
 
 #### [ManageMe](https://github.com/idvorkin/manage-me)
 
