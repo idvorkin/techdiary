@@ -193,6 +193,7 @@ Decent blog posts:
 - Rant - a cool c# human [language generator](http://berkin.me/rant/)
 - Rhymebrain -
 - Tranquil
+- [Sentiment Analysis](notes/sentiment_analysis.md)
 
 ### Github
 
