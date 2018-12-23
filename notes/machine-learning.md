@@ -3,10 +3,10 @@
 <!-- vim-markdown-toc GFM -->
 
     * [Success criteria For this post](#success-criteria-for-this-post)
-* [ML at 10,000 feet](#ml-at-10,000-feet)
+* [ML at 10,000 feet](#ml-at-10000-feet)
 * [Hierarchy of Abstraction in the ML space](#hierarchy-of-abstraction-in-the-ml-space)
     * [Using an ML Model](#using-an-ml-model)
-    * [Building an ML model by training an ML algorithm.](#building-an-ml-model-by-training-an-ml-algorithm.)
+    * [Building an ML model by training an ML algorithm.](#building-an-ml-model-by-training-an-ml-algorithm)
     * [Implementing ML Algorithm](#implementing-ml-algorithm)
     * [Converting an ML model to hardware](#converting-an-ml-model-to-hardware)
 * [What category of problems can ML algorithms solve](#what-category-of-problems-can-ml-algorithms-solve)
@@ -18,7 +18,7 @@
     * [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
     * [Batch vs Online](#batch-vs-online)
     * [Instance vs Model](#instance-vs-model)
-* [How to measure the effectiveness of ML by problem category.](#how-to-measure-the-effectiveness-of-ml-by-problem-category.)
+* [How to measure the effectiveness of ML by problem category.](#how-to-measure-the-effectiveness-of-ml-by-problem-category)
     * [Regression - Distance from predication to actual](#regression---distance-from-predication-to-actual)
     * [Classification - Precision and Recall](#classification---precision-and-recall)
     * [Clustering - its complicated](#clustering---its-complicated)
@@ -28,17 +28,17 @@
     * [Model and feature interpretability](#model-and-feature-interpretability)
     * [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
     * [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
-    * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesn't-recognize-black-people)
+    * [HP face tracking doesn't recognize black people](#hp-face-tracking-doesnt-recognize-black-people)
     * [Clever Hans - the horse that could count](#clever-hans---the-horse-that-could-count)
     * [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
-* [Computing Power, Hardware,](#computing-power,-hardware,)
-    * [Why can't a big computer do all the tuning](#why-can't-a-big-computer-do-all-the-tuning)
+* [Computing Power, Hardware,](#computing-power-hardware)
+    * [Why can't a big computer do all the tuning](#why-cant-a-big-computer-do-all-the-tuning)
     * [Why GPU vs CPU](#why-gpu-vs-cpu)
     * [What is a tensor](#what-is-a-tensor)
     * [What do on device ML cores do](#what-do-on-device-ml-cores-do)
     * [Model building vs Model Execution](#model-building-vs-model-execution)
     * [Computation power required for cat pictures](#computation-power-required-for-cat-pictures)
-* [The steps in training an ML model.](#the-steps-in-training-an-ml-model.)
+* [The steps in training an ML model.](#the-steps-in-training-an-ml-model)
     * [Requirements gathering and problem definition](#requirements-gathering-and-problem-definition)
     * [Exploratory Data analysis](#exploratory-data-analysis)
     * [Data preparation](#data-preparation)
@@ -46,7 +46,7 @@
     * [Training](#training)
     * [Evaluation and hyper parameter tuning](#evaluation-and-hyper-parameter-tuning)
     * [Validation](#validation)
-    * [Present Results, Use it](#present-results,-use-it)
+    * [Present Results, Use it](#present-results-use-it)
 * [ML Algorithms](#ml-algorithms)
     * [Regression](#regression-1)
     * [PCA](#pca)
@@ -59,14 +59,13 @@
     * [Measuring within the wider business context](#measuring-within-the-wider-business-context)
     * [Guard rails for inputs versus training data](#guard-rails-for-inputs-versus-training-data)
 * [Misc Topics](#misc-topics)
-    * [What is ML vs AI.](#what-is-ml-vs-ai.)
+    * [What is ML vs AI.](#what-is-ml-vs-ai)
     * [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
     * [Why is ML so complicated](#why-is-ml-so-complicated)
 * [Resources](#resources)
     * [What should I read to learn more](#what-should-i-read-to-learn-more)
 
 <!-- vim-markdown-toc -->
-
 ### Success criteria For this post
 
 * I know the problems ML can solve, and the ML vocabulary.
@@ -150,6 +149,10 @@ Algorithms used include decision trees, and Baseyian classifiers.
 ## Other ML Concepts
 
 ### Supervised vs Unsupervised vs Semi Supervised
+
+Supervised leraning means the a trainer provides 'ground truth' via labelled data.  Getting labelled data is often the hardest part of ML. Regression is a supervisedalgorithom.  Unsupervised learning means no labels are provided and the computer figures out the relationships - clustering is an example of this.   Semi-supervised learning uses algortithoms to take a a small amount labelled data to mix with unlabbelled data creating more 'syntethic labelled' data. This is domain specific. As an example, imagine doing speech recognition. Take labelled audio files, and mix them with background noise to generate 'synthetic data'.
+
+
 ### Batch vs Online
 In batch learning the model is built once, and ignores incoming data.
 
