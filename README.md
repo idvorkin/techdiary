@@ -195,6 +195,13 @@ Decent blog posts:
 - Tranquil
 - [Sentiment Analysis](notes/sentiment_analysis.md)
 
+### Azure One Liners
+#### Deploy webapp via git checkin
+https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
+1. Create the git credentials to deploy which gives a new git repro.
+2. Add a git remote
+3. Push to the git remote
+
 ### Github
 
 - Serve HTML files directly from github: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
