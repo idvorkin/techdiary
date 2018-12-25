@@ -1,5 +1,6 @@
-SQLAlchemy Docs: 
-   *  http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+SQLAlchemy Docs:
+
+- http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
 
 Install dependant package:
 
@@ -7,8 +8,8 @@ Install dependant package:
 
 Install required certificates:
 
-* https://docs.aws.amazon.com/redshift/latest/mgmt/connecting-ssl-support.html
-* https://stackoverflow.com/questions/28228241/how-to-connect-to-a-remote-postgresql-database-with-python
+- https://docs.aws.amazon.com/redshift/latest/mgmt/connecting-ssl-support.html
+- https://stackoverflow.com/questions/28228241/how-to-connect-to-a-remote-postgresql-database-with-python
 
 Load sqlalchamey
 
@@ -26,11 +27,11 @@ Reflect Tables
     # https://dba.stackexchange.com/questions/40045/how-do-i-list-all-schemas-in-postgresql
     pg_catalog = sa.MetaData(schema="pg_catalog")
     pg_catalog.reflect(bind=engine)
-    for table in pg_catalog.tables: print (table) 
+    for table in pg_catalog.tables: print (table)
 
     public = sa.MetaData()
     public.reflect(bind=engine)
-    for table in public.tables: print (table) 
+    for table in public.tables: print (table)
 
 Note we don't query on tables, we query on mappings. Mappings can be generated from metadata.
 

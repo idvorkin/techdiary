@@ -7,14 +7,15 @@
 ## Tasks
 
 #### Follow directions from:
+
 https://medium.com/@rupakg/how-to-build-a-serverless-alexa-skill-51d8479e0432
 https://github.com/rupakg/sls-meetup-alexa-skill
 
-* Need to downgrade version of serverless
-https://stackoverflow.com/questions/3987683/homebrew-install-specific-version-of-formula/4158763#4158763
+- Need to downgrade version of serverless
+  https://stackoverflow.com/questions/3987683/homebrew-install-specific-version-of-formula/4158763#4158763
 
-    # sls alexa auth is broken
-    npm install -g serverless@1.32.0
+      # sls alexa auth is broken
+      npm install -g serverless@1.32.0
 
 #### Try to deploy a serverless python skill.
 
@@ -22,7 +23,4 @@ https://stackoverflow.com/questions/3987683/homebrew-install-specific-version-of
 
 #### Try to make it Alexa enabled.
 
-
 ## Reference
-
-

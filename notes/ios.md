@@ -2,28 +2,28 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
 
 <!-- vim-markdown-toc GFM -->
 
-* [General](#general)
-    * [Global Controls (For iPhone X)](#global-controls-(for-iphone-x))
-    * [Siri (For iPhone X)](#siri-(for-iphone-x))
-    * [HomeKit](#homekit)
-    * [Health Kit](#health-kit)
-    * [Photos](#photos)
-* [Apps](#apps)
-    * [All](#all)
-    * [Chrome](#chrome)
-    * [Launcher](#launcher)
-    * [Workflow](#workflow)
-* [Watch](#watch)
-* [Augmented Reality Apps](#augmented-reality-apps)
-* [Pen](#pen)
-    * [Notability](#notability)
-    * [Notes Plus](#notes-plus)
-    * [OneNote](#onenote)
-    * [Adobe Sketch](#adobe-sketch)
-    * [Inkflow](#inkflow)
-    * [Nebo](#nebo)
-    * [Keyboards](#keyboards)
-* [Development](#development)
+- [General](#general)
+  - [Global Controls (For iPhone X)](<#global-controls-(for-iphone-x)>)
+  - [Siri (For iPhone X)](<#siri-(for-iphone-x)>)
+  - [HomeKit](#homekit)
+  - [Health Kit](#health-kit)
+  - [Photos](#photos)
+- [Apps](#apps)
+  - [All](#all)
+  - [Chrome](#chrome)
+  - [Launcher](#launcher)
+  - [Workflow](#workflow)
+- [Watch](#watch)
+- [Augmented Reality Apps](#augmented-reality-apps)
+- [Pen](#pen)
+  - [Notability](#notability)
+  - [Notes Plus](#notes-plus)
+  - [OneNote](#onenote)
+  - [Adobe Sketch](#adobe-sketch)
+  - [Inkflow](#inkflow)
+  - [Nebo](#nebo)
+  - [Keyboards](#keyboards)
+- [Development](#development)
 
 <!-- vim-markdown-toc -->
 
@@ -33,10 +33,10 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
 
 - Goto Launcher - Rigth Ear -> Swipe Right
 - Goto Control Panel - Left Ear -> Mid screen
-- Screen Capture  - Power and Volume Up
-- Screen Capture Video -  Control Panel Round dot (enable through configuraiton)
+- Screen Capture - Power and Volume Up
+- Screen Capture Video - Control Panel Round dot (enable through configuraiton)
 - Siri -> Hold Power
-- Hey Siri ->  A better way to launch Siri
+- Hey Siri -> A better way to launch Siri
 - Scroll to top of page -> press on time
 - Reboot -> Volume up then Volume down, then press side button for 10 seconds.
 
@@ -61,17 +61,16 @@ tbd
 - Hey Siri take a selfie
 - App: LightX
 
-
 ## Apps
 
 ### All
 
--   Just press record - Keep full voice recording (not just transcription)
--   Fantastical - Best Calender app - period.
--   Magic Launcher - Cool idea, app launch from widget menu.
--   Dark Sky - Micro weather
--   Bear - Writing tool
--   LightX - photo editor with magic wand.
+- Just press record - Keep full voice recording (not just transcription)
+- Fantastical - Best Calender app - period.
+- Magic Launcher - Cool idea, app launch from widget menu.
+- Dark Sky - Micro weather
+- Bear - Writing tool
+- LightX - photo editor with magic wand.
 
 ### Chrome
 
@@ -109,55 +108,55 @@ A great feature on the watch folks don't know about is multiple watch faces. I u
 
 ## Augmented Reality Apps
 
--   IKEA: Put ikea furniture in your room.
--   MagicPlan: Determine floor plan interactively.
--   LightSpace: Paint in AR
--   AR Dragon: Play with a toy dragon
+- IKEA: Put ikea furniture in your room.
+- MagicPlan: Determine floor plan interactively.
+- LightSpace: Paint in AR
+- AR Dragon: Play with a toy dragon
 
 ## Pen
 
 ### Notability
 
--   My recommended writing application.
--   Synchronized audio playback and writing
--   Nice iCloud syncing
--   Google Drive PDF creation
--   Excellent Hand Writing Recognition and search.
--   Side by side page view
+- My recommended writing application.
+- Synchronized audio playback and writing
+- Nice iCloud syncing
+- Google Drive PDF creation
+- Excellent Hand Writing Recognition and search.
+- Side by side page view
 
 ### Notes Plus
 
 I now recommend using Notability, however a few places where Notes Plus still has superior features:
 
--   Prettiest Render
--   Smart Gestures (Scratch to erase, deduce shape)
+- Prettiest Render
+- Smart Gestures (Scratch to erase, deduce shape)
 
 ### OneNote
 
--   Best cross platform app
--   Hand writing in native, but it's meh compared to the others
+- Best cross platform app
+- Hand writing in native, but it's meh compared to the others
 
 ### Adobe Sketch
 
--   My favorite drawing app - nice intuitive controls
--   Nice ink
+- My favorite drawing app - nice intuitive controls
+- Nice ink
 
 ### Inkflow
 
--   I haven't actually used it, but apparently it can turn photos into vector graphics (pretty cool)
+- I haven't actually used it, but apparently it can turn photos into vector graphics (pretty cool)
 
 ### Nebo
 
--   Augmented drawing. Cool idea you can draw connected diagrams and move them around, but it feels great for a demo, but doesn’t actually work well yet.
+- Augmented drawing. Cool idea you can draw connected diagrams and move them around, but it feels great for a demo, but doesn’t actually work well yet.
 
 ### Keyboards
 
--   Google Keyboard - lets you use a swype like gesture
--   Stylus - lets you write by actually writing on the screen (similar to windows ink)
+- Google Keyboard - lets you use a swype like gesture
+- Stylus - lets you write by actually writing on the screen (similar to windows ink)
 
 ## Development
 
--   Working Copy - the best git (only?) git edior
--   MOSH - ssh but much better.
--   Editorial - Markdown editor that can interact with Working Copy (seems nicer then ByWord)
--   ByWord - Markdown editor that can interact with Working Copy
+- Working Copy - the best git (only?) git edior
+- MOSH - ssh but much better.
+- Editorial - Markdown editor that can interact with Working Copy (seems nicer then ByWord)
+- ByWord - Markdown editor that can interact with Working Copy

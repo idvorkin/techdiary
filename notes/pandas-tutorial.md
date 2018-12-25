@@ -1,6 +1,7 @@
-
 # Storing common incantations for ipython + pandas
+
 #
+
 ##################################################
 
 #### Jupyter set to window width
@@ -15,7 +16,7 @@
 
 #### ipython magic commands
 
-    %history -n 
+    %history -n
     %history -g <string> search for string
     %recall - put in editor
     %rerun - execute in editor
@@ -34,7 +35,7 @@
     df.sort_index()
     df.sort_values()
 
-### Working with categories 
+### Working with categories
 
 #### Convert column type to category
 
@@ -61,4 +62,3 @@
 #### Simple pivot table by percent change
 
     pv = pd.pivot_table(df,index=pd.Grouper(freq='2W'), columns="column_1",values="column2", aggfunc='count').pcnt_change()
-

@@ -5,16 +5,16 @@ I want to do remote development on linux, the best way to do this is mosh (inste
 
 Setup on iOS
 
-* Install Blink
-* Copy public key to clipboard, and mail it to yourself to install into the AMI @ ssh
+- Install Blink
+- Copy public key to clipboard, and mail it to yourself to install into the AMI @ ssh
 
 Setup on Server (AMI)
 
-* sudo yum install mosh
-* In AWS console open UDP ports 60000-61000
-* Copy in the AWS public key
-* Paste into the clipboard thing on the bottom.
-* Then right click will work to paste
+- sudo yum install mosh
+- In AWS console open UDP ports 60000-61000
+- Copy in the AWS public key
+- Paste into the clipboard thing on the bottom.
+- Then right click will work to paste
 
 General Lightsail setup (To move to setup linux)
 
