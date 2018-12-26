@@ -1,4 +1,3 @@
-
 # Swap
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
@@ -13,3 +12,9 @@ Session.vim
 *~
 # Auto-generated tag files
 tags
+
+
+# Ignore node stuff
+node_modules/
+package-lock.json
+yarn.lock
