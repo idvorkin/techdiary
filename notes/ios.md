@@ -160,3 +160,4 @@ I now recommend using Notability, however a few places where Notes Plus still ha
 - MOSH - ssh but much better.
 - Editorial - Markdown editor that can interact with Working Copy (seems nicer then ByWord)
 - ByWord - Markdown editor that can interact with Working Copy
+- iVim - VIM clone, slightly unstable but can open files from other apps (:idoc)
