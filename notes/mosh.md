@@ -29,3 +29,8 @@ General Lightsail setup (To move to setup linux)
    # Setup authorized keys for ssh access
    vim ~/.ssh/authorized_keys
 ```
+
+Install on WSL 
+```sudo add-apt-repository ppa:keithw/mosh-dev
+sudo apt-get install mosh
+```
