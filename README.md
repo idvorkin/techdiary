@@ -40,13 +40,16 @@ I love technical journeys, but I often lose track of why I started, what my prio
     - [jq](#jq)
   - [Cool shell tools](#cool-shell-tools)
   - [Natural Language Processing](#natural-language-processing)
+  - [Azure One Liners](#azure-one-liners)
+    - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
   - [Github](#github)
   - [Random 1-liners](#random-1-liners)
   - [App Launchers](#app-launchers)
   - [Chrome extensions](#chrome-extensions)
   - [Linters and formatters](#linters-and-formatters)
+  - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
 
-<!-- /TOC -->
+<!-- TOC -->
 
 ## Journeys
 
@@ -240,3 +243,25 @@ You know what sucks less then coding standards? Arguing about coding standards. 
 
 - Front End Stuff - [Prettier](https://prettier.io)
 - Python - [Black](https://github.com/ambv/black)
+
+### Switching between unix and dos file ending
+
+(https://stackoverflow.com/questions/2466959/git-removing-carriage-returns-from-source-controlled-files)
+On windows, when you switch between windows and WSL, you can get your line endings messed up in git.
+
+To have git honor settings in the existing files set:
+
+In: `~.gitconfig` set:
+
+    core.autocrlf=input
+    core.safecrlf=false
+
+Sometimes your repo gets screwed up and needes to be fixed. In that case, erase all files, and recheckout.
+
+    #!/bin/sh
+    # remove local tree
+    git ls-files -z | xargs -0 rm
+    # checkout with proper crlf
+    git checkout .
+
+Also, can set a single file in vim by settings `set ff=unix`
