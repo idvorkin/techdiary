@@ -178,17 +178,19 @@ Decent blog posts:
 
     https://remysharp.com/2018/08/23/cli-improved
 
-- Tig - Command Line git gui/gitk
+- Tig - TUI git  like git gui/gitk (Try tig status)
 - Mosh - A better ssh
-- fasd - An awesome command line completion tool.
 - w3m - Text based web browser
-- fzf - Fuzzy file inder
+- fzf - Fuzzy file inder (Try C-R and C-T)
+- fasd - An awesome command line completion tool. (Try z)
 - Rg - RipGrep (like ag)
 - [linuxbrew](http://linuxbrew.sh/) - Brew for linux
 - Ngrok - Pipe ports to the internet web site (great for local host development on ios)
 - [Bat](https://github.com/sharkdp/bat) - cat but with paging/git intgration.
 - Pretty ping - Graphical Ping
-- hTop - Nicer Top
+- hTop - Prettier Top
+- iftop - Network based top based on network connection
+- nethogs - Network based top based on process
 - [fd](https://github.com/sharkdp/fd) - Better find/recurse.
 
 ### Natural Language Processing
