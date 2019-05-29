@@ -178,7 +178,7 @@ Decent blog posts:
 
     https://remysharp.com/2018/08/23/cli-improved
 
-- Tig - TUI git  like git gui/gitk (Try tig status)
+- Tig - TUI git like git gui/gitk (Try tig status)
 - Mosh - A better ssh
 - w3m - Text based web browser
 - fzf - Fuzzy file inder (Try C-R and C-T)
@@ -215,6 +215,17 @@ https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
 - Serve HTML files directly from github: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
 
 - Keyboard shortcuts: https://help.github.com/articles/using-keyboard-shortcuts/
+
+### SSH
+
+Exit the ssh session (very helpful when stuck in a nested tmux session.
+
+    <enter> ~ .
+
+Connect on 8889 will get redirected to 8888 on the remote_host.
+
+    # Connections on 4444 will get redirected to 8888 on the remote_host.
+    ssh -N -L localhost:8888:localhost:4444 remote_user@remote_host
 
 ### Random 1-liners
 
