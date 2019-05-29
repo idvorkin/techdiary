@@ -1,8 +1,26 @@
-# Storing common incantations for ipython + pandas
+# Pandas + IPython + Jupyter Incantations
 
-#
+A place to store my hard earned pandas learnings.
 
-##################################################
+<!-- vim-markdown-toc GFM -->
+
+    - [Jupyter set to window width](#jupyter-set-to-window-width)
+    - [Jupyter run on a linux box, access from linux.](#jupyter-run-on-a-linux-box-access-from-linux)
+    - [ipython magic commands](#ipython-magic-commands)
+    - [fix column width to match terminal](#fix-column-width-to-match-terminal)
+    - [List columns](#list-columns)
+    - [Sorting](#sorting)
+
+- [Working with categories](#working-with-categories)
+  - [Convert column type to category](#convert-column-type-to-category)
+  - [Count values in category](#count-values-in-category)
+  - [Histogram column](#histogram-column)
+  - [Custom Apply to a row](#custom-apply-to-a-row)
+- [Pivoting](#pivoting)
+  - [Simple pivot table by count](#simple-pivot-table-by-count)
+  - [Simple pivot table by percent change](#simple-pivot-table-by-percent-change)
+
+<!-- vim-markdown-toc -->
 
 #### Jupyter set to window width
 
@@ -43,7 +61,9 @@
 
 #### Count values in category
 
-    df.column = df.column.value_counts()
+    df.column.value_counts()
+    df.column.value_counts(normalize=True)
+    df.column.value_counts(normalize=False).cumsum()
 
 #### Histogram column
 
