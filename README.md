@@ -5,50 +5,51 @@ I love technical journeys, but I often lose track of why I started, what my prio
 <!-- vim-markdown-toc GFM -->
 
 - [Journeys](#journeys)
-    - [To be started](#to-be-started)
-        - [Rule the world](#rule-the-world)
-    - [In progress](#in-progress)
-        - [Machine Learning for Igors](#machine-learning-for-igors)
-        - [Deploy a private web site](#deploy-a-private-web-site)
-        - [Notes on all things security](#notes-on-all-things-security)
-        - [Visual Vocabulary](#visual-vocabulary)
-        - [Windows Virtual Desktop](#windows-virtual-desktop)
-        - [Alexa Skill](#alexa-skill)
-        - [ManageMe](#manageme)
-    - [Blocked](#blocked)
-        - [Redshift from Linqpad](#redshift-from-linqpad)
-        - [Debug clr using windbg](#debug-clr-using-windbg)
-    - [Too early to start](#too-early-to-start)
-    - [Completed](#completed)
-        - [VLC Player Tips](#vlc-player-tips)
-        - [Pandas Tips](#pandas-tips)
-        - [iOS Usage](#ios-usage)
-        - [Mosh](#mosh)
-        - [USB Tech](#usb-tech)
-        - [Ring Video Downloader](#ring-video-downloader)
+  - [To be started](#to-be-started)
+    - [Rule the world](#rule-the-world)
+  - [In progress](#in-progress)
+    - [Machine Learning for Igors](#machine-learning-for-igors)
+    - [Deploy a private web site](#deploy-a-private-web-site)
+    - [Notes on all things security](#notes-on-all-things-security)
+    - [Visual Vocabulary](#visual-vocabulary)
+    - [Windows Virtual Desktop](#windows-virtual-desktop)
+    - [Alexa Skill](#alexa-skill)
+    - [ManageMe](#manageme)
+  - [Blocked](#blocked)
+    - [Redshift from Linqpad](#redshift-from-linqpad)
+    - [Debug clr using windbg](#debug-clr-using-windbg)
+  - [Too early to start](#too-early-to-start)
+  - [Completed](#completed)
+    - [VLC Player Tips](#vlc-player-tips)
+    - [Pandas Tips](#pandas-tips)
+    - [iOS Usage](#ios-usage)
+    - [Mosh](#mosh)
+    - [USB Tech](#usb-tech)
+    - [Ring Video Downloader](#ring-video-downloader)
 - [Awesome Lists](#awesome-lists)
-    - [Markdown](#markdown)
-    - [VIM](#vim)
-    - [C Sharp](#c-sharp)
-    - [Java](#java)
-    - [Python](#python)
-    - [Typescript](#typescript)
-    - [Apple](#apple)
-    - [Home Automation](#home-automation)
-    - [Powershell](#powershell)
-    - [Text manipulation tools](#text-manipulation-tools)
-        - [jq](#jq)
-    - [Cool shell tools](#cool-shell-tools)
-    - [Natural Language Processing](#natural-language-processing)
-    - [Azure One Liners](#azure-one-liners)
-        - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
-    - [Github](#github)
-    - [SSH](#ssh)
-    - [Random 1-liners](#random-1-liners)
-    - [App Launchers](#app-launchers)
-    - [Chrome extensions](#chrome-extensions)
-    - [Linters and formatters](#linters-and-formatters)
-    - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
+  - [Markdown](#markdown)
+  - [VIM](#vim)
+  - [C Sharp](#c-sharp)
+  - [Java](#java)
+  - [Python](#python)
+  - [Typescript](#typescript)
+  - [Apple](#apple)
+  - [Home Automation](#home-automation)
+  - [Powershell](#powershell)
+  - [Text manipulation tools](#text-manipulation-tools)
+    - [jq](#jq)
+  - [Cool shell tools](#cool-shell-tools)
+  - [Natural Language Processing](#natural-language-processing)
+  - [Azure One Liners](#azure-one-liners)
+    - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
+  - [Github](#github)
+  - [SSH](#ssh)
+  - [TMUX](#tmux)
+  - [Random 1-liners](#random-1-liners)
+  - [App Launchers](#app-launchers)
+  - [Chrome extensions](#chrome-extensions)
+  - [Linters and formatters](#linters-and-formatters)
+  - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
 
 <!-- vim-markdown-toc -->
 
@@ -227,6 +228,25 @@ Connect on 8889 will get redirected to 8888 on the remote_host.
 
     # Connections on 4444 will get redirected to 8888 on the remote_host.
     ssh -N -L localhost:8888:localhost:4444 remote_user@remote_host
+
+### TMUX
+
+This is so hard for me to remember:
+
+Install tmuxp to re-create sessions.
+Look at my config to see how to setup vi mode
+Look at tmux plugin manager
+
+https://gist.github.com/MohamedAlaa/2961058
+
+- C-A \$ - rename session
+- C-A , - rename windows
+
+- C-A % - split left right
+- C-A " - split top bottom
+- C-A q - show pain #
+- C-A <arrow> navigate panes
+- C-A ? - list shortcuts (then search using / )
 
 ### Random 1-liners
 
