@@ -254,6 +254,7 @@ https://gist.github.com/MohamedAlaa/2961058
 - C-A q - show pain #
 - C-A <arrow> navigate panes
 - C-A ? - list shortcuts (then search using / )
+- C-A w - See all windows and sessions.
 
 ### Random 1-liners
 
