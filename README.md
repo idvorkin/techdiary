@@ -246,15 +246,16 @@ Look at tmux plugin manager
 
 https://gist.github.com/MohamedAlaa/2961058
 
+- C-A w - See all windows and sessions.
 - C-A \$ - rename session
 - C-A , - rename windows
-
 - C-A % - split left right
 - C-A " - split top bottom
-- C-A q - show pain #
+- C-A q - show pane #
 - C-A <arrow> navigate panes
 - C-A ? - list shortcuts (then search using / )
-- C-A w - See all windows and sessions.
+- C-A swap-window -t -1 -- Move window to the left
+- C-A swap-window -t 0 -- Move window to the front
 
 ### Random 1-liners
 
