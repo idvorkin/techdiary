@@ -232,6 +232,10 @@ Connect on 8889 will get redirected to 8888 on the remote_host.
     # Connections on 4444 will get redirected to 8888 on the remote_host.
     ssh -N -L localhost:8888:localhost:4444 remote_user@remote_host
 
+Use a tool to auto re-connect (MOSH should do this, but it's been flakey for me of late)
+
+    autossh -M 0 server
+
 ### TMUX
 
 This is so hard for me to remember:
