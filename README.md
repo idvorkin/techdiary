@@ -1,32 +1,29 @@
 # Igor's Technical Diary
 
-## Journeys
-
-### To be started
-
 <!-- vim-markdown-toc GFM -->
 
-        - [Rule the world](#rule-the-world)
-    - [In progress](#in-progress)
-        - [Machine Learning for Igors](#machine-learning-for-igors)
-        - [Deploy a private web site](#deploy-a-private-web-site)
-        - [Notes on all things security](#notes-on-all-things-security)
-        - [Visual Vocabulary](#visual-vocabulary)
-        - [Windows Virtual Desktop](#windows-virtual-desktop)
-        - [Alexa Skill](#alexa-skill)
-        - [ManageMe](#manageme)
-    - [Blocked](#blocked)
-        - [Redshift from Linqpad](#redshift-from-linqpad)
-        - [Debug clr using windbg](#debug-clr-using-windbg)
-    - [Too early to start](#too-early-to-start)
-    - [Completed](#completed)
-        - [VLC Player Tips](#vlc-player-tips)
-        - [Pandas Tips](#pandas-tips)
-        - [iOS Usage](#ios-usage)
-        - [Mosh](#mosh)
-        - [USB Tech](#usb-tech)
-        - [Ring Video Downloader](#ring-video-downloader)
-
+- [Journeys](#journeys)
+  - [To be started](#to-be-started)
+    - [Rule the world](#rule-the-world)
+  - [In progress](#in-progress)
+    - [Machine Learning for Igors](#machine-learning-for-igors)
+    - [Deploy a private web site](#deploy-a-private-web-site)
+    - [Notes on all things security](#notes-on-all-things-security)
+    - [Visual Vocabulary](#visual-vocabulary)
+    - [Windows Virtual Desktop](#windows-virtual-desktop)
+    - [Alexa Skill](#alexa-skill)
+    - [ManageMe](#manageme)
+  - [Blocked](#blocked)
+    - [Redshift from Linqpad](#redshift-from-linqpad)
+    - [Debug clr using windbg](#debug-clr-using-windbg)
+  - [Too early to start](#too-early-to-start)
+  - [Completed](#completed)
+    - [VLC Player Tips](#vlc-player-tips)
+    - [Pandas Tips](#pandas-tips)
+    - [iOS Usage](#ios-usage)
+    - [Mosh](#mosh)
+    - [USB Tech](#usb-tech)
+    - [Ring Video Downloader](#ring-video-downloader)
 - [Awesome Lists](#awesome-lists)
   - [Markdown](#markdown)
   - [VIM](#vim)
@@ -54,6 +51,10 @@
   - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
 
 <!-- vim-markdown-toc -->
+
+## Journeys
+
+### To be started
 
 #### Rule the world
 
