@@ -90,6 +90,14 @@ The human version of ML would be following your intuition. E.g making a stir fry
 
 Programming has levels of abstraction and so does ML. The levels from most general to most specific are below.
 
+### Disambiguating the word Model
+
+The word model is overloaded - Wickhan describes the following terms ( but I haven't yet re-written the article):
+
+**Model Family** - The class of ML algorithm being used e.g. Linear Regression, Recurrant Neural Network.
+**Model Form** - The model family, the features and the hyper parameters
+**Fitted Model** - Model form fit to data and able to perform estimates.
+
 ### Using an ML Model
 
 This is the same as using a high level API or library, something like IsPlural(word). These APIs can run locally in a library, or remotely in a web service.
@@ -298,11 +306,13 @@ Often done in pandas
 
 Often pre-processing in SciKit
 
-### Algorithm Selection
+### Model Family Selection
+
+### Feature Section
 
 ### Training
 
-### Evaluation and hyper parameter tuning
+### Evaluation and tuning of model family features and hyper paramaters
 
 ### Validation
 
