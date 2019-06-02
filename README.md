@@ -169,9 +169,13 @@ By default it colorizes:
     cat x.json | jq
 
 It has funny escaping syntax - so I'll list out some recipes. Notice the specific of dots open brackets and quote types. They matter.
-Select every object in the array and string interpolat out object elements of name defaultHostName and appServicePlanId
+Select every object in the array and string interpolates out object elements of name defaultHostName and appServicePlanId
 
     cat x.json | jq '.[] | "\(.defaultHostName) \(.appServicePlanId) "'
+
+Read the Algolia key from my secretBox
+
+    cat ~/gits/igor2/secretBox.json | jq '.AlgoliaKey'
 
 ### Cool shell tools
 
