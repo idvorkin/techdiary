@@ -1,4 +1,4 @@
-# Modern topologiies
+# Cloud native services
 
 ## Why?
 
@@ -8,6 +8,8 @@
 - [Physical Machine, Virtual Machine, Containers, FaaS Function as a Service](#physical-machine-virtual-machine-containers-faas-function-as-a-service)
   - [Container is more then a light weight VM](#container-is-more-then-a-light-weight-vm)
   - [Container Orchestration](#container-orchestration)
+    - [Kubertnetes](#kubertnetes)
+    - [Others](#others)
 - [Networking](#networking)
   - [Planes - Control, Data, and Management](#planes---control-data-and-management)
   - [Communication buses: Envoy](#communication-buses-envoy)
@@ -19,6 +21,7 @@
   - [Logging](#logging)
   - [Triggers](#triggers)
   - [Debugging](#debugging)
+- [References:](#references)
 
 <!-- /TOC -->
 
@@ -29,6 +32,14 @@
 ### Container is more then a light weight VM
 
 ### Container Orchestration
+
+#### Kubertnetes
+
+#### Others
+
+- Docker Swarm
+- Service Bus
+- Methos
 
 ## Networking
 
@@ -53,3 +64,8 @@
 ### Triggers
 
 ### Debugging
+
+## References:
+
+Container usage study - https://www.datadoghq.com/container-orchestration/
+Azure cloud patterns - https://docs.microsoft.com/en-us/azure/architecture/patterns/
