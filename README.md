@@ -62,6 +62,8 @@
 
 #### [Machine Learning for Igors](notes/machine-learning.md)
 
+#### [Modern Topologies](notes/modern-topologies.md)
+
 #### [Deploy a private web site](notes/private_web_site.md)
 
 #### [Notes on all things security](notes/better-security-design.md)
