@@ -177,6 +177,13 @@ Read the Algolia key from my secretBox
 
     cat ~/gits/igor2/secretBox.json | jq '.AlgoliaKey'
 
+List AWS lightsail properties
+
+    saws> aws lightsail get-instances  | jq '.instances[] | .name, .state.name, .publicIpAddress'
+    "Amazon_Linux-1GB-Oregon-1"
+    "running"
+    "54.190.183.299"
+
 ### Cool shell tools
 
 Decent blog posts:
@@ -187,13 +194,12 @@ Decent blog posts:
 - Mosh - A better ssh
 - w3m - Text based web browser
 - fzf - Fuzzy file inder (Try C-R and C-T)
-- fasd - An awesome command line completion tool. (Try z)
 - Rg - RipGrep (like ag)
 - [linuxbrew](http://linuxbrew.sh/) - Brew for linux
 - Ngrok - Pipe ports to the internet web site (great for local host development on ios)
 - [Bat](https://github.com/sharkdp/bat) - cat but with paging/git intgration.
 - Pretty ping - Graphical Ping
-- hTop - Prettier Top
+- glances - Prettier Top
 - iftop - Network based top based on network connection
 - nethogs - Network based top based on process
 - [fd](https://github.com/sharkdp/fd) - Better find/recurse.
