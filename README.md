@@ -7,7 +7,7 @@
     - [Rule the world](#rule-the-world)
   - [In progress](#in-progress)
     - [Machine Learning for Igors](#machine-learning-for-igors)
-    - [Modern Topologies](#modern-topologies)
+    - [Cloud first applications](#cloud-first-applications)
     - [Deploy a private web site](#deploy-a-private-web-site)
     - [Notes on all things security](#notes-on-all-things-security)
     - [Visual Vocabulary](#visual-vocabulary)
@@ -63,7 +63,7 @@
 
 #### [Machine Learning for Igors](notes/machine-learning.md)
 
-#### [Modern Topologies](notes/modern-topologies.md)
+#### [Cloud first applications](notes/cloud-first-applications.md)
 
 #### [Deploy a private web site](notes/private_web_site.md)
 

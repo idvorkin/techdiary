@@ -2,35 +2,37 @@
 
 ## Why?
 
+<!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
 - [Success criteria For this post](#success-criteria-for-this-post)
 - [Micro services](#micro-services)
 - [Containers](#containers)
-  - [Containers are about application packaging and delivery.](#containers-are-about-application-packaging-and-delivery)
-    - [The power of the Dockerfile and image repository.](#the-power-of-the-dockerfile-and-image-repository)
-  - [Containers as execution hosts - vs Virtual and Physical Machines](#containers-as-execution-hosts---vs-virtual-and-physical-machines)
-  - [Container Orchestration](#container-orchestration)
-    - [Kubertnetes](#kubertnetes)
-    - [Everything else](#everything-else)
+    - [Containers are about application packaging and delivery.](#containers-are-about-application-packaging-and-delivery)
+        - [The power of the Dockerfile and image repository.](#the-power-of-the-dockerfile-and-image-repository)
+    - [Containers as execution hosts - vs Virtual and Physical Machines](#containers-as-execution-hosts---vs-virtual-and-physical-machines)
+    - [Container Orchestration](#container-orchestration)
+        - [Kubertnetes](#kubertnetes)
+        - [Everything else](#everything-else)
 - [Networking](#networking)
-  - [Planes - Control, Data, and Management](#planes---control-data-and-management)
-  - [Communication buses: Envoy](#communication-buses-envoy)
+    - [Planes - Control, Data, and Management](#planes---control-data-and-management)
+    - [Communication buses: Envoy](#communication-buses-envoy)
 - [New patterns](#new-patterns)
-  - [Side cars](#side-cars)
+    - [Side cars](#side-cars)
 - [Functions as a Service FaaS](#functions-as-a-service-faas)
-  - [Introduction](#introduction)
-  - [FaaS Orchestration](#faas-orchestration)
-  - [Triggers](#triggers)
-  - [Security](#security)
-  - [Logging](#logging)
-  - [Triggers](#triggers-1)
-  - [Debugging](#debugging)
+    - [Introduction](#introduction)
+    - [FaaS Orchestration](#faas-orchestration)
+    - [Triggers](#triggers)
+    - [Security](#security)
+    - [Logging](#logging)
+    - [Triggers](#triggers-1)
+    - [Debugging](#debugging)
 - [References:](#references)
 - [Organizational Challenges](#organizational-challenges)
-  - [Conways law - Four complier teams implies a four pass complier](#conways-law---four-complier-teams-implies-a-four-pass-complier)
+    - [Conways law - Four complier teams implies a four pass complier](#conways-law---four-complier-teams-implies-a-four-pass-complier)
 
 <!-- vim-markdown-toc -->
+<!-- prettier-ignore-end -->
 
 ## Success criteria For this post
 
