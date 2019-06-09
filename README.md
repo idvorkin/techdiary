@@ -1,73 +1,75 @@
 # Igor's Technical Diary
 
+<!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
-- [Journeys](#journeys)
-  - [To be started](#to-be-started)
-    - [Rule the world](#rule-the-world)
-  - [In progress](#in-progress)
-    - [Machine Learning for Igors](#machine-learning-for-igors)
-    - [Cloud first applications](#cloud-first-applications)
-    - [Deploy a private web site](#deploy-a-private-web-site)
-    - [Notes on all things security](#notes-on-all-things-security)
-    - [Visual Vocabulary](#visual-vocabulary)
-    - [Windows Virtual Desktop](#windows-virtual-desktop)
-    - [Alexa Skill](#alexa-skill)
-    - [ManageMe](#manageme)
-  - [Blocked](#blocked)
-    - [Redshift from Linqpad](#redshift-from-linqpad)
-    - [Debug clr using windbg](#debug-clr-using-windbg)
-  - [Too early to start](#too-early-to-start)
-  - [Completed](#completed)
-    - [VLC Player Tips](#vlc-player-tips)
-    - [Pandas Tips](#pandas-tips)
-    - [iOS Usage](#ios-usage)
-    - [Mosh](#mosh)
-    - [USB Tech](#usb-tech)
-    - [Ring Video Downloader](#ring-video-downloader)
+- [Knowledge dumps](#knowledge-dumps)
+        - [Cloud first applications](#cloud-first-applications)
+        - [Machine Learning for Igors](#machine-learning-for-igors)
+        - [All things security](#all-things-security)
+- [Projects](#projects)
+    - [To be started](#to-be-started)
+    - [In progress](#in-progress)
+        - [Deploy a private web site](#deploy-a-private-web-site)
+        - [Visual Vocabulary](#visual-vocabulary)
+        - [Windows Virtual Desktop](#windows-virtual-desktop)
+        - [Alexa Skill](#alexa-skill)
+        - [ManageMe](#manageme)
+    - [Blocked](#blocked)
+        - [Redshift from Linqpad](#redshift-from-linqpad)
+        - [Debug clr using windbg](#debug-clr-using-windbg)
+    - [Too early to start](#too-early-to-start)
+    - [Completed](#completed)
+        - [VLC Player Tips](#vlc-player-tips)
+        - [Pandas Tips](#pandas-tips)
+        - [iOS Usage](#ios-usage)
+        - [Mosh](#mosh)
+        - [USB Tech](#usb-tech)
+        - [Ring Video Downloader](#ring-video-downloader)
 - [Awesome Lists](#awesome-lists)
-  - [Markdown](#markdown)
-  - [VIM](#vim)
-  - [C Sharp](#c-sharp)
-  - [Java](#java)
-  - [Python](#python)
-  - [Typescript](#typescript)
-  - [Apple](#apple)
-  - [Home Automation](#home-automation)
-  - [Powershell](#powershell)
-  - [Text manipulation tools](#text-manipulation-tools)
-    - [jq](#jq)
-  - [Cool shell tools](#cool-shell-tools)
-  - [Natural Language Processing](#natural-language-processing)
-  - [Azure One Liners](#azure-one-liners)
-    - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
-  - [git](#git)
-  - [Github](#github)
-  - [SSH](#ssh)
-  - [TMUX](#tmux)
-  - [Random 1-liners](#random-1-liners)
-  - [App Launchers](#app-launchers)
-  - [Chrome extensions](#chrome-extensions)
-  - [Linters and formatters](#linters-and-formatters)
-  - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
+    - [Markdown](#markdown)
+    - [VIM](#vim)
+    - [C Sharp](#c-sharp)
+    - [Java](#java)
+    - [Python](#python)
+    - [Typescript](#typescript)
+    - [Apple](#apple)
+    - [Home Automation](#home-automation)
+    - [Powershell](#powershell)
+    - [Text manipulation tools](#text-manipulation-tools)
+        - [jq](#jq)
+    - [Cool shell tools](#cool-shell-tools)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Azure One Liners](#azure-one-liners)
+        - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
+    - [git](#git)
+    - [Github](#github)
+    - [SSH](#ssh)
+    - [TMUX](#tmux)
+    - [Random 1-liners](#random-1-liners)
+    - [App Launchers](#app-launchers)
+    - [Chrome extensions](#chrome-extensions)
+    - [Linters and formatters](#linters-and-formatters)
+    - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
 
 <!-- vim-markdown-toc -->
+<!-- prettier-ignore-end -->
 
-## Journeys
-
-### To be started
-
-#### Rule the world
-
-### In progress
-
-#### [Machine Learning for Igors](notes/machine-learning.md)
+## Knowledge dumps
 
 #### [Cloud first applications](notes/cloud-first-applications.md)
 
-#### [Deploy a private web site](notes/private_web_site.md)
+#### [Machine Learning for Igors](notes/machine-learning.md)
 
-#### [Notes on all things security](notes/better-security-design.md)
+#### [All things security](notes/better-security-design.md)
+
+## Projects
+
+### To be started
+
+### In progress
+
+#### [Deploy a private web site](notes/private_web_site.md)
 
 #### [Visual Vocabulary](notes/visual-vocabulary.md)
 

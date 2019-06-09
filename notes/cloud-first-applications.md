@@ -1,4 +1,4 @@
-# Cloud native services
+# Cloud First Applications
 
 ## Why?
 
@@ -27,9 +27,9 @@
     - [Logging](#logging)
     - [Triggers](#triggers-1)
     - [Debugging](#debugging)
-- [References:](#references)
-- [Organizational Challenges](#organizational-challenges)
+- [Challenges](#challenges)
     - [Conways law - Four complier teams implies a four pass complier](#conways-law---four-complier-teams-implies-a-four-pass-complier)
+- [References:](#references)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -88,13 +88,13 @@ Package functionality into a seperately injected application: https://docs.micro
 
 ### Debugging
 
-## References:
-
-## Organizational Challenges
+## Challenges
 
 ### Conways law - Four complier teams implies a four pass complier
 
 Conway's law is an aphorism in IT that posits the idea that “organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.” This idea can be traced back to a programmer named Melvin Conway who developed this principle in the late 1960s.
+
+## References:
 
 - [Container usage study](https://www.datadoghq.com/container-orchestration/)
 - [Azure cloud patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
