@@ -7,6 +7,7 @@
     - [Rule the world](#rule-the-world)
   - [In progress](#in-progress)
     - [Machine Learning for Igors](#machine-learning-for-igors)
+    - [Modern Topologies](#modern-topologies)
     - [Deploy a private web site](#deploy-a-private-web-site)
     - [Notes on all things security](#notes-on-all-things-security)
     - [Visual Vocabulary](#visual-vocabulary)
