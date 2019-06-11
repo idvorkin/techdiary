@@ -49,6 +49,7 @@
     - [Random 1-liners](#random-1-liners)
     - [App Launchers](#app-launchers)
     - [Chrome extensions](#chrome-extensions)
+    - [Web tools (http)](#web-tools-http)
     - [Linters and formatters](#linters-and-formatters)
     - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
 
@@ -294,6 +295,14 @@ zsh path append
 - Vim based web [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 - Vim in any text box [Wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe)
 - Speed up youtube playback via keyboard shortcut [YouTube playback speed control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)
+
+### Web tools (http)
+
+httpie is like wget and curl, but easier to use.
+
+Here's an example of sending content to a web hook which would send a message to chime. Notice -pHBhb prints request response, and Content is a JSON field.
+
+    http -pHBhb POST https://hooks.chime.aws/incomingwebhooks/botaddress -- Content=We love PMs
 
 ### Linters and formatters
 
