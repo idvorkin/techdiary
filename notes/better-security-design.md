@@ -1,4 +1,4 @@
-I used to do security in a former life, and here are some musings on the topic, which will eventually be disected into various essays.
+I used to do security in a former life, and here are some musings on the topic, which will eventually be dissected into various essays.
 
 For now it’ll be confusing as I’m brain dumping to various audiences with various knowledge (end users, architects, CEOs, designers)
 
@@ -30,6 +30,10 @@ For now it’ll be confusing as I’m brain dumping to various audiences with va
     - [Automated Code reviews](#automated-code-reviews)
     - [Manual Code reviews](#manual-code-reviews)
     - [Penetration testing](#penetration-testing)
+    - [Compliance vs Security](#compliance-vs-security)
+    - [Social engineering](#social-engineering)
+    - [Physical security.](#physical-security)
+    - [The dirty little secret of security reviews](#the-dirty-little-secret-of-security-reviews)
 - [Uncategorized](#uncategorized)
     - [Apple Pay](#apple-pay)
     - [Chip and PIN and tap in rest of world](#chip-and-pin-and-tap-in-rest-of-world)
@@ -132,16 +136,18 @@ You may think SMS passwords are strong security, a second factor even. However, 
 
 #### Threat Modeling
 
+The security of your system is a function of the capabilities of the attacker. For example, if your attacker profile is a techno-peasant, you're likely safe with a computer password. If your attacker has you and your device and can compel you take action, there isn't much you can do. Like wise if the attacker has kernel mode access to the machine you're running on you're screwed.
+
 #### STRIDE
 
 I grew up doing security at Microsoft, and at the heart of their assessment model was the acronym STRIDE, see more [here](https://docs.microsoft).
 
-- **S**poofing - Pretending to be a user.
-- **T**ampering - Changing data (at rest or in transit)
-- **R**epudiation - Claiming something happened that didn't
-- **I**nformation disclosure - Data leaks
-- **D**enial of service - Can't access the system because it went down
-- **E**scalation of priveldge - User gaining access to stuff they didn't get.
+- **S**poofing - Pretending to be a user. Defeating Authentication.
+- **T**ampering - Changing data (at rest or in transit). Defeating Integrity Protection
+- **R**epudiation - Claiming something happened that didn't. Defeating Non Repudiation
+- **I**nformation disclosure - Leak dates. Defeating Confidentiality
+- **D**enial of service - Losing access to the system. Defeating Availability.
+- **E**scalation of privilege - Gaining access to stuff you should be able to. Defeating Authorization.
 
 #### Trust Boundaries
 
@@ -152,6 +158,16 @@ I grew up doing security at Microsoft, and at the heart of their assessment mode
 #### Manual Code reviews
 
 #### Penetration testing
+
+#### Compliance vs Security
+
+#### Social engineering
+
+#### Physical security.
+
+#### The dirty little secret of security reviews
+
+Going through a security review process is the way to validate security. However, as soon as the review is complete, security starts to drift, security holes start to appear, and there are no safe guards to ensure the security of the system isn't compromised.
 
 ### Uncategorized
 
