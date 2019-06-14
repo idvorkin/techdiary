@@ -2,35 +2,49 @@ I used to do security in a former life, and here are some musings on the topic, 
 
 For now it’ll be confusing as I’m brain dumping to various audiences with various knowledge (end users, architects, CEOs, designers)
 
-<!-- TOC -->
+<!-- prettier-ignore-start -->
+<!-- vim-markdown-toc GFM -->
 
 - [Good Security](#good-security)
-  - [Single Sign On: One account to rule them all.](#single-sign-on-one-account-to-rule-them-all)
-  - [Great design: Microsoft Authenticator](#great-design-microsoft-authenticator)
-  - [Git tools, personal access tokens](#git-tools-personal-access-tokens)
-  - [Googles OTP reset codes](#googles-otp-reset-codes)
-  - [Multi Factor Authentication](#multi-factor-authentication)
-  - [Full Device Encryption (Bitlocker, TPM, Truecrypt)](#full-device-encryption-bitlocker-tpm-truecrypt)
-  - [Public Key sign in via SSH](#public-key-sign-in-via-ssh)
-  - [Live sign in for windows](#live-sign-in-for-windows)
-  - [Single Payment System: Paypal, Amazon, Google Express](#single-payment-system-paypal-amazon-google-express)
+    - [Single Sign On: One account to rule them all.](#single-sign-on-one-account-to-rule-them-all)
+    - [Great design: Microsoft Authenticator](#great-design-microsoft-authenticator)
+    - [Great design: Whatsapp add accounts](#great-design-whatsapp-add-accounts)
+    - [Git tools, personal access tokens](#git-tools-personal-access-tokens)
+    - [Googles OTP reset codes](#googles-otp-reset-codes)
+    - [Password managers](#password-managers)
+    - [Multi Factor Authentication](#multi-factor-authentication)
+    - [Full Device Encryption (Bitlocker, TPM, Truecrypt)](#full-device-encryption-bitlocker-tpm-truecrypt)
+    - [Public Key sign in via SSH](#public-key-sign-in-via-ssh)
+    - [Live sign in for windows](#live-sign-in-for-windows)
+    - [Single Payment System: Paypal, Amazon, Google Express](#single-payment-system-paypal-amazon-google-express)
 - [Bad Security](#bad-security)
-  - [E-mail password resets](#e-mail-password-resets)
-  - [SMS Password reset tools weakness](#sms-password-reset-tools--weakness)
+    - [E-mail password resets](#e-mail-password-resets)
+    - [SMS Password reset tools weakness](#sms-password-reset-tools-weakness)
 - [Funny](#funny)
-  - [Can’t unlock the door w/Amazon Alexa](#cant-unlock-the-door-wamazon-alexa)
+    - [Can’t unlock the door w/Amazon Alexa](#cant-unlock-the-door-wamazon-alexa)
+- [Security Assessments](#security-assessments)
+    - [Threat Modeling](#threat-modeling)
+    - [STRIDE](#stride)
+    - [Trust Boundaries](#trust-boundaries)
+    - [Data flow diagrams](#data-flow-diagrams)
+    - [Automated Code reviews](#automated-code-reviews)
+    - [Manual Code reviews](#manual-code-reviews)
+    - [Penetration testing](#penetration-testing)
 - [Uncategorized](#uncategorized)
-  - [Apple Pay](#apple-pay)
-  - [Chip and PIN and tap in rest of world](#chip-and-pin-and-tap-in-rest-of-world)
-  - [Credit card vs Debit Card security](#credit-card-vs-debit-card-security)
-  - [Account vs Identity](#account-vs-identity)
-  - [The end of privacy](#the-end-of-privacy)
-  - [ICloud vs OneDrive: Why do I need to login](#icloud-vs-onedrive-why-do-i-need-to-login)
-  - [YubiKey: Proof of human](#yubikey-proof-of-human)
-  - [RSA Secure ID](#rsa-secure-id)
-  - [Secure Boot](#secure-boot)
+    - [Apple Pay](#apple-pay)
+    - [Chip and PIN and tap in rest of world](#chip-and-pin-and-tap-in-rest-of-world)
+    - [Credit card vs Debit Card security](#credit-card-vs-debit-card-security)
+    - [Account vs Identity](#account-vs-identity)
+    - [The end of privacy](#the-end-of-privacy)
+    - [ICloud vs OneDrive: Why do I need to login](#icloud-vs-onedrive-why-do-i-need-to-login)
+    - [YubiKey: Proof of human](#yubikey-proof-of-human)
+    - [RSA Secure ID](#rsa-secure-id)
+    - [Secure Boot](#secure-boot)
 
-<!-- /TOC -->
+<!-- vim-markdown-toc -->
+<!-- prettier-ignore-end -->
+
+!-- /TOC -->
 
 ### Good Security
 
@@ -68,6 +82,8 @@ The best authenticor applicaiton I’ve seen is Microsoft’s for iOS. In this s
 
 On the users mobile device, in Microsoft Authenticator, a choice of 2 digit numbers are presented. When the user clicks on the matching 2 digit number the users is logged into the service.
 
+This flow is even better on the iPhone, where the 2 digit number is presented on the watch where the user can enter the number directly.
+
 Notice, the user completes the sign on flow cross device without needing to return to the source application.
 
 **Why don’t more authenticators use this model?**
@@ -86,6 +102,10 @@ What's app lets you add a windows account by displaying a QR code and having you
 
 #### Googles OTP reset codes
 
+#### Password managers
+
+I use 1Password and it's fantastic. I have strong passwords for all my sites, an also use it for 1 time codes. It syncs to all my devices, and even has a watch app.
+
 #### Multi Factor Authentication
 
 #### Full Device Encryption (Bitlocker, TPM, Truecrypt)
@@ -100,11 +120,40 @@ What's app lets you add a windows account by displaying a QR code and having you
 
 #### E-mail password resets
 
+You can have the strongest password in the world, but then a user can hit password reset, and if they have control of your e-mail, they can change you password sheesh.
+
 #### SMS Password reset tools weakness
+
+You may think SMS passwords are strong security, a second factor even. However, SMS is easily attackable using a [Sting Ray](https://en.wikipedia.org/wiki/Stingray_phone_tracker).
 
 ### Funny
 
 #### Can’t unlock the door w/Amazon Alexa
+
+### Security Assessments
+
+#### Threat Modeling
+
+#### STRIDE
+
+I grew up doing security at Microsoft, and at the heart of their assessment model was the acronym STRIDE, see more [here](https://docs.microsoft).
+
+**S**poofing - Pretending to be a user.
+**T**ampering - Changing data (at rest or in transit)
+**R**epudiation - Claiming something happened that didn't
+**I**nformation disclosure - Data leaks
+**D**enial of service - Can't access the system because it went down
+**E**scalation of priveldge - User gaining access to stuff they didn't get.
+
+#### Trust Boundaries
+
+#### Data flow diagrams
+
+#### Automated Code reviews
+
+#### Manual Code reviews
+
+#### Penetration testing
 
 ### Uncategorized
 
