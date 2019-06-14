@@ -44,8 +44,6 @@ For now it’ll be confusing as I’m brain dumping to various audiences with va
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
 
-!-- /TOC -->
-
 ### Good Security
 
 We’ve made lots of stride in the security world, here are some of the ideas that have really stood out.
@@ -59,7 +57,7 @@ Single sign in allows users to use a single account to login into many web sites
 Google, Facebook, Twitter, and Microsoft have excellent single sign on solutions.
 
 **SSO vs Identity**
-Sign can be orthogianl to identity. For example, multiple SSO services can provide the same identity. For example, FB can be configured to provide a google e-mail identity, just as google does. Users can register multilple SSO services for the same identity - which is ideal in the case of service providers avoiding dependance on a single SSO provider.
+Sign can be orthogonal to identity. For example, multiple SSO services can provide the same identity. For example, FB can be configured to provide a google e-mail identity, just as google does. Users can register multiple SSO services for the same identity - which is ideal in the case of service providers avoiding dependence on a single SSO provider.
 
 **Why doesn’t everyone use SSO?**
 I suspect a few things, many of which I disagree with.
@@ -78,7 +76,7 @@ Moreover, when you look at the total cost of password system ownership, like sec
 
 #### Great design: Microsoft Authenticator
 
-The best authenticor applicaiton I’ve seen is Microsoft’s for iOS. In this solution, when you a user logs into a service with Microsoft SSO on any device, they are presented with a 2 digit number on the device accessing the service, **and** a notification pops up on the user’s mobile device to open Microsoft Authenticator.
+The best authenticator application I’ve seen is Microsoft’s for iOS. In this solution, when you a user logs into a service with Microsoft SSO on any device, they are presented with a 2 digit number on the device accessing the service, **and** a notification pops up on the user’s mobile device to open Microsoft Authenticator.
 
 On the users mobile device, in Microsoft Authenticator, a choice of 2 digit numbers are presented. When the user clicks on the matching 2 digit number the users is logged into the service.
 
@@ -138,12 +136,12 @@ You may think SMS passwords are strong security, a second factor even. However, 
 
 I grew up doing security at Microsoft, and at the heart of their assessment model was the acronym STRIDE, see more [here](https://docs.microsoft).
 
-**S**poofing - Pretending to be a user.
-**T**ampering - Changing data (at rest or in transit)
-**R**epudiation - Claiming something happened that didn't
-**I**nformation disclosure - Data leaks
-**D**enial of service - Can't access the system because it went down
-**E**scalation of priveldge - User gaining access to stuff they didn't get.
+- **S**poofing - Pretending to be a user.
+- **T**ampering - Changing data (at rest or in transit)
+- **R**epudiation - Claiming something happened that didn't
+- **I**nformation disclosure - Data leaks
+- **D**enial of service - Can't access the system because it went down
+- **E**scalation of priveldge - User gaining access to stuff they didn't get.
 
 #### Trust Boundaries
 
