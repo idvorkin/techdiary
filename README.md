@@ -51,7 +51,7 @@
     - [Chrome extensions](#chrome-extensions)
     - [Web tools (http)](#web-tools-http)
     - [Linters and formatters](#linters-and-formatters)
-    - [Switching between unix and dos file ending](#switching-between-unix-and-dos-file-ending)
+    - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -294,7 +294,8 @@ zsh path append
 - Close unused tabs [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=en)
 - Vim based web [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 - Vim in any text box [Wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe)
-- Speed up youtube playback via keyboard shortcut [YouTube playback speed control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)
+- Speed up YouTube playback via keyboard shortcut [YouTube playback speed control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)
+- Fail to load dinosaur - Not an extension but you can play a little game with the dinosaur by pressing <space> on the chrome dinosaur
 
 ### Web tools (http)
 
@@ -311,7 +312,7 @@ You know what sucks less then coding standards? Arguing about coding standards. 
 - Front End Stuff - [Prettier](https://prettier.io)
 - Python - [Black](https://github.com/ambv/black)
 
-### Switching between unix and dos file ending
+### Switching between Unix and DOS file ending
 
 (https://stackoverflow.com/questions/2466959/git-removing-carriage-returns-from-source-controlled-files)
 On windows, when you switch between windows and WSL, you can get your line endings messed up in git.
@@ -323,7 +324,7 @@ In: `~.gitconfig` set:
     core.autocrlf=input
     core.safecrlf=false
 
-Sometimes your repo gets screwed up and needes to be fixed. In that case, erase all files, and recheckout.
+Sometimes your repo gets screwed up and needs to be fixed. In that case, erase all files, and recheckout.
 
     #!/bin/sh
     # remove local tree
