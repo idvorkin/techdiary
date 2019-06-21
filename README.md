@@ -26,6 +26,7 @@
         - [Mosh](#mosh)
         - [USB Tech](#usb-tech)
         - [Ring Video Downloader](#ring-video-downloader)
+        - [Extract message history on OSX](#extract-message-history-on-osx)
 - [Awesome Lists](#awesome-lists)
     - [Markdown](#markdown)
     - [VIM](#vim)
@@ -109,6 +110,8 @@ _Nothing is really completed, but you need to stop somewhere._
 #### [USB Tech](notes/usbtech.md)
 
 #### [Ring Video Downloader](notes/ring-video-download.md)
+
+#### [Extract message history on OSX](notes/dump_imessage_history.md)
 
 ## Awesome Lists
 
