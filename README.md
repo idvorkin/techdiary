@@ -1,32 +1,32 @@
 # Igor's Technical Diary
 
+- Major Research Areas and Musing
+  - [Cloud first applications](notes/cloud-first-applications.md)
+  - [Machine Learning](notes/machine-learning.md)
+  - [Security](notes/better-security-design.md)
+- Minor Tips
+  - [VLC Player](notes/vlc_player.md)
+  - [Pandas](notes/pandas-tutorial.md)
+  - [iOS Usage](notes/ios.md)
+  - [Mosh](notes/mosh.md)
+  - [USB Tech](notes/usbtech.md)
+  - [Visual Vocabulary](notes/visual-vocabulary.md)
+- Complete Projects
+  - [Ring Video Downloader](notes/ring-video-download.md)
+  - [Extract message history on OSX](notes/dump_imessage_history.md)
+- In Progress Projects
+    -  [Deploy a private web site](notes/private_web_site.md)
+    -  [Windows Virtual Desktop](notes/virtual-desktops.md)
+    -  [Alexa Skill](notes/alexa-skill.md)
+    -  [ManageMe](https://github.com/idvorkin/manage-me)
+
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
-- [Knowledge dumps](#knowledge-dumps)
-        - [Cloud first applications](#cloud-first-applications)
-        - [Machine Learning for Igors](#machine-learning-for-igors)
-        - [All things security](#all-things-security)
 - [Projects](#projects)
     - [To be started](#to-be-started)
-    - [In progress](#in-progress)
-        - [Deploy a private web site](#deploy-a-private-web-site)
-        - [Visual Vocabulary](#visual-vocabulary)
-        - [Windows Virtual Desktop](#windows-virtual-desktop)
-        - [Alexa Skill](#alexa-skill)
-        - [ManageMe](#manageme)
-    - [Blocked](#blocked)
-        - [Redshift from Linqpad](#redshift-from-linqpad)
-        - [Debug clr using windbg](#debug-clr-using-windbg)
+    - [Not worth completing](#not-worth-completing)
     - [Too early to start](#too-early-to-start)
-    - [Completed](#completed)
-        - [VLC Player Tips](#vlc-player-tips)
-        - [Pandas Tips](#pandas-tips)
-        - [iOS Usage](#ios-usage)
-        - [Mosh](#mosh)
-        - [USB Tech](#usb-tech)
-        - [Ring Video Downloader](#ring-video-downloader)
-        - [Extract message history on OSX](#extract-message-history-on-osx)
 - [Awesome Lists](#awesome-lists)
     - [Markdown](#markdown)
     - [VIM](#vim)
@@ -57,61 +57,24 @@
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
 
-## Knowledge dumps
-
-#### [Cloud first applications](notes/cloud-first-applications.md)
-
-#### [Machine Learning for Igors](notes/machine-learning.md)
-
-#### [All things security](notes/better-security-design.md)
-
 ## Projects
 
 ### To be started
 
-### In progress
 
-#### [Deploy a private web site](notes/private_web_site.md)
+### Not worth completing
 
-#### [Visual Vocabulary](notes/visual-vocabulary.md)
+- [Redshift from Linqpad](notes/linqpad_from_redshift.md)
 
-#### [Windows Virtual Desktop](notes/virtual-desktops.md)
+  Linqpad is awesome, but it'll be a while till I get back to an MS shop.
 
-#### [Alexa Skill](notes/alexa-skill.md)
+- [Debug clr using windbg](notes/windbg.md)
 
-#### [ManageMe](https://github.com/idvorkin/manage-me)
-
-### Blocked
-
-#### [Redshift from Linqpad](notes/linqpad_from_redshift.md)
-
-    Linqpad is awesome, but it'll be a while till I get back to an MS shop.
-
-#### [Debug clr using windbg](notes/windbg.md)
-
-    I'm too old to pound on assembly language. Although I'm still proud of [this](http://ig2600.blogspot.com/2012/12/run-time-costs-of-small-operations-in-c.html)
+  I'm too old to pound on assembly language. Although I'm still proud of [this](http://ig2600.blogspot.com/2012/12/run-time-costs-of-small-operations-in-c.html)
 
 ### Too early to start
 
 _The bleeding edge can be fun, but you burn lots of time dealing with sharp edges. Here's my list of things I want to get into once they stabilize._
-
-### Completed
-
-_Nothing is really completed, but you need to stop somewhere._
-
-#### [VLC Player Tips](notes/vlc_player.md)
-
-#### [Pandas Tips](notes/pandas-tutorial.md)
-
-#### [iOS Usage](notes/ios.md)
-
-#### [Mosh](notes/mosh.md)
-
-#### [USB Tech](notes/usbtech.md)
-
-#### [Ring Video Downloader](notes/ring-video-download.md)
-
-#### [Extract message history on OSX](notes/dump_imessage_history.md)
 
 ## Awesome Lists
 
