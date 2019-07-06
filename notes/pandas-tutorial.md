@@ -2,25 +2,31 @@
 
 A place to store my hard earned pandas learnings.
 
+<!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
 - [Misc](#misc)
-  - [Jupyter set to window width](#jupyter-set-to-window-width)
-  - [Jupyter run on a linux box, access from linux.](#jupyter-run-on-a-linux-box-access-from-linux)
-  - [ipython magic commands](#ipython-magic-commands)
-  - [fix column width to match terminal](#fix-column-width-to-match-terminal)
-  - [List columns](#list-columns)
-  - [Sorting](#sorting)
+    - [Jupyter set to window width](#jupyter-set-to-window-width)
+    - [Jupyter run on a linux box, access from linux.](#jupyter-run-on-a-linux-box-access-from-linux)
+    - [ipython magic commands](#ipython-magic-commands)
+    - [fix column width to match terminal](#fix-column-width-to-match-terminal)
+    - [List columns](#list-columns)
+    - [Sorting](#sorting)
 - [Working with categories](#working-with-categories)
-  - [Convert column type to category](#convert-column-type-to-category)
-  - [Count values in category](#count-values-in-category)
-  - [Histogram column](#histogram-column)
-  - [Custom Apply to a row](#custom-apply-to-a-row)
+    - [Convert column type to category](#convert-column-type-to-category)
+    - [Count values in category](#count-values-in-category)
+    - [Histogram column](#histogram-column)
+    - [Custom Apply to a row](#custom-apply-to-a-row)
 - [Pivoting](#pivoting)
-  - [Simple pivot table by count](#simple-pivot-table-by-count)
-  - [Simple pivot table by percent change](#simple-pivot-table-by-percent-change)
+    - [Simple pivot table by count](#simple-pivot-table-by-count)
+    - [Simple pivot table by percent change](#simple-pivot-table-by-percent-change)
+- [Pandas for those that want to go faster.](#pandas-for-those-that-want-to-go-faster)
+- [Plotting](#plotting)
+- [Reshaping Data](#reshaping-data)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 
 <!-- vim-markdown-toc -->
+<!-- prettier-ignore-end -->
 
 ### Misc
 
@@ -84,3 +90,27 @@ A place to store my hard earned pandas learnings.
 #### Simple pivot table by percent change
 
     pv = pd.pivot_table(df,index=pd.Grouper(freq='2W'), columns="column_1",values="column2", aggfunc='count').pcnt_change()
+
+### Pandas for those that want to go faster.
+
+* [Modin](http://www.google.com?btnI=1&q=Modin) - Parallel DataFrame, design for compatiblity first
+* [Dask](http://www.google.com?btnI=1&q=Dask) - Parallel DataFrame - but use Modin instead)
+* [Swifter](https://github.com/jmcarpenter2/swifter)- Smart Function Application (will use Numba, or Dask, or etc)
+* [Numba](http://www.google.com?btnI=1&q=Numba) - JIT your functions, but use Swifter instead
+
+### Plotting
+
+* [Anatomy of matploblib](https://github.com/matplotlib/AnatomyOfMatplotlib)
+
+Gotchyas:
+
+* Axes is a synonym for subplot. It should not be confused with axis.
+
+
+### Reshaping Data
+
+* [Official  Pandas Tutorial](https://pandas.pydata.org/pandas-docs/stable/user_guide/reshaping.html)
+
+### Exploratory Data Analysis
+
+* [Pandas-Profiling](https://pandas-profiling.github.io/pandas-profiling/)
