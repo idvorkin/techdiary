@@ -93,24 +93,24 @@ A place to store my hard earned pandas learnings.
 
 ### Pandas for those that want to go faster.
 
-* [Modin](https://github.com/modin-project/modin) - Parallel DataFrame, design for compatiblity first
-* [Dask](https://docs.dask.org/en/latest/) - Parallel DataFrame - but use Modin instead)
-* [Swifter](https://github.com/jmcarpenter2/swifter)- Smart Function Application (will use Numba, or Dask, or etc)
-* [Numba](http://www.google.com?btnI=1&q=Numba) - JIT your functions, but use Swifter instead
+- [Modin](https://github.com/modin-project/modin) - Parallel DataFrame, design for compatiblity first
+- [Dask](https://docs.dask.org/en/latest/) - Parallel DataFrame - but use Modin instead)
+- [Swifter](https://github.com/jmcarpenter2/swifter)- Smart Function Application (will use Numba, or Dask, or etc)
+- [Numba](http://www.google.com?btnI=1&q=Numba) - JIT your functions, but use Swifter instead
 
 ### Plotting
 
-* [Anatomy of matploblib](https://github.com/matplotlib/AnatomyOfMatplotlib)
+- [Anatomy of matploblib](https://github.com/matplotlib/AnatomyOfMatplotlib)
+- [Matplotlib by J.R. Johansson](https://github.com/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 
 Gotchyas:
 
-* Axes is a synonym for subplot. It should not be confused with axis.
-
+- Axes is a synonym for subplot. It should not be confused with axis.
 
 ### Reshaping Data
 
-* [Official  Pandas Tutorial](https://pandas.pydata.org/pandas-docs/stable/user_guide/reshaping.html)
+- [Official Pandas Tutorial](https://pandas.pydata.org/pandas-docs/stable/user_guide/reshaping.html)
 
 ### Exploratory Data Analysis
 
-* [Pandas-Profiling](https://pandas-profiling.github.io/pandas-profiling/)
+- [Pandas-Profiling](https://pandas-profiling.github.io/pandas-profiling/)
