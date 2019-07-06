@@ -93,8 +93,8 @@ A place to store my hard earned pandas learnings.
 
 ### Pandas for those that want to go faster.
 
-* [Modin](http://www.google.com?btnI=1&q=Modin) - Parallel DataFrame, design for compatiblity first
-* [Dask](http://www.google.com?btnI=1&q=Dask) - Parallel DataFrame - but use Modin instead)
+* [Modin](https://github.com/modin-project/modin) - Parallel DataFrame, design for compatiblity first
+* [Dask](https://docs.dask.org/en/latest/) - Parallel DataFrame - but use Modin instead)
 * [Swifter](https://github.com/jmcarpenter2/swifter)- Smart Function Application (will use Numba, or Dask, or etc)
 * [Numba](http://www.google.com?btnI=1&q=Numba) - JIT your functions, but use Swifter instead
 
