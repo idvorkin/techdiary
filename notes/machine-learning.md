@@ -2,74 +2,6 @@
 
 ## Why?
 
-<!-- vim-markdown-toc GFM -->
-
-    * [Success criteria For this post](#success-criteria-for-this-post)
-
-- [ML at 10,000 feet](#ml-at-10000-feet)
-- [Hierarchy of Abstraction in the ML space](#hierarchy-of-abstraction-in-the-ml-space)
-  - [Using an ML Model](#using-an-ml-model)
-  - [Building an ML model by training an ML algorithm.](#building-an-ml-model-by-training-an-ml-algorithm)
-  - [Implementing ML Algorithm](#implementing-ml-algorithm)
-  - [Converting an ML model to hardware](#converting-an-ml-model-to-hardware)
-- [What category of problems can ML algorithms solve](#what-category-of-problems-can-ml-algorithms-solve)
-  - [Classification](#classification)
-  - [Regression](#regression)
-  - [Clustering](#clustering)
-  - [Dimension Reduction](#dimension-reduction)
-- [Other ML Concepts](#other-ml-concepts)
-  - [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
-  - [Batch vs Online](#batch-vs-online)
-  - [Instance vs Model](#instance-vs-model)
-- [How to measure the effectiveness of ML by problem category.](#how-to-measure-the-effectiveness-of-ml-by-problem-category)
-  - [Regression - Distance from predication to actual](#regression---distance-from-predication-to-actual)
-  - [Classification - Precision and Recall](#classification---precision-and-recall)
-  - [Clustering - its complicated](#clustering---its-complicated)
-  - [PCA - its complicated](#pca---its-complicated)
-- [About ML errors](#about-ml-errors)
-  - [The ML learning challenges](#the-ml-learning-challenges)
-  - [Model and feature interpretability](#model-and-feature-interpretability)
-  - [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
-  - [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
-  - [HP face tracking doesn't recognize black people](#hp-face-tracking-doesnt-recognize-black-people)
-  - [Clever Hans - the horse that could count](#clever-hans---the-horse-that-could-count)
-  - [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
-- [Computing Power, Hardware,](#computing-power-hardware)
-  - [Why can't a big computer do all the tuning](#why-cant-a-big-computer-do-all-the-tuning)
-  - [Why GPU vs CPU](#why-gpu-vs-cpu)
-  - [What is a tensor](#what-is-a-tensor)
-  - [What do on device ML cores do](#what-do-on-device-ml-cores-do)
-  - [Model building vs Model Execution](#model-building-vs-model-execution)
-  - [Computation power required for cat pictures](#computation-power-required-for-cat-pictures)
-- [The steps in training an ML model.](#the-steps-in-training-an-ml-model)
-  - [Requirements gathering and problem definition](#requirements-gathering-and-problem-definition)
-  - [Exploratory Data analysis](#exploratory-data-analysis)
-  - [Data preparation](#data-preparation)
-  - [Algorithm Selection](#algorithm-selection)
-  - [Training](#training)
-  - [Evaluation and hyper parameter tuning](#evaluation-and-hyper-parameter-tuning)
-  - [Validation](#validation)
-  - [Present Results, Use it](#present-results-use-it)
-- [ML Algorithms](#ml-algorithms)
-  - [Regression](#regression-1)
-  - [PCA](#pca)
-  - [SVM](#svm)
-  - [Neural Networks](#neural-networks)
-  - [Deep learning](#deep-learning)
-- [Topics to be explored](#topics-to-be-explored)
-  - [DevOps for ML](#devops-for-ml)
-  - [Ethical AI](#ethical-ai)
-  - [Measuring within the wider business context](#measuring-within-the-wider-business-context)
-  - [Guard rails for inputs versus training data](#guard-rails-for-inputs-versus-training-data)
-- [Misc Topics](#misc-topics)
-  - [What is ML vs AI.](#what-is-ml-vs-ai)
-  - [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
-  - [Why is ML so complicated](#why-is-ml-so-complicated)
-- [Resources](#resources)
-  - [What should I read to learn more](#what-should-i-read-to-learn-more)
-
-<!-- vim-markdown-toc -->
-
 ### Success criteria For this post
 
 - I know the problems ML can solve, and the ML vocabulary.
@@ -77,6 +9,76 @@
 - I can explain ML to a non-ML programmer, a PM or an executive.
 - I can make some PoC projects to test my understanding.
 - I can keep track of the ML concepts I've learned and cross check them with a PhD wielding ML guru.
+
+<!-- prettier-ignore-start -->
+<!-- vim-markdown-toc GFM -->
+
+- [ML at 10,000 feet](#ml-at-10000-feet)
+- [Hierarchy of Abstraction in the ML space](#hierarchy-of-abstraction-in-the-ml-space)
+    - [Disambiguating the word Model](#disambiguating-the-word-model)
+    - [Using an ML Model](#using-an-ml-model)
+    - [Building an ML model by training an ML algorithm.](#building-an-ml-model-by-training-an-ml-algorithm)
+    - [Implementing ML Algorithm](#implementing-ml-algorithm)
+    - [Converting an ML model to hardware](#converting-an-ml-model-to-hardware)
+- [What category of problems can ML algorithms solve](#what-category-of-problems-can-ml-algorithms-solve)
+    - [Classification](#classification)
+    - [Regression](#regression)
+    - [Clustering](#clustering)
+    - [Dimension Reduction](#dimension-reduction)
+- [Other ML Concepts](#other-ml-concepts)
+    - [Supervised vs Unsupervised vs Semi Supervised](#supervised-vs-unsupervised-vs-semi-supervised)
+    - [Batch vs Online](#batch-vs-online)
+    - [Instance vs Model](#instance-vs-model)
+- [How to measure the effectiveness of ML by problem category.](#how-to-measure-the-effectiveness-of-ml-by-problem-category)
+    - [Regression - Distance from predication to actual](#regression---distance-from-predication-to-actual)
+    - [Classification - Precision and Recall](#classification---precision-and-recall)
+    - [Clustering - its complicated](#clustering---its-complicated)
+    - [PCA - its complicated](#pca---its-complicated)
+- [About ML errors](#about-ml-errors)
+    - [The ML learning challenges](#the-ml-learning-challenges)
+    - [Model and feature interpretability](#model-and-feature-interpretability)
+    - [ML Image Recognition Optical Illusions](#ml-image-recognition-optical-illusions)
+    - [Google Photos recognizing black people as gorillas](#google-photos-recognizing-black-people-as-gorillas)
+    - [HP face tracking doesn't recognize black people](#hp-face-tracking-doesnt-recognize-black-people)
+    - [Clever Hans - the horse that could count](#clever-hans---the-horse-that-could-count)
+    - [Likely hood of death from Pneumonia given asthma](#likely-hood-of-death-from-pneumonia-given-asthma)
+- [Computing Power, Hardware,](#computing-power-hardware)
+    - [Why can't a big computer do all the tuning](#why-cant-a-big-computer-do-all-the-tuning)
+    - [Why GPU vs CPU](#why-gpu-vs-cpu)
+    - [What is a tensor](#what-is-a-tensor)
+    - [What do on device ML cores do](#what-do-on-device-ml-cores-do)
+    - [Model building vs Model Execution](#model-building-vs-model-execution)
+    - [Computation power required for cat pictures](#computation-power-required-for-cat-pictures)
+- [The steps in training an ML model.](#the-steps-in-training-an-ml-model)
+    - [Requirements gathering and problem definition](#requirements-gathering-and-problem-definition)
+    - [Exploratory Data analysis](#exploratory-data-analysis)
+    - [Data preparation](#data-preparation)
+    - [Model Family Selection](#model-family-selection)
+    - [Feature Section](#feature-section)
+    - [Training](#training)
+    - [Evaluation and tuning of model family features and hyper paramaters](#evaluation-and-tuning-of-model-family-features-and-hyper-paramaters)
+    - [Validation](#validation)
+    - [Present Results, Use it](#present-results-use-it)
+- [ML Algorithms](#ml-algorithms)
+    - [Regression](#regression-1)
+    - [PCA](#pca)
+    - [SVM](#svm)
+    - [Neural Networks](#neural-networks)
+    - [Deep learning](#deep-learning)
+- [Topics to be explored](#topics-to-be-explored)
+    - [DevOps for ML](#devops-for-ml)
+    - [Ethical AI](#ethical-ai)
+    - [Measuring within the wider business context](#measuring-within-the-wider-business-context)
+    - [Guard rails for inputs versus training data](#guard-rails-for-inputs-versus-training-data)
+- [Misc Topics](#misc-topics)
+    - [What is ML vs AI.](#what-is-ml-vs-ai)
+    - [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
+    - [Why is ML so complicated](#why-is-ml-so-complicated)
+- [Resources](#resources)
+    - [What should I read to learn more](#what-should-i-read-to-learn-more)
+
+<!-- vim-markdown-toc -->
+<!-- prettier-ignore-end -->
 
 ## ML at 10,000 feet
 
@@ -88,15 +90,17 @@ The human version of ML would be following your intuition. E.g making a stir fry
 
 ## Hierarchy of Abstraction in the ML space
 
-Programming has levels of abstraction and so does ML. The levels from most general to most specific are below.
+Before we get started, the term "model" is very overloaded, lets use these definitions.
 
 ### Disambiguating the word Model
 
 The word model is overloaded - Wickhan describes the following terms ( but I haven't yet re-written the article):
 
-**Model Family** - The class of ML algorithm being used e.g. Linear Regression, Recurrant Neural Network.
-**Model Form** - The model family, the features and the hyper parameters
-**Fitted Model** - Model form fit to data and able to perform estimates.
+- **Model Family** - The class of ML algorithm being used e.g. Linear Regression, Recurrant Neural Network.
+- **Model Form** - The model family, the features and the hyper parameters
+- **Fitted Model** - Model form fit to data and able to perform estimates.
+
+Programming has levels of abstraction and so does ML. The levels from most general to most specific are below.
 
 ### Using an ML Model
 
@@ -363,6 +367,8 @@ That's what's happening in ML today. The issue is the field is nascent and tools
 ## Resources
 
 ### What should I read to learn more
+
+[Machine learning is like sex in high school](https://vas3k.com/blog/machine_learning/))
 
 [Google's rules of ML](https://developers.google.com/machine-learning/rules-of-ml/)
 
