@@ -368,8 +368,7 @@ That's what's happening in ML today. The issue is the field is nascent and tools
 
 ### What should I read to learn more
 
-[Machine learning is like sex in high school](https://vas3k.com/blog/machine_learning/))
-
-* [Google's rules of ML](https://developers.google.com/machine-learning/rules-of-ml/)
-* [Hands on machine learning with SciKit-Learn and tensor flow](https://www.amazon.com//dp/1491962291)
-* [Great introduction to word embeddings](http://jalammar.github.io/illustrated-word2vec)
+- [Machine learning is like sex in high school](https://vas3k.com/blog/machine_learning/)
+- [Google's rules of ML](https://developers.google.com/machine-learning/rules-of-ml/)
+- [Hands on machine learning with SciKit-Learn and tensor flow](https://www.amazon.com//dp/1491962291)
+- [Great introduction to word embeddings](http://jalammar.github.io/illustrated-word2vec)
