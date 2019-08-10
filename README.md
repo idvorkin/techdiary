@@ -23,40 +23,37 @@
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
-    - [Projects](#projects)
-        - [To be started](#to-be-started)
-        - [Not worth completing](#not-worth-completing)
-        - [Too early to start](#too-early-to-start)
-    - [Awesome Lists](#awesome-lists)
-        - [Markdown](#markdown)
-        - [VIM](#vim)
-        - [C Sharp](#c-sharp)
-        - [Java](#java)
-        - [Python](#python)
-        - [Typescript](#typescript)
-        - [Apple](#apple)
-        - [Home Automation](#home-automation)
-        - [Powershell](#powershell)
-        - [Text manipulation tools](#text-manipulation-tools)
-            - [jq](#jq)
-        - [Cool shell tools](#cool-shell-tools)
-        - [Natural Language Processing](#natural-language-processing)
-        - [Azure One Liners](#azure-one-liners)
-            - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
-        - [git](#git)
-        - [Github](#github)
-        - [SSH](#ssh)
-        - [TMUX](#tmux)
-        - [Random 1-liners](#random-1-liners)
-        - [App Launchers](#app-launchers)
-        - [Chrome extensions](#chrome-extensions)
-        - [Web tools (http)](#web-tools-http)
-        - [Video Editor](#video-editor)
-- [The first -ss seeks fast to (approximately) 8min0sec, and then the second -ss seeks accurately to 9min0sec, and the -t 00:01:00 takes out a 1min0sec clip.](#the-first--ss-seeks-fast-to-approximately-8min0sec-and-then-the-second--ss-seeks-accurately-to-9min0sec-and-the--t-000100-takes-out-a-1min0sec-clip)
-- [-c copy doesn't re-transcode so faster, but has problems since needs keyframes.](#-c-copy-doesnt-re-transcode-so-faster-but-has-problems-since-needs-keyframes)
-- [ffmpeg -ss 00:08:00 -i $infile -ss 00:01:00 -t 00:01:00 -c copy $outfile](#ffmpeg--ss-000800--i-infile--ss-000100--t-000100--c-copy-outfile)
-        - [Linters and formatters](#linters-and-formatters)
-        - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+- [Projects](#projects)
+    - [To be started](#to-be-started)
+    - [Not worth completing](#not-worth-completing)
+    - [Too early to start](#too-early-to-start)
+- [Awesome Lists](#awesome-lists)
+    - [Markdown](#markdown)
+    - [VIM](#vim)
+    - [C Sharp](#c-sharp)
+    - [Java](#java)
+    - [Python](#python)
+    - [Typescript](#typescript)
+    - [Apple](#apple)
+    - [Home Automation](#home-automation)
+    - [Powershell](#powershell)
+    - [Text manipulation tools](#text-manipulation-tools)
+        - [jq](#jq)
+    - [Cool shell tools](#cool-shell-tools)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Azure One Liners](#azure-one-liners)
+        - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
+    - [git](#git)
+    - [Github](#github)
+    - [SSH](#ssh)
+    - [TMUX](#tmux)
+    - [Random 1-liners](#random-1-liners)
+    - [App Launchers](#app-launchers)
+    - [Chrome extensions](#chrome-extensions)
+    - [Web tools (http)](#web-tools-http)
+    - [Video Manipulation Tools](#video-manipulation-tools)
+    - [Linters and formatters](#linters-and-formatters)
+    - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -275,7 +272,7 @@ Here's an example of sending content to a web hook which would send a message to
 
     http -pHBhb POST https://hooks.chime.aws/incomingwebhooks/botaddress -- Content=We love PMs
 
-### Video Editor
+### Video Manipulation Tools
 
 Decent cross plat video editors.
 
@@ -290,23 +287,14 @@ Convert video formats
 
 Trimming
 
-
-    https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video As
-    other people mentioned, putting -ss before (much faster) or after (more
-    accurate) the -i makes a big difference. The section "Fast And Accurate
-    Seeking" on the ffmpeg seek page tells you how to get both, and I have used
-    it, and it makes a big difference. Basically you put -ss before AND after
-    the -i, just make sure to leave enough time before where you want to start
-    cutting to have another key frame. Example: If you want to make a 1-minute
-    clip, from 9min0sec to 10min 0sec in Video.mp4, you could do it both
-    quickly and accurately using:
+https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video Asother people mentioned, putting -ss before (much faster) or after (moreaccurate) the -i makes a big difference. The section "Fast And AccurateSeeking" on the ffmpeg seek page tells you how to get both, and I have usedit, and it makes a big difference. Basically you put -ss before AND afterthe -i, just make sure to leave enough time before where you want to startcutting to have another key frame. Example: If you want to make a 1-minuteclip, from 9min0sec to 10min 0sec in Video.mp4, you could do it bothquickly and accurately using:
 
     ffmpeg -ss 00:08:00 -i Video.mp4 -ss 00:01:00 -t 00:01:00 -c copy VideoClip.mp4
 
+The first -ss seeks fast to (approximately) 8min0sec, and then the second    -ss seeks accurately to 9min0sec, and the -t 00:01:00 takes out a 1min0sec  clip. -c copy doesn't re-transcode so faster, but has problems since needs    keyframes.
 
-#The first -ss seeks fast to (approximately) 8min0sec, and then the second -ss seeks accurately to 9min0sec, and the -t 00:01:00 takes out a 1min0sec clip.
-# -c copy doesn't re-transcode so faster, but has problems since needs keyframes.
-#    ffmpeg -ss 00:08:00 -i $infile -ss 00:01:00 -t 00:01:00 -c copy $outfile
+    ffmpeg -ss 00:08:00 -i $infile -ss 00:01:00 -t 00:01:00 -c copy $outfile
+
 
 ### Linters and formatters
 
