@@ -276,8 +276,8 @@ Here's an example of sending content to a web hook which would send a message to
 
 Decent cross plat video editors.
 
-OpenShot - Video editor with good splicing.
-[Lossless cutting](https://github.com/mifi/lossless-cut) - A tool to make lossless cuts.
+* (OpenShot)[https://www.openshot.org/] - Video editor with good splicing.
+* [Lossless cutting](https://github.com/mifi/lossless-cut) - A tool to make lossless cuts.
 
 ffmpeg recipes:
 
