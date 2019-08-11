@@ -239,6 +239,7 @@ https://gist.github.com/MohamedAlaa/2961058
 - C-A ? - list shortcuts (then search using / )
 - C-A swap-window -t -1 -- Move window to the left
 - C-A swap-window -t 0 -- Move window to the front
+- C-A x - kill-pane
 
 ### Random 1-liners
 
