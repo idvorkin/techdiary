@@ -7,5 +7,5 @@ Load SOS
     sxe ld:clr
 
 Dump callstack
-  
- !clrstack
+
+    !clrstack
