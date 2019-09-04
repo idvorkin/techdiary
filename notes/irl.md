@@ -22,8 +22,8 @@
 
 ## Physical Health
 
-[Physical Health](https://idvorkin.github.io/physical-health) - My original article on physical health
-[Tech for health](http://idvorkin.github.io/tech-health-toys) - A list of tech products I've used and tried.
+* [Physical Health](https://idvorkin.github.io/physical-health) - My original article on physical health
+* [Tech for health](http://idvorkin.github.io/tech-health-toys) - A list of tech products I've used and tried.
 
 ### Calf Health
 
