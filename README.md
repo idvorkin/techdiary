@@ -54,6 +54,7 @@
     - [Video Manipulation Tools](#video-manipulation-tools)
     - [Linters and formatters](#linters-and-formatters)
     - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+    - [Car Tech](#car-tech)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -325,3 +326,12 @@ Sometimes your repo gets screwed up and needs to be fixed. In that case, erase a
     git checkout .
 
 Also, can set a single file in vim by settings `set ff=unix`
+
+### Car Tech
+
+I've gotten 3 cheap peices of aftermarket tech that transformed my car to awesomeness:
+
+* Remote car starter - ~ 200$ and you can start your car from the house so that it's warm and toasty when you get in.
+* Wireless Air Play - ~ 500$. OMG - having CarPlay (especially on iOS 13) without plugging in yoru phone - wow!
+* Back up Camera ~ 30$.  OMG - Hard to believe I went years without one.
+
