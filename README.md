@@ -1,65 +1,4 @@
 # Igor's Technical Diary
-
-- Major Research Areas and Musing
-  - [Cloud first applications](notes/cloud-first-applications.md)
-  - [Machine Learning](notes/machine-learning.md)
-  - [Security](notes/better-security-design.md)
-- Minor Tips
-  - [VLC Player](notes/vlc_player.md)
-  - [Pandas](notes/pandas-tutorial.md)
-  - [iOS Usage](notes/ios.md)
-  - [Mosh](notes/mosh.md)
-  - [USB Tech](notes/usbtech.md)
-  - [Visual Vocabulary](notes/visual-vocabulary.md)
-- Complete Projects
-  - [Ring Video Downloader](notes/ring-video-download.md)
-  - [Extract message history on OSX](notes/dump_imessage_history.md)
-- In Progress Projects
-    -  [Deploy a private web site](notes/private_web_site.md)
-    -  [Windows Virtual Desktop](notes/virtual-desktops.md)
-    -  [Alexa Skill](notes/alexa-skill.md)
-    -  [ManageMe](https://github.com/idvorkin/manage-me)
-
-<!-- prettier-ignore-start -->
-<!-- vim-markdown-toc GFM -->
-
-- [Projects](#projects)
-    - [To be started](#to-be-started)
-    - [Not worth completing](#not-worth-completing)
-    - [Too early to start](#too-early-to-start)
-- [Awesome Lists](#awesome-lists)
-    - [Markdown](#markdown)
-    - [VIM](#vim)
-    - [C Sharp](#c-sharp)
-    - [Java](#java)
-    - [Python](#python)
-    - [Typescript](#typescript)
-    - [Apple](#apple)
-    - [Home Automation](#home-automation)
-    - [Powershell](#powershell)
-    - [Text manipulation tools](#text-manipulation-tools)
-        - [jq](#jq)
-    - [Cool shell tools](#cool-shell-tools)
-    - [Natural Language Processing](#natural-language-processing)
-    - [Azure One Liners](#azure-one-liners)
-        - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
-    - [git](#git)
-    - [Github](#github)
-    - [SSH](#ssh)
-    - [TMUX](#tmux)
-    - [Random 1-liners](#random-1-liners)
-    - [App Launchers](#app-launchers)
-    - [Chrome extensions](#chrome-extensions)
-    - [Web tools (http)](#web-tools-http)
-    - [Video Manipulation Tools](#video-manipulation-tools)
-    - [Linters and formatters](#linters-and-formatters)
-    - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
-    - [Car Tech](#car-tech)
-    - [Calf Health Tech](#calf-health-tech)
-
-<!-- vim-markdown-toc -->
-<!-- prettier-ignore-end -->
-
 ## Projects
 
 ### To be started
@@ -82,21 +21,39 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 ## Awesome Lists
 
 ### Markdown
-
-- Typora
-- Visual Studio Code
-
 ### VIM
-
-- Denite
-- Fugitive
-
 ### C Sharp
 
 ### Java
 
 - Lambok
 
+<!-- vim-markdown-toc GFM -->
+
+- [Python](#python)
+- [Typescript](#typescript)
+- [Apple](#apple)
+- [Home Automation](#home-automation)
+- [Powershell](#powershell)
+- [Text manipulation tools](#text-manipulation-tools)
+    - [jq](#jq)
+- [Cool shell tools](#cool-shell-tools)
+- [Natural Language Processing](#natural-language-processing)
+- [Azure One Liners](#azure-one-liners)
+    - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
+- [git](#git)
+- [Github](#github)
+- [SSH](#ssh)
+- [TMUX](#tmux)
+- [Random 1-liners](#random-1-liners)
+- [App Launchers](#app-launchers)
+- [Chrome extensions](#chrome-extensions)
+- [Web tools (http)](#web-tools-http)
+- [Video Manipulation Tools](#video-manipulation-tools)
+- [Linters and formatters](#linters-and-formatters)
+- [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+
+<!-- vim-markdown-toc -->
 ### Python
 
 - Hug: Python API generator
@@ -328,17 +285,3 @@ Sometimes your repo gets screwed up and needs to be fixed. In that case, erase a
 
 Also, can set a single file in vim by settings `set ff=unix`
 
-### Car Tech
-
-I've gotten 3 cheap peices of aftermarket tech that transformed my car to awesomeness:
-
-* Remote car starter - ~ 200$ and you can start your car from the house so that it's warm and toasty when you get in.
-* Wireless Air Play - ~ 500$. OMG - having CarPlay (especially on iOS 13) without plugging in yoru phone - wow!
-* Back up Camera ~ 30$.  OMG - Hard to believe I went years without one.
-
-### Calf Health Tech
-
-When I crossed 40 I went from easily running 4 miles hard and 20 mile bike rides to have my calfs lock up after 20 minutes of biking. I've tried various calf things here's my current list:
-
-* [Calf rocker](https://www.amazon.com/dp/B001HTFZZ8/ref=emc_b_5_t) I have the single and double, best, simple stretch
-* [Neoprene Calf Sleeves](https://www.amazon.com/Support-Brace-Adjustable-Splint-Compression/dp/B074734XJY/) I've tried socks but they are a pain to get on, and not adjustable. These things wrap on, keep you warm, and are wonderful. Highly recommend.
