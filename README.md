@@ -55,6 +55,7 @@
     - [Linters and formatters](#linters-and-formatters)
     - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
     - [Car Tech](#car-tech)
+    - [Calf Health Tech](#calf-health-tech)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -335,3 +336,9 @@ I've gotten 3 cheap peices of aftermarket tech that transformed my car to awesom
 * Wireless Air Play - ~ 500$. OMG - having CarPlay (especially on iOS 13) without plugging in yoru phone - wow!
 * Back up Camera ~ 30$.  OMG - Hard to believe I went years without one.
 
+### Calf Health Tech
+
+When I crossed 40 I went from easily running 4 miles hard and 20 mile bike rides to have my calfs lock up after 20 minutes of biking. I've tried various calf things here's my current list:
+
+* [Calf rocker](https://www.amazon.com/dp/B001HTFZZ8/ref=emc_b_5_t) I have the single and double, best, simple stretch
+* [Neoprene Calf Sleeves](https://www.amazon.com/Support-Brace-Adjustable-Splint-Compression/dp/B074734XJY/) I've tried socks but they are a pain to get on, and not adjustable. These things wrap on, keep you warm, and are wonderful. Highly recommend.
