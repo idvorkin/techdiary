@@ -88,7 +88,7 @@ The human version of programming is following a check list which someone else pr
 
 The human version of ML would be following your intuition. E.g making a stir fry from the stuff you find in the fridge. Your intuition which you can't even articulate, is built through countless experiences. That intuition knows not to put a banana in your stirfry.
 
-![ML Image](images/ml_vs_classic.jpg)
+![ML Image](/images/ml_vs_classic.jpg)
 
 ## Hierarchy of Abstraction in the ML space
 
