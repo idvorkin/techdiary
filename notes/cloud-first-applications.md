@@ -66,18 +66,22 @@ We often talk about containers being a light weight VM, which they are. However,
 ### Communication buses: Envoy
 
 
-[Envoy](https://www.envoyproxy.io/docs/envoy/latest/intro/what_is_envoy) is a cool idea. Make the communication mesh application transparent. From their intro:
+[Envoy](https://www.envoyproxy.io/docs/envoy/latest/intro/what_is_envoy) makes communication application transparent. From their intro:
 
-*Envoy is an L7 proxy and communication bus designed for large modern service oriented architectures. The project was born out of the belief that:
+Envoy is an L7 proxy and communication bus designed for large modern service oriented architectures. The project was born out of the belief that the network should be transparent to applications. When network and application problems do occur it should be easy to determine the source of the problem.
+Achieving the previously stated goal is incredibly difficult. Envoy attempts to do so by providing the following high level features:
+
+**Communication Bus**
+
+![Communction Mesh](https://www.envoyproxy.io/docs/envoy/latest/_images/service_to_service.svg)
+
+Out of process architecture: Envoy is a self contained process that is designed to run alongside every application server. All of the Envoys form a transparent communication mesh in which each application sends and receives messages to and from localhost and is unaware of the network topology. The out of process architecture has two substantial benefits over the traditional library approach to service to service communication. 1) Langauge independance - everyone talks to localhost 2) Auto upgrade - since proxy service is injected into the containers.
 
 
-The network should be transparent to applications. When network and application problems do occur it should be easy to determine the source of the problem.
+**L7 Proxy**
+![L7 Proxy](https://www.envoyproxy.io/docs/envoy/latest/_images/front_proxy.svg)
+Similar to Nginx or HA Proxy, or AWS ELB, terminate the https and redirect to the apps.
 
-
-In practice, achieving the previously stated goal is incredibly difficult. Envoy attempts to do so by providing the following high level features:
-
-
-Out of process architecture: Envoy is a self contained process that is designed to run alongside every application server. All of the Envoys form a transparent communication mesh in which each application sends and receives messages to and from localhost and is unaware of the network topology. The out of process architecture has two substantial benefits over the traditional library approach to service to service communication*
 
 ## New patterns
 
