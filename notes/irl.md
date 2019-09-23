@@ -5,6 +5,7 @@
 
 - [Physical Health](#physical-health)
     - [Calf Health](#calf-health)
+    - [Knee Health](#knee-health)
     - [Standing Desks](#standing-desks)
     - [Under Desk Exercise Equipment](#under-desk-exercise-equipment)
 - [Emotional Health](#emotional-health)
@@ -31,6 +32,14 @@ When I crossed 40 I went from easily running 4 miles hard and 20 mile bike rides
 
 * [Calf rocker](https://www.amazon.com/dp/B001HTFZZ8/ref=emc_b_5_t) I have the single and double, best, simple stretch
 * [Neoprene Calf Sleeves](https://www.amazon.com/Support-Brace-Adjustable-Splint-Compression/dp/B074734XJY/) I've tried socks but they are a pain to get on, and not adjustable. These things wrap on, keep you warm, and are wonderful. Highly recommend.
+
+### Knee Health
+
+Lots of sleeves out there, I recommend the most flexible one that provides the pain relief. For me that:
+
+* [Knee brace Softest ](https://www.amazon.com/gp/product/B005BINV84/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Knee brace more support ](https://www.amazon.com/gp/product/B019GDFN6W/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Knee Strap](https://www.amazon.com/gp/product/B019GDFN6W/ref=ppx_yo_dt_b_search_asin_title?://www.amazon.com/gp/product/B01MYGDB2L/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
 
 ### Standing Desks
