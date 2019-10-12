@@ -59,7 +59,61 @@ We often talk about containers being a light weight VM, which they are. However,
 - Service Bus
 - Methos
 
+## Front Door -  AWS API Gateway. 
+
+[The AWS SaaS for front door is API Gateway,](https://aws.amazon.com/blogs/aws/amazon-api-gateway-build-and-run-scalable-application-backends/)  and it provides several capabilities. 
+
+* Scalable & Efficient – Serverless auto scale pay for usage.
+* Self-Service & Highly Usable – Allow you to define, revise, deploy, and monitor APIs including SDK generation for iOS and Android.
+* Reliable – Custom error handling and error responses.
+* Secure – AWS and IAM AuthN/AuthZ.
+* Performant – Globally accessible (via CloudFront) low latency access, with data transfer to the backend over the AWS network.
+* Cost-Effective – pay-as-you-go pricing.
+
+### Caching + Throttling
+
+Can apply simple caching, and throttling to protect legacy TPS systems.
+
+### Logging/Monitoring/Alarming
+
+Can log everything to cloud watch to enable api access debugging and auto-scale alarms
+
+### Routing + API Transformation 
+
+Define a client callable REST api and map it to arbitrary backend services including paramater and representation re-mapping.  Can use this implement stages and version upgrades. 
+   
+
 ## Networking
+
+Now adays the majority of networking is done over HTTP. Here are the aspects of it. 
+
+### Connections,  data refresh and data transfer
+
+Client to server communication has three aspects, connection establishment notifications data transer.   
+
+####  Connection Establishment - Client or Service
+
+99.9% of the time you want clients to initiate connections because clients are often unaccessible due to NATs and Firewalls. 
+
+#### Data Refresh  -  Polling vs Event Driven - Web Sockets
+
+Can be either polling or event driven.  Polling has the client requesting data periodically and is the simplest method to implement, however it suffers from latency. The alternative is having the server give data to the client when it is available. 
+
+Websockets allow you to simply implement server initiated push notifications to clients. The client establishes a long pole connction, and server writes to it when available, allowing the client to listen.  
+
+
+This is resource intensive for clients, and API Gateway can “terminate” the WebSocket requests and translate them to “connect”, “read”, “write”, “disconnect” methods on a back-end service. This reduces the need for back end services to manage persistent network connections. 
+
+#### Data Transfer - REST vs WebSocket
+
+This isn’t an apples to apples comparison. But the ideas are usually compared with these concepts. 
+
+REST is a frequently used request/response protocol with easy API semantic and many years of supporting goops  (caches, routing, api semantics, debugging tools, etc).  
+
+WebSockets are frequently used when push notification or high data volumes are required, essential raw socket access ( sockets were the default network access from user mode and represented a TCP connection before the web ate teh world).  Websockets do not define a common interface, so it’s up to the app developer to define these and as a result there are few tools to support this. 
+
+I suspect a common pattern will be using WebSockets for a server initiated push notification requesting the client to call for current state. 
+
 
 ### Planes - Control, Data, and Management
 
