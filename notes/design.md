@@ -7,6 +7,8 @@
     - [Minimize your investment in goop.](#minimize-your-investment-in-goop)
     - [Picking the right level of abstraction for your business logic.](#picking-the-right-level-of-abstraction-for-your-business-logic)
     - [Is Fault Free possible](#is-fault-free-possible)
+- [Design Patterns](#design-patterns)
+- [Architecture Patterns](#architecture-patterns)
 - [References:](#references)
 
 <!-- vim-markdown-toc -->
@@ -35,6 +37,10 @@ Today's "too low level of abstraction" is yesterday's "too high level of abstrac
 ### Is Fault Free possible
 
 Nope,  you already need an "apology workflow".
+
+## Design Patterns
+
+## Architecture Patterns
 
 ## References:
 
