@@ -32,6 +32,11 @@ This page contains my knowledge of data systems. Mostly just a summary of  [Desi
     - [Kinesis - Firehouse](#kinesis---firehouse)
     - [Kinesis - Video Streams](#kinesis---video-streams)
     - [Event Bridge - Event Bus](#event-bridge---event-bus)
+- [Big Ideas](#big-ideas)
+    - [Write path vs read path](#write-path-vs-read-path)
+    - [Write path derived data system flows](#write-path-derived-data-system-flows)
+    - [Event sourcing and event logs](#event-sourcing-and-event-logs)
+    - [E2E asyncronous verification with apology workflow](#e2e-asyncronous-verification-with-apology-workflow)
 - [References](#references)
 
 <!-- vim-markdown-toc -->
@@ -142,6 +147,18 @@ Auto-upload video while it's being created. Supports video things like compressi
 ### Event Bridge - Event Bus
 
 Global integration for common providers (like web hooks) to get remapped to events. Also supports filter and transform to handle impedance mismatches. This 'solves' the web-hook 'call-home' problem.
+
+
+## Big Ideas
+
+### Write path vs read path
+
+### Write path derived data system flows
+
+### Event sourcing and event logs
+
+### E2E asyncronous verification with apology workflow
+
 
 
 ## References
