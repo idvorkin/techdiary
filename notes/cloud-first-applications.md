@@ -25,6 +25,7 @@
         - [Data Refresh - Polling vs Event Driven - Web Sockets](#data-refresh---polling-vs-event-driven---web-sockets)
         - [Data Transfer - REST vs WebSocket](#data-transfer---rest-vs-websocket)
     - [Planes - Control, Data, and Management](#planes---control-data-and-management)
+    - [Latency is real](#latency-is-real)
     - [Communication buses: Envoy](#communication-buses-envoy)
 - [New patterns](#new-patterns)
     - [Side cars](#side-cars)
@@ -128,6 +129,10 @@ I also suspect an eco system will emerge around WebSockets providing protocols a
 
 ### Planes - Control, Data, and Management
 
+### Latency is real
+
+Turns out speed of light matters, and cities are really far apart. Seattle has awesome networking, but even still [Seattle to India still takes 260ms](https://wondernetwork.com/pings/), that's a lot of latency.
+
 ### Communication buses: Envoy
 
 [Envoy](https://www.envoyproxy.io/docs/envoy/latest/intro/what_is_envoy) makes communication application transparent. From their intro:
@@ -167,7 +172,7 @@ Package functionality into a seperately injected application: https://docs.micro
 
 ## Data Systems
 
-Huge topic, see [Data Systems](notes/data-systems.md).
+Huge topic, see [Data Systems](data-systems.md).
 
 ## Challenges
 

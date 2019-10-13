@@ -6,6 +6,7 @@
   - [Security](notes/better-security-design.md)
   - [Data Systems](notes/data-systems.md)
   - [In Real Life](notes/irl.md)
+  - [Design and Architecture](notes/design.md)
 - Minor Tips
   - [VLC Player](notes/vlc_player.md)
   - [Pandas](notes/pandas-tutorial.md)
