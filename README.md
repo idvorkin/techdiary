@@ -4,6 +4,7 @@
   - [Cloud first applications](notes/cloud-first-applications.md)
   - [Machine Learning](notes/machine-learning.md)
   - [Security](notes/better-security-design.md)
+  - [Data Systems](notes/data-systems.md)
   - [In Real Life](notes/irl.md)
 - Minor Tips
   - [VLC Player](notes/vlc_player.md)
