@@ -14,15 +14,15 @@
     - [Container Orchestration](#container-orchestration)
         - [Kubertnetes](#kubertnetes)
         - [Everything else](#everything-else)
-- [Front Door -  AWS API Gateway.](#front-door----aws-api-gateway)
+- [Front Door - AWS API Gateway](#front-door---aws-api-gateway)
     - [Caching + Throttling](#caching--throttling)
     - [Logging/Monitoring/Alarming](#loggingmonitoringalarming)
     - [Routing + API Transformation](#routing--api-transformation)
     - [Websocket transformation](#websocket-transformation)
 - [Networking](#networking)
-    - [Connections,  data refresh and data transfer](#connections--data-refresh-and-data-transfer)
+    - [Connections, data refresh and data transfer](#connections-data-refresh-and-data-transfer)
         - [Connection Establishment - Client or Service](#connection-establishment---client-or-service)
-        - [Data Refresh  -  Polling vs Event Driven - Web Sockets](#data-refresh-----polling-vs-event-driven---web-sockets)
+        - [Data Refresh - Polling vs Event Driven - Web Sockets](#data-refresh---polling-vs-event-driven---web-sockets)
         - [Data Transfer - REST vs WebSocket](#data-transfer---rest-vs-websocket)
     - [Planes - Control, Data, and Management](#planes---control-data-and-management)
     - [Communication buses: Envoy](#communication-buses-envoy)
@@ -35,6 +35,7 @@
     - [Security](#security)
     - [Logging](#logging)
     - [Debugging](#debugging)
+- [Data Systems](#data-systems)
 - [Challenges](#challenges)
     - [Conways law - Four complier teams implies a four pass complier](#conways-law---four-complier-teams-implies-a-four-pass-complier)
 - [References:](#references)
@@ -68,7 +69,7 @@ We often talk about containers being a light weight VM, which they are. However,
 - Service Bus
 - Methos
 
-## Front Door - AWS API Gateway.
+## Front Door - AWS API Gateway
 
 [The AWS SaaS for front door is API Gateway,](https://aws.amazon.com/blogs/aws/amazon-api-gateway-build-and-run-scalable-application-backends/) and it provides several capabilities.
 
@@ -163,6 +164,10 @@ Package functionality into a seperately injected application: https://docs.micro
 ### Logging
 
 ### Debugging
+
+## Data Systems
+
+Huge topic, see [Data Systems](notes/data-systems.md).
 
 ## Challenges
 
