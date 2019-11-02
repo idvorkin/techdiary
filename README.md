@@ -339,3 +339,28 @@ Sometimes your repo gets screwed up and needs to be fixed. In that case, erase a
     git checkout .
 
 Also, can set a single file in vim by settings `set ff=unix`
+
+### PlantUML in GHFM
+
+A bit tricky but in a nutshell. Plantuml can render from a file using proxy mode.
+GHFM can render pictures. So ...
+
+Plantuml render from file
+
+    http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=**URL_with_uml_file**&cache_buster=**increment_to_avoid_caching**
+
+Store your plantuml file somewhere - e.g.
+
+[https://raw.github.com/idvorkin/master/sample_diagrams.puml](https://raw.github.com/idvorkin/master/sample_diagrams.puml)
+
+Then render it like an image
+
+    ![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.github.com/idvorkin/master/sample_diagrams.puml&c=1)
+
+
+![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.github.com/idvorkin/master/sample_diagrams.puml&c=1)
+
+Quirks:
+
+* Github caches, so increment the c parameter
+* PlantUml doesn't support https (really??) so the plant uml URL needs to be http
