@@ -244,6 +244,17 @@ https://gist.github.com/MohamedAlaa/2961058
 - C-A swap-window -t 0 -- Move window to the front
 - C-A x - kill-pane
 
+Tmux command line
+
+Re-attach to current session
+
+    tmux attach
+
+Force resize to current terminal size while reattaching
+
+    tmux attach -d 
+
+
 ### Random 1-liners
 
 Clean up dead MOSH instances
