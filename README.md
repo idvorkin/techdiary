@@ -18,10 +18,10 @@
   - [Ring Video Downloader](notes/ring-video-download.md)
   - [Extract message history on OSX](notes/dump_imessage_history.md)
 - In Progress Projects
-    -  [Deploy a private web site](notes/private_web_site.md)
-    -  [Windows Virtual Desktop](notes/virtual-desktops.md)
-    -  [Alexa Skill](notes/alexa-skill.md)
-    -  [ManageMe](https://github.com/idvorkin/manage-me)
+  - [Deploy a private web site](notes/private_web_site.md)
+  - [Windows Virtual Desktop](notes/virtual-desktops.md)
+  - [Alexa Skill](notes/alexa-skill.md)
+  - [ManageMe](https://github.com/idvorkin/manage-me)
 
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
@@ -57,6 +57,10 @@
     - [Video Manipulation Tools](#video-manipulation-tools)
     - [Linters and formatters](#linters-and-formatters)
     - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+    - [PlantUML](#plantuml)
+        - [PlantUML Tools](#plantuml-tools)
+        - [PlantUML in Markdown](#plantuml-in-markdown)
+        - [Quirks:](#quirks)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -64,7 +68,6 @@
 ## Projects
 
 ### To be started
-
 
 ### Not worth completing
 
@@ -86,6 +89,7 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 
 - Typora
 - Visual Studio Code
+- Macdown
 
 ### VIM
 
@@ -252,8 +256,7 @@ Re-attach to current session
 
 Force resize to current terminal size while reattaching
 
-    tmux attach -d 
-
+    tmux attach -d
 
 ### Random 1-liners
 
@@ -291,8 +294,8 @@ Here's an example of sending content to a web hook which would send a message to
 
 Decent cross plat video editors.
 
-* [OpenShot](https://www.openshot.org/) - Video editor with good splicing.
-* [Lossless cutting](https://github.com/mifi/lossless-cut) - A tool to make lossless cuts.
+- [OpenShot](https://www.openshot.org/) - Video editor with good splicing.
+- [Lossless cutting](https://github.com/mifi/lossless-cut) - A tool to make lossless cuts.
 
 ffmpeg recipes:
 
@@ -306,10 +309,9 @@ https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video Asother peop
 
     ffmpeg -ss 00:08:00 -i Video.mp4 -ss 00:01:00 -t 00:01:00 -c copy VideoClip.mp4
 
-The first -ss seeks fast to (approximately) 8min0sec, and then the second    -ss seeks accurately to 9min0sec, and the -t 00:01:00 takes out a 1min0sec  clip. -c copy doesn't re-transcode so faster, but has problems since needs    keyframes.
+The first -ss seeks fast to (approximately) 8min0sec, and then the second -ss seeks accurately to 9min0sec, and the -t 00:01:00 takes out a 1min0sec clip. -c copy doesn't re-transcode so faster, but has problems since needs keyframes.
 
     ffmpeg -ss 00:08:00 -i $infile -ss 00:01:00 -t 00:01:00 -c copy $outfile
-
 
 ### Linters and formatters
 
@@ -340,15 +342,14 @@ Sometimes your repo gets screwed up and needs to be fixed. In that case, erase a
 
 Also, can set a single file in vim by settings `set ff=unix`
 
-### PlantUML 
+### PlantUML
 
 #### PlantUML Tools
 
- * [PlantText](https://www.planttext.com/) Interactive editor with vi-keybindings, but needs a manual refresh
- * [LiveUML](https://liveuml.com/) - Interactive editor with auto-refresh
- * VS Code has a great plugin for plantuml
- * Vim has a PlantUml preview in ASCII
-
+- [PlantText](https://www.planttext.com/) Interactive editor with vi-keybindings, but needs a manual refresh
+- [LiveUML](https://liveuml.com/) - Interactive editor with auto-refresh
+- VS Code has a great plugin for plantuml
+- Vim has a PlantUml preview in ASCII
 
 #### PlantUML in Markdown
 
@@ -368,6 +369,6 @@ Then render it like an image e.g.
 
 #### Quirks:
 
-* Github caches, so increment the c parameter
-* PlantUML doesn't support https (really??) so the PlantUML server URL needs to be **http** (not https).
-* The image URL uses http, and VS Code preview doesn't allow loading things over http by default, so click that 'insecure content' button to allow rendering in unsafe mode (ugh)
+- Github caches, so increment the c parameter
+- PlantUML doesn't support https (really??) so the PlantUML server URL needs to be **http** (not https).
+- The image URL uses http, and VS Code preview doesn't allow loading things over http by default, so click that 'insecure content' button to allow rendering in unsafe mode (ugh)
