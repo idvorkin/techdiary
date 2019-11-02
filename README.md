@@ -356,7 +356,7 @@ You can't directly render PlantUML in Markdown, but you can render images, and g
 
 http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=**URL_with_uml_file**&cache_buster=**increment_to_avoid_caching**
 
-Store your plantuml file somewhere - e.g.
+Store your PlantUML file somewhere - e.g.
 
 [https://raw.github.com/idvorkin/techdiary/master/sample_diagrams.puml](https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml)
 
@@ -364,10 +364,10 @@ Then render it like an image e.g.
 
     ![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml&c=1)
 
-![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml&c=2)
+![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&c=4&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml)
 
 #### Quirks:
 
 * Github caches, so increment the c parameter
-* PlantUml doesn't support https (really??) so the plant uml URL needs to be http.
-* Because of not supporting https, in vs.code preview make images loadable from un-secure websites
+* PlantUML doesn't support https (really??) so the PlantUML server URL needs to be **http** (not https).
+* The image URL uses http, and VS Code preview doesn't allow loading things over http by default, so click that 'insecure content' button to allow rendering in unsafe mode (ugh)
