@@ -340,27 +340,34 @@ Sometimes your repo gets screwed up and needs to be fixed. In that case, erase a
 
 Also, can set a single file in vim by settings `set ff=unix`
 
-### PlantUML in GHFM
+### PlantUML 
 
-A bit tricky but in a nutshell. Plantuml can render from a file using proxy mode.
-GHFM can render pictures. So ...
+#### PlantUML Tools
 
-Plantuml render from file
+ * [PlantText](https://www.planttext.com/) Interactive editor with vi-keybindings, but needs a manual refresh
+ * [LiveUML](https://liveuml.com/) - Interactive editor with auto-refresh
+ * VS Code has a great plugin for plantuml
+ * Vim has a PlantUml preview in ASCII
 
-    http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=**URL_with_uml_file**&cache_buster=**increment_to_avoid_caching**
+
+#### PlantUML in Markdown
+
+You can't directly render PlantUML in Markdown, but you can render images, and get PlantuML to load content from file. E.g:
+
+http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=**URL_with_uml_file**&cache_buster=**increment_to_avoid_caching**
 
 Store your plantuml file somewhere - e.g.
 
-[https://raw.github.com/idvorkin/techdiary/master/sample_diagrams.puml](https://raw.githubusercontent.com/idvorkin/master/sample_diagrams.puml)
+[https://raw.github.com/idvorkin/techdiary/master/sample_diagrams.puml](https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml)
 
-Then render it like an image
+Then render it like an image e.g.
 
     ![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml&c=1)
 
-
 ![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml&c=1)
 
-Quirks:
+#### Quirks:
 
 * Github caches, so increment the c parameter
-* PlantUml doesn't support https (really??) so the plant uml URL needs to be http
+* PlantUml doesn't support https (really??) so the plant uml URL needs to be http.
+* Because of not supporting https, in vs.code preview make images loadable from un-secure websites
