@@ -351,14 +351,14 @@ Plantuml render from file
 
 Store your plantuml file somewhere - e.g.
 
-[https://raw.github.com/idvorkin/master/sample_diagrams.puml](https://raw.github.com/idvorkin/master/sample_diagrams.puml)
+[https://raw.github.com/idvorkin/techdiary/master/sample_diagrams.puml](https://raw.githubusercontent.com/idvorkin/master/sample_diagrams.puml)
 
 Then render it like an image
 
-    ![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.github.com/idvorkin/master/sample_diagrams.puml&c=1)
+    ![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml&c=1)
 
 
-![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.github.com/idvorkin/master/sample_diagrams.puml&c=1)
+![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml&c=1)
 
 Quirks:
 
