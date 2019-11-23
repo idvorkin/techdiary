@@ -59,9 +59,21 @@ With age comes the need for more accoutrements
 
 ### Under Desk Exercise Equipment
 
+I don't use this, but it's under my desk. The day I got it and used it, I decided it was a good idea and I should use it more often.
+
+https://www.amazon.com/gp/product/B07KMNVXCT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
 ## Emotional Health
 
 ### Meditation
+
+I meditate kneeling (Seiza) and have two benches:
+
+https://www.bluecony.com/collections/ikuko-meditation-bench
+
+(I can't find the other one but it has a single leg and is foldable)
+
+They're over priced, but if it makes me happy to meditate, it's worth it.
 
 ## Cognative Health
 
@@ -71,9 +83,25 @@ With age comes the need for more accoutrements
 
 ### Fanny Pack
 
+Don't get me started on the perfect fanny pack. My current favorite is below. It's very tactical looking - but have to start somewhere.
+
+https://www.amazon.com/gp/product/B07JJYCTST
+
 ### Gym Bag
 
+I often stuff the gym bag in a larger bag so small matters - I use:
+
+https://www.amazon.com/gp/product/B07SJ5XSB2
+
 ### Work Bag
+
+It's taken me several tries, but I've concluded I like the smallest bag possible. I use a 13" macbook pro laptop and an iPad Pro 10" and this is the perfect bag for me:
+
+https://www.amazon.com/gp/product/B07WNPPF72
+
+There's also the horizontal version - which is slightly bigger but also nice:
+
+https://www.amazon.com/gp/product/B07H4QYC2D/
 
 ## Car Tech
 
