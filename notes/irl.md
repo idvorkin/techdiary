@@ -7,6 +7,7 @@
     - [Calf Health](#calf-health)
     - [Knee Health](#knee-health)
     - [Standing Desks](#standing-desks)
+    - [Gym Stuff](#gym-stuff)
     - [Under Desk Exercise Equipment](#under-desk-exercise-equipment)
 - [Emotional Health](#emotional-health)
     - [Meditation](#meditation)
@@ -67,13 +68,15 @@ https://www.amazon.com/gp/product/B07KMNVXCT/ref=ppx_yo_dt_b_search_asin_title?i
 
 ### Meditation
 
-I meditate kneeling (Seiza) and have two benches:
+I meditate kneeling (Seiza) and have two benches. Meditation benches are over priced, but if it improves my emotional health (and it's supposed to) it's worth it.
+
+Even though this is folding, this is my permanant bench:
 
 https://www.bluecony.com/collections/ikuko-meditation-bench
 
-(I can't find the other one but it has a single leg and is foldable)
+This is my portable bench, it's smaller, but less stable, but it does the job:
 
-They're over priced, but if it makes me happy to meditate, it's worth it.
+https://www.simplysitting.com/
 
 ## Cognative Health
 
