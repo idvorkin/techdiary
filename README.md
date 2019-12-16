@@ -57,6 +57,7 @@
     - [Video Manipulation Tools](#video-manipulation-tools)
     - [Linters and formatters](#linters-and-formatters)
     - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+    - [Spelling](#spelling)
     - [PlantUML](#plantuml)
         - [PlantUML Tools](#plantuml-tools)
         - [PlantUML in Markdown](#plantuml-in-markdown)
@@ -341,6 +342,13 @@ Sometimes your repo gets screwed up and needs to be fixed. In that case, erase a
     git checkout .
 
 Also, can set a single file in vim by settings `set ff=unix`
+
+### Spelling
+
+Command line spelling. ispell has nicer word highlighting, but aspell is supposed to have better spelling correction.
+
+aspell
+ispell
 
 ### PlantUML
 
