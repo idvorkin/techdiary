@@ -74,6 +74,7 @@
     - [What is ML vs AI.](#what-is-ml-vs-ai)
     - [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
     - [Why is ML so complicated](#why-is-ml-so-complicated)
+    - [Deep Fakes](#deep-fakes)
 - [Resources](#resources)
     - [What should I read to learn more](#what-should-i-read-to-learn-more)
 
@@ -365,6 +366,16 @@ When most people say AI, they think about an AI that they can interact with like
 Imagine asking someone how HTML works, and they describe to you how an ARM processor works. If someone did that you'd find HTML incredibly complicated.
 
 That's what's happening in ML today. The issue is the field is nascent and tools and abstractions haven't been well formulated and described yet.
+
+### Deep Fakes
+
+[Deep Fakes](https://arstechnica.com/science/2019/12/how-i-created-a-deepfake-of-mark-zuckerberg-and-star-treks-data/) are video (or image) transformation software from one person to another. So using a deep fake network you can turn a video of Igor talking into a video of Jeff Bezos (or some more current famous person) talking.
+
+A good way to think about this is to simplify the problem. Imagine we had a 'compression' and 'decompression' program for an individual person's face E.g compress_igor(image)-> state, decompress_igor(state)->image. Imagine if it compressed to 2 bits (left eye open, right eye open). Even though the state is very small, we can create high quality (though low variance) output. The decompression doesn't need to be given all the face details, just the details of eye-open and eyes closed.
+
+Now, lets use ML to create this algorithm, instead of humans defining the latent space (e.g. compressed-state) the ML model will. And it can do this with unsupervised learning, connecting compress_igor(igor_image_1) -> decompress_igor() -> igor_image_2 , and minimizing differences between igor_image_1 and igor_image_2. At the end of this process, we have a ML generated compression and decompression function for a users face.
+
+So using this we have create compress_igor(image)->small_state and decompress_igor(small_state)-> image. If we did the same process on a second person, say Bob, we'd create compress_bob(image), and decompress_bob(small_state). So we can do a deep fake by connecting compress_igor -> decompress_bob Tada!
 
 ## Resources
 
