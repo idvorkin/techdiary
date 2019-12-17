@@ -70,11 +70,15 @@
     - [Ethical AI](#ethical-ai)
     - [Measuring within the wider business context](#measuring-within-the-wider-business-context)
     - [Guard rails for inputs versus training data](#guard-rails-for-inputs-versus-training-data)
+- [Natural Language Processing (NLP)](#natural-language-processing-nlp)
+    - [Bert](#bert)
+    - [Word Embedding](#word-embedding)
 - [Misc Topics](#misc-topics)
     - [What is ML vs AI.](#what-is-ml-vs-ai)
     - [Generalize vs Narrow AI](#generalize-vs-narrow-ai)
     - [Why is ML so complicated](#why-is-ml-so-complicated)
     - [Deep Fakes](#deep-fakes)
+    - [Time Series Analysis](#time-series-analysis)
 - [Resources](#resources)
     - [What should I read to learn more](#what-should-i-read-to-learn-more)
 
@@ -351,6 +355,18 @@ _Thanks Dan Massey for your recommendation to discuss these topics_
 
 ### Guard rails for inputs versus training data
 
+
+## Natural Language Processing (NLP)
+
+### Bert
+
+Word masking NLP models [BERT](https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/)
+
+### Word Embedding
+
+[Introduction to word embeddings](http://jalammar.github.io/illustrated-word2vec)
+
+
 ## Misc Topics
 
 ### What is ML vs AI.
@@ -377,11 +393,14 @@ Now, lets use ML to create this algorithm, instead of humans defining the latent
 
 So using this we have create compress_igor(image)->small_state and decompress_igor(small_state)-> image. If we did the same process on a second person, say Bob, we'd create compress_bob(image), and decompress_bob(small_state). So we can do a deep fake by connecting compress_igor -> decompress_bob Tada!
 
+### Time Series Analysis
+
+Check out [prophet](https://towardsml.com/2018/05/23/time-series-forecasting-the-easy-way-lets-analyze-microsofts-stocks/)
+
 ## Resources
 
 ### What should I read to learn more
 
 - [Machine learning is like sex in high school](https://vas3k.com/blog/machine_learning/)
-- [Google's rules of ML](https://developers.google.com/machine-learning/rules-of-ml/)
+- [Google's rules of ML](https://developers.google.com/machine-learning/rules-of-ml/) and [summary](https://towardsml.com/2018/08/06/how-great-products-are-made-rules-of-machine-learning-by-google-a-summary/)
 - [Hands on machine learning with SciKit-Learn and tensor flow](https://www.amazon.com//dp/1491962291)
-- [Great introduction to word embeddings](http://jalammar.github.io/illustrated-word2vec)
