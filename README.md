@@ -193,8 +193,8 @@ My original [git tricks](https://ig2600.blogspot.com/2014/10/cool-tools-git-help
 ### GitHub
 
 - Serve HTML files directly from GitHub: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
-
 - Keyboard shortcuts: https://help.github.com/articles/using-keyboard-shortcuts/
+- Grip - Local renders of GHFM https://github.com/joeyespo/grip
 
 ### SSH
 
