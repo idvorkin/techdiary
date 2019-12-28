@@ -23,10 +23,13 @@
   - [Alexa Skill](notes/alexa-skill.md)
   - [ManageMe](https://github.com/idvorkin/manage-me)
 
+
+## Awesome Lists
+
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
-- [Awesome Lists](#awesome-lists)
+- [_](#)
     - [Markdown](#markdown)
     - [VIM](#vim)
     - [C Sharp](#c-sharp)
@@ -62,7 +65,7 @@
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
 
-## Awesome Lists
+## _
 
 ### Markdown
 ### VIM
