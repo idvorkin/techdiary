@@ -1,21 +1,66 @@
 # Igor's Technical Diary
 ## Projects
+- Major Research Areas and Musing
+  - [Cloud first applications](notes/cloud-first-applications.md)
+  - [Machine Learning](notes/machine-learning.md)
+  - [Security](notes/better-security-design.md)
+  - [Data Systems](notes/data-systems.md)
+  - [In Real Life](notes/irl.md)
+  - [Design and Architecture](notes/design.md)
+- Minor Tips
+  - [VLC Player](notes/vlc_player.md)
+  - [Pandas](notes/pandas-tutorial.md)
+  - [iOS Usage](notes/ios.md)
+  - [Mosh](notes/mosh.md)
+  - [USB Tech](notes/usbtech.md)
+  - [Visual Vocabulary](notes/visual-vocabulary.md)
+- Complete Projects
+  - [Ring Video Downloader](notes/ring-video-download.md)
+  - [Extract message history on OSX](notes/dump_imessage_history.md)
+- In Progress Projects
+  - [Deploy a private web site](notes/private_web_site.md)
+  - [Windows Virtual Desktop](notes/virtual-desktops.md)
+  - [Alexa Skill](notes/alexa-skill.md)
+  - [ManageMe](https://github.com/idvorkin/manage-me)
 
-### To be started
+<!-- prettier-ignore-start -->
+<!-- vim-markdown-toc GFM -->
 
-### Not worth completing
+- [Awesome Lists](#awesome-lists)
+    - [Markdown](#markdown)
+    - [VIM](#vim)
+    - [C Sharp](#c-sharp)
+    - [Java](#java)
+    - [Python](#python)
+    - [Typescript](#typescript)
+    - [Apple](#apple)
+    - [Home Automation](#home-automation)
+    - [Powershell](#powershell)
+    - [Text manipulation tools](#text-manipulation-tools)
+        - [jq](#jq)
+    - [Cool shell tools](#cool-shell-tools)
+    - [Natural Language Processing](#natural-language-processing)
+    - [Azure One Liners](#azure-one-liners)
+        - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
+    - [git](#git)
+    - [GitHub](#github)
+    - [SSH](#ssh)
+    - [TMUX](#tmux)
+    - [Random 1-liners](#random-1-liners)
+    - [App Launchers](#app-launchers)
+    - [Chrome extensions](#chrome-extensions)
+    - [Web tools (http)](#web-tools-http)
+    - [Video Manipulation Tools](#video-manipulation-tools)
+    - [Linters and formatters](#linters-and-formatters)
+    - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+    - [Spelling](#spelling)
+    - [PlantUML](#plantuml)
+        - [PlantUML Tools](#plantuml-tools)
+        - [PlantUML in Markdown](#plantuml-in-markdown)
+        - [Quirks](#quirks)
 
-- [Redshift from Linqpad](notes/linqpad_from_redshift.md)
-
-  Linqpad is awesome, but it'll be a while till I get back to an MS shop.
-
-- [Debug CLR using windbg](notes/windbg.md)
-
-  I'm too old to pound on assembly language. Although I'm still proud of [this](http://ig2600.blogspot.com/2012/12/run-time-costs-of-small-operations-in-c.html)
-
-### Too early to start
-
-_The bleeding edge can be fun, but you burn lots of time dealing with sharp edges. Here's my list of things I want to get into once they stabilize._
+<!-- vim-markdown-toc -->
+<!-- prettier-ignore-end -->
 
 ## Awesome Lists
 
@@ -38,32 +83,6 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 - Bridge from HomeKit to Wink - [Homebridge-wink3](https://github.com/sibartlett/homebridge-wink3)
 
 ### Powershell
-<!-- vim-markdown-toc GFM -->
-
-- [Text manipulation tools](#text-manipulation-tools)
-    - [jq](#jq)
-- [Cool shell tools](#cool-shell-tools)
-- [Natural Language Processing](#natural-language-processing)
-- [Azure One Liners](#azure-one-liners)
-    - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
-- [git](#git)
-- [GitHub](#github)
-- [SSH](#ssh)
-- [TMUX](#tmux)
-- [Random 1-liners](#random-1-liners)
-- [App Launchers](#app-launchers)
-- [Chrome extensions](#chrome-extensions)
-- [Web tools (http)](#web-tools-http)
-- [Video Manipulation Tools](#video-manipulation-tools)
-- [Linters and formatters](#linters-and-formatters)
-- [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
-- [Spelling](#spelling)
-- [PlantUML](#plantuml)
-    - [PlantUML Tools](#plantuml-tools)
-    - [PlantUML in Markdown](#plantuml-in-markdown)
-    - [Quirks:](#quirks)
-
-<!-- vim-markdown-toc -->
 ### Text manipulation tools
 
 - XPath and HtmlAgilityPack
@@ -309,7 +328,7 @@ Then render it like an image e.g.
 
 ![UML rendered](http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&c=4&src=https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml)
 
-#### Quirks:
+#### Quirks
 
 - GitHub caches, so increment the c parameter
 - PlantUML doesn't support https (really??) so the PlantUML server URL needs to be **http** (not https).
