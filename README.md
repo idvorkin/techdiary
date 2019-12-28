@@ -182,6 +182,14 @@ https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
 
 npx add-gitignore - update gitignore files
 
+Find when text is [deleted](https://stackoverflow.com/questions/12591247/find-when-line-was-deleted/43463653):
+```
+# ignore the path if you don't know it.
+git log -c -S'missingtext' /path/to/file
+```
+
+My original [git tricks](https://ig2600.blogspot.com/2014/10/cool-tools-git-helpers.html) from 2014 :)
+
 ### GitHub
 
 - Serve HTML files directly from GitHub: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
