@@ -1,71 +1,4 @@
 # Igor's Technical Diary
-
-- Major Research Areas and Musing
-  - [Cloud first applications](notes/cloud-first-applications.md)
-  - [Machine Learning](notes/machine-learning.md)
-  - [Security](notes/better-security-design.md)
-  - [Data Systems](notes/data-systems.md)
-  - [In Real Life](notes/irl.md)
-  - [Design and Architecture](notes/design.md)
-- Minor Tips
-  - [VLC Player](notes/vlc_player.md)
-  - [Pandas](notes/pandas-tutorial.md)
-  - [iOS Usage](notes/ios.md)
-  - [Mosh](notes/mosh.md)
-  - [USB Tech](notes/usbtech.md)
-  - [Visual Vocabulary](notes/visual-vocabulary.md)
-- Complete Projects
-  - [Ring Video Downloader](notes/ring-video-download.md)
-  - [Extract message history on OSX](notes/dump_imessage_history.md)
-- In Progress Projects
-  - [Deploy a private web site](notes/private_web_site.md)
-  - [Windows Virtual Desktop](notes/virtual-desktops.md)
-  - [Alexa Skill](notes/alexa-skill.md)
-  - [ManageMe](https://github.com/idvorkin/manage-me)
-
-<!-- prettier-ignore-start -->
-<!-- vim-markdown-toc GFM -->
-
-- [Projects](#projects)
-    - [To be started](#to-be-started)
-    - [Not worth completing](#not-worth-completing)
-    - [Too early to start](#too-early-to-start)
-- [Awesome Lists](#awesome-lists)
-    - [Markdown](#markdown)
-    - [VIM](#vim)
-    - [C Sharp](#c-sharp)
-    - [Java](#java)
-    - [Python](#python)
-    - [Typescript](#typescript)
-    - [Apple](#apple)
-    - [Home Automation](#home-automation)
-    - [Powershell](#powershell)
-    - [Text manipulation tools](#text-manipulation-tools)
-        - [jq](#jq)
-    - [Cool shell tools](#cool-shell-tools)
-    - [Natural Language Processing](#natural-language-processing)
-    - [Azure One Liners](#azure-one-liners)
-        - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
-    - [git](#git)
-    - [Github](#github)
-    - [SSH](#ssh)
-    - [TMUX](#tmux)
-    - [Random 1-liners](#random-1-liners)
-    - [App Launchers](#app-launchers)
-    - [Chrome extensions](#chrome-extensions)
-    - [Web tools (http)](#web-tools-http)
-    - [Video Manipulation Tools](#video-manipulation-tools)
-    - [Linters and formatters](#linters-and-formatters)
-    - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
-    - [Spelling](#spelling)
-    - [PlantUML](#plantuml)
-        - [PlantUML Tools](#plantuml-tools)
-        - [PlantUML in Markdown](#plantuml-in-markdown)
-        - [Quirks:](#quirks)
-
-<!-- vim-markdown-toc -->
-<!-- prettier-ignore-end -->
-
 ## Projects
 
 ### To be started
@@ -87,36 +20,11 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 ## Awesome Lists
 
 ### Markdown
-
-- Typora
-- Visual Studio Code
-- Macdown
-
 ### VIM
-
-- Denite
-- Fugitive
-
 ### C Sharp
 
 ### Java
-
-- Lambok
-
 ### Python
-
-- Hug: Python API generator
-- Httpie: wget replacement
-- Pendulum: The best datetime library (better then arrow).
-- PipEnv - Finally sane dependency management for python!
-- [Datalore](https://datalore.io/) - Jetbrain's version of Jupyter
-- [Requests](http://docs.python-requests.org/en/master/) Http requests for humans
-- [Requests-HTML](https://github.com/kennethreitz/requests-html) Web Parsing for humans
-- [Scapy](https://scrapy.org/) Web crawling for humans.
-- [Records](https://github.com/kennethreitz/records) Raw SQL for humans
-- [Delegator](https://github.com/kennethreitz/delegator.py) Sub process for humans
-- Pylinkvalidator - Crawl a web site for errors (great for web testing)
-
 ### Typescript
 
 - [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from json
@@ -130,10 +38,36 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 - Bridge from HomeKit to Wink - [Homebridge-wink3](https://github.com/sibartlett/homebridge-wink3)
 
 ### Powershell
+<!-- vim-markdown-toc GFM -->
 
 - Vim keybindings (built in psreadline)
 - Jump to arbitrary directory based on frequency (z)
 
+
+- [Text manipulation tools](#text-manipulation-tools)
+    - [jq](#jq)
+- [Cool shell tools](#cool-shell-tools)
+- [Natural Language Processing](#natural-language-processing)
+- [Azure One Liners](#azure-one-liners)
+    - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
+- [git](#git)
+- [Github](#github)
+- [SSH](#ssh)
+- [TMUX](#tmux)
+- [Random 1-liners](#random-1-liners)
+- [App Launchers](#app-launchers)
+- [Chrome extensions](#chrome-extensions)
+- [Web tools (http)](#web-tools-http)
+- [Video Manipulation Tools](#video-manipulation-tools)
+- [Linters and formatters](#linters-and-formatters)
+- [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+- [Spelling](#spelling)
+- [PlantUML](#plantuml)
+    - [PlantUML Tools](#plantuml-tools)
+    - [PlantUML in Markdown](#plantuml-in-markdown)
+    - [Quirks:](#quirks)
+
+<!-- vim-markdown-toc -->
 ### Text manipulation tools
 
 - XPath and HtmlAgilityPack
@@ -349,6 +283,10 @@ Command line spelling. ispell has nicer word highlighting, but aspell is suppose
 
 aspell
 ispell
+
+(Bragging - I fixed aspell highlighting in WSL)
+https://github.com/GNUAspell/aspell/issues/590
+https://github.com/Homebrew/homebrew-core/pull/48163
 
 ### PlantUML
 
