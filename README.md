@@ -68,13 +68,37 @@
 ## _
 
 ### Markdown
+
+- Typora
+- Visual Studio Code
+- Macdown
+
 ### VIM
+
+- Denite
+- Fugitive
+
 ### C Sharp
 
 ### Java
-### Python
-### Typescript
 
+- Lambok
+
+### Python
+
+- Hug: Python API generator
+- Httpie: wget replacement
+- Pendulum: The best datetime library (better then arrow).
+- PipEnv - Finally sane dependency management for python!
+- [Datalore](https://datalore.io/) - Jetbrain's version of Jupyter
+- [Requests](http://docs.python-requests.org/en/master/) Http requests for humans
+- [Requests-HTML](https://github.com/kennethreitz/requests-html) Web Parsing for humans
+- [Scapy](https://scrapy.org/) Web crawling for humans.
+- [Records](https://github.com/kennethreitz/records) Raw SQL for humans
+- [Delegator](https://github.com/kennethreitz/delegator.py) Sub process for humans
+- Pylinkvalidator - Crawl a web site for errors (great for web testing)
+
+### Typescript
 - [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from JSON
 
 ### Apple
