@@ -9,7 +9,7 @@
 
   Linqpad is awesome, but it'll be a while till I get back to an MS shop.
 
-- [Debug clr using windbg](notes/windbg.md)
+- [Debug CLR using windbg](notes/windbg.md)
 
   I'm too old to pound on assembly language. Although I'm still proud of [this](http://ig2600.blogspot.com/2012/12/run-time-costs-of-small-operations-in-c.html)
 
@@ -27,11 +27,11 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 ### Python
 ### Typescript
 
-- [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from json
+- [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from JSON
 
 ### Apple
 
-- Copy files **without** itunes - [CopyTrans Manager](https://www.copytrans.net/copytransmanager/)
+- Copy files **without** iTunes - [CopyTrans Manager](https://www.copytrans.net/copytransmanager/)
 
 ### Home Automation
 
@@ -40,10 +40,6 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 ### Powershell
 <!-- vim-markdown-toc GFM -->
 
-- Vim keybindings (built in psreadline)
-- Jump to arbitrary directory based on frequency (z)
-
-
 - [Text manipulation tools](#text-manipulation-tools)
     - [jq](#jq)
 - [Cool shell tools](#cool-shell-tools)
@@ -51,7 +47,7 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 - [Azure One Liners](#azure-one-liners)
     - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
 - [git](#git)
-- [Github](#github)
+- [GitHub](#github)
 - [SSH](#ssh)
 - [TMUX](#tmux)
 - [Random 1-liners](#random-1-liners)
@@ -76,8 +72,8 @@ _The bleeding edge can be fun, but you burn lots of time dealing with sharp edge
 
 #### jq
 
-jq is the javascript equivelant of regexp
-I'm very enemared with it!
+jq is the JavaScript equivalent of regexp
+I'm very enamored with it!
 
 By default it colorizes:
 
@@ -105,14 +101,14 @@ Decent blog posts:
 
     https://remysharp.com/2018/08/23/cli-improved
 
-- Tig - TUI git like git gui/gitk (Try tig status)
+- Tig - TUI git like git GUI/gitk (Try tig status)
 - Mosh - A better ssh
 - w3m - Text based web browser
-- fzf - Fuzzy file inder (Try C-R and C-T)
+- fzf - Fuzzy file finder (Try C-R and C-T)
 - Rg - RipGrep (like ag)
-- [linuxbrew](http://linuxbrew.sh/) - Brew for linux
-- Ngrok - Pipe ports to the internet web site (great for local host development on ios)
-- [Bat](https://github.com/sharkdp/bat) - cat but with paging/git intgration.
+- [linuxbrew](http://linuxbrew.sh/) - Brew for Linux
+- Ngrok - Pipe ports to the internet web site (great for local host development on iOS)
+- [Bat](https://github.com/sharkdp/bat) - cat but with paging/git integration.
 - Pretty ping - Graphical Ping
 - glances - Prettier Top
 - iftop - Network based top based on network connection
@@ -132,7 +128,7 @@ Decent blog posts:
 
 https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
 
-1. Create the git credentials to deploy which gives a new git repro.
+1. Create the git credentials to deploy which gives a new git repository.
 2. Add a git remote
 3. Push to the git remote
 
@@ -140,9 +136,9 @@ https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
 
 npx add-gitignore - update gitignore files
 
-### Github
+### GitHub
 
-- Serve HTML files directly from github: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
+- Serve HTML files directly from GitHub: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
 
 - Keyboard shortcuts: https://help.github.com/articles/using-keyboard-shortcuts/
 
@@ -157,7 +153,7 @@ Connect on 8889 will get redirected to 8888 on the remote_host.
     # Connections on 4444 will get redirected to 8888 on the remote_host.
     ssh -N -L localhost:8888:localhost:4444 remote_user@remote_host
 
-Use a tool to auto re-connect (MOSH should do this, but it's been flakey for me of late)
+Use a tool to auto re-connect (MOSH should do this, but it's been flaky for me of late)
 
     autossh -M 0 server
 
@@ -240,11 +236,11 @@ Convert video formats
 
 Trimming
 
-https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video Asother people mentioned, putting -ss before (much faster) or after (moreaccurate) the -i makes a big difference. The section "Fast And AccurateSeeking" on the ffmpeg seek page tells you how to get both, and I have usedit, and it makes a big difference. Basically you put -ss before AND afterthe -i, just make sure to leave enough time before where you want to startcutting to have another key frame. Example: If you want to make a 1-minuteclip, from 9min0sec to 10min 0sec in Video.mp4, you could do it bothquickly and accurately using:
+https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video As other people mentioned, putting -ss before (much faster) or after (more accurate) the -i makes a big difference. The section "Fast And Accurate Seeking" on the ffmpeg seek page tells you how to get both, and I have used it, and it makes a big difference. Basically you put -ss before AND after the -i, just make sure to leave enough time before where you want to start cutting to have another key frame. Example: If you want to make a 1-minute clip, from 9min0sec to 10min 0sec in Video.mp4, you could do it both quickly and accurately using:
 
     ffmpeg -ss 00:08:00 -i Video.mp4 -ss 00:01:00 -t 00:01:00 -c copy VideoClip.mp4
 
-The first -ss seeks fast to (approximately) 8min0sec, and then the second -ss seeks accurately to 9min0sec, and the -t 00:01:00 takes out a 1min0sec clip. -c copy doesn't re-transcode so faster, but has problems since needs keyframes.
+The first -ss seeks fast to (approximately) 8min0sec, and then the second -ss seeks accurately to 9min0sec, and the -t 00:01:00 takes out a 1min0sec clip. -c copy doesn't re-transcode so faster, but has problems since needs key frames.
 
     ffmpeg -ss 00:08:00 -i $infile -ss 00:01:00 -t 00:01:00 -c copy $outfile
 
@@ -267,7 +263,7 @@ In: `~.gitconfig` set:
     core.autocrlf=input
     core.safecrlf=false
 
-Sometimes your repo gets screwed up and needs to be fixed. In that case, erase all files, and recheckout.
+Sometimes your repository gets screwed up and needs to be fixed. In that case, erase all files, and re checkout.
 
     #!/bin/sh
     # remove local tree
@@ -279,7 +275,7 @@ Also, can set a single file in vim by settings `set ff=unix`
 
 ### Spelling
 
-Command line spelling. ispell has nicer word highlighting, but aspell is supposed to have better spelling correction.
+Command line spelling. Ispell has nicer word highlighting, but aspell is supposed to have better spelling correction.
 
 aspell
 ispell
@@ -294,12 +290,12 @@ https://github.com/Homebrew/homebrew-core/pull/48163
 
 - [PlantText](https://www.planttext.com/) Interactive editor with vi-keybindings, but needs a manual refresh
 - [LiveUML](https://liveuml.com/) - Interactive editor with auto-refresh
-- VS Code has a great plugin for plantuml
-- Vim has a PlantUml preview in ASCII
+- VS Code has a great plugin for PlantUML
+- Vim has a PlantUML preview in ASCII
 
 #### PlantUML in Markdown
 
-You can't directly render PlantUML in Markdown, but you can render images, and get PlantuML to load content from file. E.g:
+You can't directly render PlantUML in Markdown, but you can render images, and get PlantUML to load content from file. E.g:
 
 http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=**URL_with_uml_file**&cache_buster=**increment_to_avoid_caching**
 
@@ -315,6 +311,6 @@ Then render it like an image e.g.
 
 #### Quirks:
 
-- Github caches, so increment the c parameter
+- GitHub caches, so increment the c parameter
 - PlantUML doesn't support https (really??) so the PlantUML server URL needs to be **http** (not https).
 - The image URL uses http, and VS Code preview doesn't allow loading things over http by default, so click that 'insecure content' button to allow rendering in unsafe mode (ugh)
