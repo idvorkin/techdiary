@@ -1,5 +1,7 @@
 # Igor's Technical Diary
+
 ## Projects
+
 - Major Research Areas and Musing
   - [Cloud first applications](notes/cloud-first-applications.md)
   - [Machine Learning](notes/machine-learning.md)
@@ -22,7 +24,6 @@
   - [Windows Virtual Desktop](notes/virtual-desktops.md)
   - [Alexa Skill](notes/alexa-skill.md)
   - [ManageMe](https://github.com/idvorkin/manage-me)
-
 
 ## Awesome Lists
 
@@ -57,6 +58,7 @@
     - [Linters and formatters](#linters-and-formatters)
     - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
     - [Spelling](#spelling)
+    - [Web scripting](#web-scripting)
     - [PlantUML](#plantuml)
         - [PlantUML Tools](#plantuml-tools)
         - [PlantUML in Markdown](#plantuml-in-markdown)
@@ -65,7 +67,7 @@
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
 
-## _
+## \_
 
 ### Markdown
 
@@ -99,6 +101,7 @@
 - Pylinkvalidator - Crawl a web site for errors (great for web testing)
 
 ### Typescript
+
 - [Quick Type](https://quicktype.io/?l=cs&r=json2csharp) Create classes from JSON
 
 ### Apple
@@ -110,6 +113,7 @@
 - Bridge from HomeKit to Wink - [Homebridge-wink3](https://github.com/sibartlett/homebridge-wink3)
 
 ### Powershell
+
 ### Text manipulation tools
 
 - XPath and HtmlAgilityPack
@@ -183,6 +187,7 @@ https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
 npx add-gitignore - update gitignore files
 
 Find when text is [deleted](https://stackoverflow.com/questions/12591247/find-when-line-was-deleted/43463653):
+
 ```
 # ignore the path if you don't know it.
 git log -c -S'missingtext' /path/to/file
@@ -337,6 +342,17 @@ ispell
 (Bragging - I fixed aspell highlighting in WSL)
 https://github.com/GNUAspell/aspell/issues/590
 https://github.com/Homebrew/homebrew-core/pull/48163
+
+### Web scripting
+
+I like to watch YouTube (engineering documentaries) before bed, and need a sleep timer. JS will let you close a windows you opened, so this script opens a new window to watch YouTube in for an hour.
+
+```
+// Open in another window so I have perms to close it
+var customWindow = window.open('https://youtube.com', '_blank', '');
+// Close tab in 2 hours
+setTimeout(()=>customWindow.close(),1000*60*120)
+```
 
 ### PlantUML
 
