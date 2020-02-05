@@ -24,9 +24,9 @@
     - [Weekend morning routine](#weekend-morning-routine)
     - [Weekday morning routine](#weekday-morning-routine)
     - [Morning Kryptonite](#morning-kryptonite)
-    - [Tech Stuff](#tech-stuff)
-        - [Computers](#computers)
-        - [Monitors](#monitors)
+- [Tech Stuff](#tech-stuff)
+    - [Computers](#computers)
+    - [Monitors](#monitors)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -161,24 +161,24 @@ I have two common failure modes to my morning routine.
 - Hitting snooze when my alarm goes off. The worst of all words, not sleeping, and not being up and doing stuff.
 - Lying in bed awake when I wake up before 5. Sometimes I wake up and can't fall back asleep @ 3 or 4 (which isn't crazy cuz sometimes I go to bed @ 7 or 8). Similar to hitting snooze, I'm not sleeping, and I'm not accomplishing anything.
 
-### Tech Stuff
+## Tech Stuff
 
 - iPhone Pro
 - iPad Pro
 - Apple Pencil
 - Bluetooth Folding Split Keyboard
 - AirPod Pros
-- Bose 900 - Retired for the Airpod Pros
-- Foam Tips for AirPod Pros - highly recomend if you're used to foam tips.
+- Bose 900 - Retired for the AirPod Pros
+- Foam Tips for AirPod Pros - highly recommend if you're used to foam tips.
 - iPad stand.
 
-#### Computers
+### Computers
 
-- Huawei Matebook X (Essentialy Windows MacBookPro clone):w
+- Huawei Matebook X (Essentially Windows Macbook clone):w
 - Macbook Pro (usually at work)
 - Ancient Desktop (upgrade coming)
 
-#### Monitors
+### Monitors
 
-- 34" wide screen - not a huge fan. Good for wide screen movies (but netflix/youtube rarely has this resolution)
+- 34" wide screen - not a huge fan. Good for wide screen movies (but Netflix/YouTube rarely has this resolution)
 - 40" 3840x2160 - Awesome, I love it! Highly recommend
