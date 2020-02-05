@@ -6,12 +6,14 @@
 - [Physical Health](#physical-health)
     - [Calf Health](#calf-health)
     - [Knee Health](#knee-health)
+    - [Booger Health](#booger-health)
+    - [Skin Health](#skin-health)
     - [Standing Desks](#standing-desks)
     - [Gym Stuff](#gym-stuff)
     - [Under Desk Exercise Equipment](#under-desk-exercise-equipment)
 - [Emotional Health](#emotional-health)
     - [Meditation](#meditation)
-- [Cognative Health](#cognative-health)
+- [Cognitive Health](#cognitive-health)
 - [Identity Health](#identity-health)
 - [Personal Carry](#personal-carry)
     - [Fanny Pack](#fanny-pack)
@@ -46,15 +48,25 @@ Lots of sleeves out there, I recommend the most flexible one that provides the p
 - [Knee brace more support ](https://www.amazon.com/gp/product/B019GDFN6W/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - [Knee Strap](https://www.amazon.com/gp/product/B019GDFN6W/ref=ppx_yo_dt_b_search_asin_title?://www.amazon.com/gp/product/B01MYGDB2L/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
+### Booger Health
+
+For much of my 30's I had a brutal hacking cough. At 41, those coughs were causing me to pull out my shoulder muscles so I decided to take Flonase (I knew it was post nasal drip). I started taking Flonase, and I'm blown away by not coughing up a hairball.
+
+### Skin Health
+
+I suffer from Eczema, which I normally ignore. I took some of my son's topical steroids, and I kid you not, it cleared up in 2 days.
+
+I also have dry skin, so use O'Keeffe's which is awesome.
+
 ### Standing Desks
 
 ### Gym Stuff
 
-With age comes the need for more accoutrements
+With age comes the need for more accouterments
 
 - Headphones
-- Drybag for iPad
-- EyeDrop (Blink)
+- Dry bag for iPad
+- Eye Drop (Blink)
 - Shaving Kit
 - Netflix downloaded shows
 
@@ -68,9 +80,15 @@ https://www.amazon.com/gp/product/B07KMNVXCT/ref=ppx_yo_dt_b_search_asin_title?i
 
 ### Meditation
 
+I used to have a complex meditation routine, which was very "focused", but had too much complexity. I skipped it and now use headspace, and do it slouching in a chair. Huge improvement.
+
+Also, if you're interested in why start meditating, read "Search Inside Yourself"
+
+**OLD**
+
 I meditate kneeling (Seiza) and have two benches. Meditation benches are over priced, but if it improves my emotional health (and it's supposed to) it's worth it.
 
-Even though this is folding, this is my permanant bench:
+Even though this is folding, this is my permanent bench:
 
 https://www.bluecony.com/collections/ikuko-meditation-bench
 
@@ -78,7 +96,7 @@ This is my portable bench, it's smaller, but less stable, but it does the job:
 
 https://www.simplysitting.com/
 
-## Cognative Health
+## Cognitive Health
 
 ## Identity Health
 
@@ -108,17 +126,17 @@ https://www.amazon.com/gp/product/B07H4QYC2D/
 
 ## Car Tech
 
-I've gotten 3 cheap peices of aftermarket tech that transformed my car to awesomeness:
+I've gotten 3 cheap pieces of aftermarket tech that transformed my car to awesomeness:
 
 - Remote car starter - ~ 200\$ and you can start your car from the house so that it's warm and toasty when you get in.
-- Wireless Air Play - ~ 500\$. OMG - having CarPlay (especially on iOS 13) without plugging in yoru phone - wow!
+- Wireless Air Play - ~ 500\$. OMG - having CarPlay (especially on iOS 13) without plugging in your phone - wow!
 - Back up Camera ~ 30\$. OMG - Hard to believe I went years without one.
 
 ## Morning Routine
 
 At my best, I roll out of bed either when my eyes open or at 5am, what ever comes first.
 
-I also love getting my morning hug fromy my kids, but now that Zach's older (9), I'm down to just getting the hugs from Amelia - who is 5.
+I also love getting my morning hug from my kids, but now that Zach's older (9), I'm down to just getting the hugs from Amelia - who is 5.
 
 ### Weekend morning routine
 
