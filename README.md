@@ -59,6 +59,8 @@
     - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
     - [Spelling](#spelling)
     - [Web scripting](#web-scripting)
+    - [Programming Helpers](#programming-helpers)
+        - [howdoi](#howdoi)
     - [PlantUML](#plantuml)
         - [PlantUML Tools](#plantuml-tools)
         - [PlantUML in Markdown](#plantuml-in-markdown)
@@ -352,7 +354,22 @@ I like to watch YouTube (engineering documentaries) before bed, and need a sleep
 var customWindow = window.open('https://youtube.com', '_blank', '');
 // Close tab in 2 hours
 setTimeout(()=>customWindow.close(),1000*60*120)
+
 ```
+
+### Programming Helpers
+
+#### howdoi
+
+A quick [tool](https://github.com/gleitz/howdoi) to show you how to 'spell' your task in language of choice.
+
+    > howdoi do time to minutes in python
+
+    import datetime as DT
+    t1 = DT.datetime.strptime('00:05:36.0100000', '%H:%M:%S.%f0')
+    t2 = DT.datetime(1900,1,1)
+
+    print((t1-t2).total_seconds() / 60.0)
 
 ### PlantUML
 

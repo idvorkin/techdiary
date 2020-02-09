@@ -186,3 +186,4 @@ Conway's law is an aphorism in IT that posits the idea that “organizations whi
 - [Azure cloud patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 - [Building Microservices: Designing Fine-Grained Systems](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
 - [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=AZ1QGMVFB2K45MWY14X0)
+- [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
