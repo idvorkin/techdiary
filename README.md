@@ -30,7 +30,7 @@
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
-- [_](#)
+- [\_](#)
     - [Markdown](#markdown)
     - [VIM](#vim)
     - [C Sharp](#c-sharp)
@@ -217,6 +217,22 @@ Connect on 8889 will get redirected to 8888 on the remote_host.
 Use a tool to auto re-connect (MOSH should do this, but it's been flaky for me of late)
 
     autossh -M 0 server
+
+For my memory here are the many ports I forward
+
+```
+# jupyter
+ssh -N -L localhost:8888:localhost:8888 lightsail
+
+# jekyll
+ssh -N -L localhost:4000:localhost:4000 lightsail
+
+# jekyll live reload
+ssh -N -L localhost:35729:localhost:35729 lightsail
+
+# grip
+ssh -N -L localhost:6419:localhost:6419 lightsail
+```
 
 ### TMUX
 
