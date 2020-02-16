@@ -209,6 +209,14 @@ Exit the ssh session (very helpful when stuck in a nested tmux session.
 
     <enter> ~ .
 
+Get help on the in built console
+
+    <enter>  ~ ?
+
+List forwarded ports
+
+    <enter>  ~ #
+
 Connect on 8889 will get redirected to 8888 on the remote_host.
 
     # Connections on 4444 will get redirected to 8888 on the remote_host.
@@ -218,7 +226,7 @@ Use a tool to auto re-connect (MOSH should do this, but it's been flaky for me o
 
     autossh -M 0 server
 
-For my memory here are the many ports I forward
+For my memory here are the many ports I forward, which you can also configure in your [ssh config](https://github.com/idvorkin/Settings/blob/master/shared/ssh_config)
 
 ```
 # jupyter
