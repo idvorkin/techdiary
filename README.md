@@ -312,7 +312,7 @@ Here's an example of sending content to a web hook which would send a message to
 
 #### Link Checkers
 
-You'd think there would be a slew of these, but all the ones I tried sucked. I'm using bcl right now, but would love a good alternative.
+You'd think there would be a slew of these, but all the ones I tried weren't great (can't limit recurse depth, don't group errors, etc). I'm using [bcl](https://github.com/stevenvachon/broken-link-checker) right now, but would love a good alternative.
 
 Using BLC I crawl my website using (-r recurse ; -o group output; -e skip external):
 
