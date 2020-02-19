@@ -54,6 +54,8 @@
     - [App Launchers](#app-launchers)
     - [Chrome extensions](#chrome-extensions)
     - [Web tools (http)](#web-tools-http)
+        - [httpie](#httpie)
+        - [Link Checkers](#link-checkers)
     - [Video Manipulation Tools](#video-manipulation-tools)
     - [Linters and formatters](#linters-and-formatters)
     - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
@@ -300,11 +302,21 @@ zsh path append
 
 ### Web tools (http)
 
+#### httpie
+
 httpie is like wget and curl, but easier to use.
 
 Here's an example of sending content to a web hook which would send a message to chime. Notice -pHBhb prints request response, and Content is a JSON field.
 
     http -pHBhb POST https://hooks.chime.aws/incomingwebhooks/botaddress -- Content=We love PMs
+
+#### Link Checkers
+
+You'd think there would be a slew of these, but all the ones I tried sucked. I'm using bcl right now, but would love a good alternative.
+
+Using BLC I crawl my website using (-r recurse ; -o group output; -e skip external):
+
+        blc http://idvork.in/d -roe
 
 ### Video Manipulation Tools
 
