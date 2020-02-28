@@ -41,11 +41,10 @@ My [dotfiles](https://github.com/idvorkin/settings) should provide some insights
 (3)   ├>   2: glances (1 panes) "ip-172-26-8-55"
 (4)   ├> + 3: ntop (2 panes)
 (5)   ├>   7: zsh (1 panes) "ip-172-26-8-55"
-(6)   └>   8: zsh (1 panes) "ip-172-26-8-55"
-(7)   - servers: 3 windows
-(8)   ├> 0: jekyll blog* (1 panes) "ip-172-26-8-55"
-(9)   ├> 1: techdiary grip- (1 panes) "ip-172-26-8-55"
-(M-a) └> 2: jupyter serve (1 panes) "ip-172-26-8-55"
+(6)   - servers: 3 windows
+(7)   ├> 0: jekyll blog* (1 panes) "ip-172-26-8-55"
+(8)   ├> 1: techdiary grip- (1 panes) "ip-172-26-8-55"
+(9)   └> 2: jupyter serve (1 panes) "ip-172-26-8-55"
 
 ```
 
