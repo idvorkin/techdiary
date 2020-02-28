@@ -1,12 +1,13 @@
 So you want to be an iPad Developer Nomad. A person who can do all their development on the iPad. I'm not sure why you'd want to be such a charecter, in fact, I'm not sure why I want to be such a charector, but I do, and here's how I do it. To be a developer nomad, you better already be a command line wiz. If you're not at an expert at the terminal, vim or emacs and tmux - don't even try.
 
-There are three paths the remote development path, the local development path, and the hybrid path. For all of these you'll need an external keyboard, which I'll also disk.
+There are three paths - remote development, local development, and hybrid. For all of these you'll need an external keyboard, which I'll also discuss.
 
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
 - [Remote Development - Blink](#remote-development---blink)
-- [Local Development - Blink, iSh, iVim, WorkingCopy, etc](#local-development---blink-ish-ivim-workingcopy-etc)
+    - [ssh super powers - port forwarding and tmux auto-attach.](#ssh-super-powers---port-forwarding-and-tmux-auto-attach)
+- [Local Development - iSh, iVim, WorkingCopy, etc](#local-development---ish-ivim-workingcopy-etc)
     - [Run Linux - iSH](#run-linux---ish)
     - [Run Vim - iVIM](#run-vim---ivim)
     - [Run git - Working copy](#run-git---working-copy)
@@ -27,13 +28,30 @@ This is the easy way, but you're going to need a good low network latency.
 
 First you need a remote box, I use lightsail. For 10\$ a month I've never run out of CPU or disk. Next you need to be able to connect to the box using SSH, and that requires an ssh client. I use [blink](https://blink.sh/) and couldn't be happier. Great product, great support.
 
-Beacuse ssh doesn't keep persistant sessions, I use tmux with an auto reattach script. If you're not doing this, go learn how it's awesome.
+#### ssh super powers - port forwarding and tmux auto-attach.
 
-For folks that are considering [MOSH](https://mosh.org/), MOSH has great promise, but the project hasn't been updated in years, and still doesn't support true color. For my needs ssh+tmux+auto-reconnect is perfect.
+Beacuse ssh doesn't keep persistant sessions, I use tmux with an auto reattach script. If you're not doing this, go learn how it's awesome. You should also know about ssh [port forwarding](https://github.com/idvorkin/techdiary#ssh)
 
-For folks considering this path, you can check out my [dotfiles](https://github.com/idvorkin/settings) for inspiration. You should also know about ssh [port forwarding](https://github.com/idvorkin/techdiary#ssh)
+My [dotfiles](https://github.com/idvorkin/settings) should provide some insights on powerful command line tricks. For inspiration, here's what my tmux sessions look like (press [C-B w](https://github.com/idvorkin/Settings/blob/master/shared/.tmux.conf) to get this view)
 
-### Local Development - Blink, iSh, iVim, WorkingCopy, etc
+```
+(0)   - main: 6 windows (attached)
+(1)   ├>   0: vim* (1 panes) "ip-172-26-8-55"
+(2)   ├>   1: zsh- (1 panes) "ip-172-26-8-55"
+(3)   ├>   2: glances (1 panes) "ip-172-26-8-55"
+(4)   ├> + 3: ntop (2 panes)
+(5)   ├>   7: zsh (1 panes) "ip-172-26-8-55"
+(6)   └>   8: zsh (1 panes) "ip-172-26-8-55"
+(7)   - servers: 3 windows
+(8)   ├> 0: jekyll blog* (1 panes) "ip-172-26-8-55"
+(9)   ├> 1: techdiary grip- (1 panes) "ip-172-26-8-55"
+(M-a) └> 2: jupyter serve (1 panes) "ip-172-26-8-55"
+
+```
+
+(For folks that are considering [MOSH](https://mosh.org/), MOSH has great promise, but the project hasn't been updated in years, and still doesn't support true color. For my needs ssh+tmux+auto-reconnect is perfect.)
+
+### Local Development - iSh, iVim, WorkingCopy, etc
 
 Remote development is perfect, except of course when you have no and or slow network. At this point you need to get creative. Luckily, there has been lots of improvemnt in this space.
 
