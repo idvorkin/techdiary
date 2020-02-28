@@ -156,8 +156,36 @@ I now recommend using Notability, however a few places where Notes Plus still ha
 
 ## Development
 
+### Keyboard remapping
+
+#### Caps to Control
+
+Finally, built into iOS 13.4
+
+#### Back tick to escape.
+
+The keyboard I use has backtick where escape should be. In VIM this is super painful ish and blink have options to flip this.  In iVIM you can do a key remap - e.g.
+
+```
+    :imap ` <C-[>
+    :cmap ` <C-[>
+```
+
+### Ssh to another box - Blink
+
+Great SSH client. Because ssh is not persistent, you probably want an ssh session that auto re-attaches to tmux  [tbd].
+
+What about MOSH? MOSH has great promise, but the project hasn't been updated in years, and still doesn't support true color. I use ssh with an auto tmux reconnector in stead.
+
+### Run linux on your iOS device
+
+The holy grail.  [iSh](https://github.com/tbodt/ish) takes a very impressive approach. And tk The author of ish is incredibly cool, I have the utmost respect for his project and his style.
+
+iSh Creates an x86 emulated machine (e.g. simulate execution), and run alpine linux in it. I love this but it has two big gaps. A) Compatibility B) Speed.  There are still CPU instructions and system calls that aren't supported so large swaths of applications don't work - E.g. NPM, Rust.  B) Because it's emulated it's slow, so I need to use trimmed down versions of all my configurations.
+
+### To be filed
+
 - Working Copy - the best git (only?) git edior
-- MOSH - ssh but much better.
 - Editorial - Markdown editor that can interact with Working Copy (seems nicer then ByWord)
 - ByWord - Markdown editor that can interact with Working Copy
 - iVim - VIM clone, slightly unstable but can open files from other apps (:idoc)
