@@ -24,13 +24,7 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
     - [Inkflow](#inkflow)
     - [Nebo](#nebo)
     - [Keyboards](#keyboards)
-- [Development](#development)
-    - [Keyboard remapping](#keyboard-remapping)
-        - [Caps to Control](#caps-to-control)
-        - [Back tick to escape.](#back-tick-to-escape)
-    - [Ssh to another box - Blink](#ssh-to-another-box---blink)
-    - [Run Linux on your iOS device](#run-linux-on-your-ios-device)
-    - [To be filed](#to-be-filed)
+- [Doing development including markdown](#doing-development-including-markdown)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -162,38 +156,6 @@ I now recommend using Notability, however a few places where Notes Plus still ha
 - Google Keyboard - lets you use a swype like gesture
 - Stylus - lets you write by actually writing on the screen (similar to windows ink)
 
-## Development
+## Doing development including markdown
 
-### Keyboard remapping
-
-#### Caps to Control
-
-Finally, built into iOS 13.4
-
-#### Back tick to escape.
-
-The keyboard I use has backtick where escape should be. In VIM this is super painful iSH and blink have options to flip this. In iVIM you can do a key remap - e.g.
-
-```
-    :imap ` <C-[>
-    :cmap ` <C-[>
-```
-
-### Ssh to another box - Blink
-
-Great SSH client. Because ssh is not persistent, you probably want an ssh session that auto re-attaches to TMUX [tbd].
-
-What about MOSH? MOSH has great promise, but the project hasn't been updated in years, and still doesn't support true color. I use ssh with an auto TMUX reconnect in stead.
-
-### Run Linux on your iOS device
-
-The holy grail. [iSH](https://iSH.app) takes a very impressive approach. And TK The author of iSH is incredibly cool, I have the utmost respect for his project and his style.
-
-iSH Creates an x86 emulated machine (e.g. simulate execution), and run alpine Linux in it. I love this but it has two big gaps. A) Compatibility B) Speed. There are still CPU instructions and system calls that aren't supported so large swaths of applications don't work - E.g. NPM, Rust. B) Because it's emulated it's slow, so I need to use trimmed down versions of all my configurations.
-
-### To be filed
-
-- Working Copy - the best git (only?) git editor
-- Editorial - Markdown editor that can interact with Working Copy (seems nicer then Byword)
-- Byword - Markdown editor that can interact with Working Copy
-- iVIM - VIM clone, slightly unstable but can open files from other apps (:idoc)
+Read my post on being an [iPad developer nomad](/notes/ios-nomad.md)

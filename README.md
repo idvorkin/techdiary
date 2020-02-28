@@ -9,6 +9,7 @@
   - [Data Systems](notes/data-systems.md)
   - [In Real Life](notes/irl.md)
   - [Design and Architecture](notes/design.md)
+  - [How to be an iOS only developer](notes/ios-nomad.md)
 - Minor Tips
   - [VLC Player](notes/vlc_player.md)
   - [Pandas](notes/pandas-tutorial.md)
