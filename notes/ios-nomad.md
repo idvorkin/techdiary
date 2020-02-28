@@ -1,4 +1,4 @@
-So you want to be an iPad Developer Nomad. A person who can do all their development on the iPad. I'm not sure why you'd want to be such a charecter, in fact, I'm not sure why I want to be such a charector, but I do, and here's how I do it. To be a developer nomad, you better already be a command line wiz. If you're not at an expert at the terminal, vim or emacs and tmux - don't even try.
+So you want to be an iPad Developer Nomad. A person who can do all their development on the iPad. I'm not sure why you'd want to be such a character, in fact, I'm not sure why I want to be such a character, but I do, and here's how I do it. To be a developer nomad, you better already be a command line wiz. If you're not at an expert at the terminal, vim or Emacs and TMUX - don't even try.
 
 There are three paths - remote development, local development, and hybrid. For all of these you'll need an external keyboard, which I'll also discuss.
 
@@ -6,15 +6,17 @@ There are three paths - remote development, local development, and hybrid. For a
 <!-- vim-markdown-toc GFM -->
 
 - [Remote Development - Blink](#remote-development---blink)
-    - [ssh super powers - port forwarding and tmux auto-attach.](#ssh-super-powers---port-forwarding-and-tmux-auto-attach)
-- [Local Development - iSh, iVim, WorkingCopy, etc](#local-development---ish-ivim-workingcopy-etc)
+    - [ssh super powers - port forwarding and TMUX auto-attach.](#ssh-super-powers---port-forwarding-and-tmux-auto-attach)
+- [Local Development - iSh, iVIM, Working Copy, etc](#local-development---ish-ivim-working-copy-etc)
     - [Run Linux - iSH](#run-linux---ish)
     - [Run Vim - iVIM](#run-vim---ivim)
     - [Run git - Working copy](#run-git---working-copy)
-    - [Command line python](#command-line-python)
-    - [Run Jupyter](#run-jupyter)
+    - [Run python - Pythonista](#run-python---pythonista)
+    - [Run Jupyter - Carnets](#run-jupyter---carnets)
     - [Edit markdown](#edit-markdown)
 - [The external keyboard.](#the-external-keyboard)
+    - [The keyboard I use](#the-keyboard-i-use)
+    - [The iPad stand I use](#the-ipad-stand-i-use)
     - [Caps to Control](#caps-to-control)
     - [Back tick to escape.](#back-tick-to-escape)
 - [General iOS Tips](#general-ios-tips)
@@ -28,11 +30,11 @@ This is the easy way, but you're going to need a good low network latency.
 
 First you need a remote box, I use lightsail. For 10\$ a month I've never run out of CPU or disk. Next you need to be able to connect to the box using SSH, and that requires an ssh client. I use [blink](https://blink.sh/) and couldn't be happier. Great product, great support.
 
-#### ssh super powers - port forwarding and tmux auto-attach.
+#### ssh super powers - port forwarding and TMUX auto-attach.
 
-Beacuse ssh doesn't keep persistant sessions, I use tmux with an auto reattach script. If you're not doing this, go learn how it's awesome. You should also know about ssh [port forwarding](https://github.com/idvorkin/techdiary#ssh)
+Because ssh doesn't keep persistent sessions, I use TMUX with an auto reattach script. If you're not doing this, go learn how it's awesome. You should also know about ssh [port forwarding](https://github.com/idvorkin/techdiary#ssh)
 
-My [dotfiles](https://github.com/idvorkin/settings) should provide some insights on powerful command line tricks. For inspiration, here's what my tmux sessions look like (press [C-B w](https://github.com/idvorkin/Settings/blob/master/shared/.tmux.conf) to get this view)
+My [dot files](https://github.com/idvorkin/settings) should provide some insights on powerful command line tricks. For inspiration, here's what my TMUX sessions look like (press [C-B w](https://github.com/idvorkin/Settings/blob/master/shared/.tmux.conf) to get this view)
 
 ```
 (0)   - main: 6 windows (attached)
@@ -50,9 +52,9 @@ My [dotfiles](https://github.com/idvorkin/settings) should provide some insights
 
 (For folks that are considering [MOSH](https://mosh.org/), MOSH has great promise, but the project hasn't been updated in years, and still doesn't support true color. For my needs ssh+tmux+auto-reconnect is perfect.)
 
-### Local Development - iSh, iVim, WorkingCopy, etc
+### Local Development - iSh, iVIM, Working Copy, etc
 
-Remote development is perfect, except of course when you have no and or slow network. At this point you need to get creative. Luckily, there has been lots of improvemnt in this space.
+Remote development is perfect, except of course when you have no and or slow network. At this point you need to get creative. Luckily, there has been lots of improvement in this space.
 
 #### Run Linux - iSH
 
@@ -74,22 +76,27 @@ Net; net - with creativity you can get many thing working, it's just slow, somet
 
 #### Run git - Working copy
 
-Working Copy - the best git (only?) git editor. It's truely fantastic.
+Working Copy - the best git (only?) git editor. It's truly fantastic.
 
-- GitHawk
+- Git Hawk
 
-#### Command line python
+#### Run python - Pythonista
 
-#### Run Jupyter
+#### Run Jupyter - Carnets
 
 #### Edit markdown
 
 - Editorial - Markdown editor that can interact with Working Copy (seems nicer then Byword)
 - Byword - Markdown editor that can interact with Working Copy
+- MWeb - Markdown editor that can interact with Working Copy
 
 ### The external keyboard.
 
 You'll Keyboard remapping
+
+#### The keyboard I use
+
+#### The iPad stand I use
 
 #### Caps to Control
 
@@ -103,8 +110,6 @@ The keyboard I use has backtick where escape should be. In VIM this is super pai
     :imap ` <C-[>
     :cmap ` <C-[>
 ```
-
-- iVIM - VIM clone, slightly unstable but can open files from other apps (:idoc)
 
 ### General iOS Tips
 
