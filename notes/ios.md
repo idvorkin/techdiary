@@ -1,37 +1,39 @@
 I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I use.
 
+<!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
 - [General](#general)
-  - [Global Controls (For iPhone X)](#global-controls-for-iphone-x)
-  - [Siri (For iPhone X)](#siri-for-iphone-x)
-  - [HomeKit](#homekit)
-  - [Health Kit](#health-kit)
-  - [Photos](#photos)
+    - [Global Controls (For iPhone X)](#global-controls-for-iphone-x)
+    - [Siri (For iPhone X)](#siri-for-iphone-x)
+    - [HomeKit](#homekit)
+    - [Health Kit](#health-kit)
+    - [Photos](#photos)
 - [Apps](#apps)
-  - [All](#all)
-  - [Chrome](#chrome)
-  - [Launcher](#launcher)
-  - [Workflow](#workflow)
+    - [All](#all)
+    - [Chrome](#chrome)
+    - [Launcher](#launcher)
+    - [Workflow](#workflow)
 - [Watch](#watch)
 - [Augmented Reality Apps](#augmented-reality-apps)
 - [Pen](#pen)
-  - [Notability](#notability)
-  - [Notes Plus](#notes-plus)
-  - [OneNote](#onenote)
-  - [Adobe Sketch](#adobe-sketch)
-  - [Inkflow](#inkflow)
-  - [Nebo](#nebo)
-  - [Keyboards](#keyboards)
+    - [Notability](#notability)
+    - [Notes Plus](#notes-plus)
+    - [OneNote](#onenote)
+    - [Adobe Sketch](#adobe-sketch)
+    - [Inkflow](#inkflow)
+    - [Nebo](#nebo)
+    - [Keyboards](#keyboards)
 - [Development](#development)
-  - [Keyboard remapping](#keyboard-remapping)
-    - [Caps to Control](#caps-to-control)
-    - [Back tick to escape.](#back-tick-to-escape)
-  - [Ssh to another box - Blink](#ssh-to-another-box---blink)
-  - [Run Linux on your iOS device](#run-linux-on-your-ios-device)
-  - [To be filed](#to-be-filed)
+    - [Keyboard remapping](#keyboard-remapping)
+        - [Caps to Control](#caps-to-control)
+        - [Back tick to escape.](#back-tick-to-escape)
+    - [Ssh to another box - Blink](#ssh-to-another-box---blink)
+    - [Run Linux on your iOS device](#run-linux-on-your-ios-device)
+    - [To be filed](#to-be-filed)
 
 <!-- vim-markdown-toc -->
+<!-- prettier-ignore-end -->
 
 ## General
 
@@ -170,7 +172,7 @@ Finally, built into iOS 13.4
 
 #### Back tick to escape.
 
-The keyboard I use has backtick where escape should be. In VIM this is super painful ish and blink have options to flip this. In iVIM you can do a key remap - e.g.
+The keyboard I use has backtick where escape should be. In VIM this is super painful iSH and blink have options to flip this. In iVIM you can do a key remap - e.g.
 
 ```
     :imap ` <C-[>
@@ -185,9 +187,9 @@ What about MOSH? MOSH has great promise, but the project hasn't been updated in 
 
 ### Run Linux on your iOS device
 
-The holy grail. [iSh](https://github.com/tbodt/ish) takes a very impressive approach. And TK The author of ish is incredibly cool, I have the utmost respect for his project and his style.
+The holy grail. [iSH](https://iSH.app) takes a very impressive approach. And TK The author of iSH is incredibly cool, I have the utmost respect for his project and his style.
 
-iSh Creates an x86 emulated machine (e.g. simulate execution), and run alpine Linux in it. I love this but it has two big gaps. A) Compatibility B) Speed. There are still CPU instructions and system calls that aren't supported so large swaths of applications don't work - E.g. NPM, Rust. B) Because it's emulated it's slow, so I need to use trimmed down versions of all my configurations.
+iSH Creates an x86 emulated machine (e.g. simulate execution), and run alpine Linux in it. I love this but it has two big gaps. A) Compatibility B) Speed. There are still CPU instructions and system calls that aren't supported so large swaths of applications don't work - E.g. NPM, Rust. B) Because it's emulated it's slow, so I need to use trimmed down versions of all my configurations.
 
 ### To be filed
 
