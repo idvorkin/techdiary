@@ -19,6 +19,7 @@ There are three paths - remote development, local development, and hybrid. For a
     - [The iPad stand I use](#the-ipad-stand-i-use)
     - [Caps to Control](#caps-to-control)
     - [Back tick to escape.](#back-tick-to-escape)
+    - [Carrying bags](#carrying-bags)
 - [General iOS Tips](#general-ios-tips)
 
 <!-- vim-markdown-toc -->
@@ -140,6 +141,18 @@ The keyboard I use has backtick where escape should be. In VIM this is super pai
     :imap ` <C-[>
     :cmap ` <C-[>
 ```
+
+#### Carrying bags
+
+Slightly off topic, but if you made it this far, you probably care about small bags as well.
+
+It's taken me several tries, but [I've concluded](/notes/irl.md#work-bag) I like the smallest bag possible. I use a 13" macbook pro laptop and an iPad Pro 10" and this is the perfect bag for me:
+
+https://www.amazon.com/gp/product/B07WNPPF72
+
+There's also the horizontal version - which is slightly bigger but also nice:
+
+https://www.amazon.com/gp/product/B07H4QYC2D/
 
 ### General iOS Tips
 
