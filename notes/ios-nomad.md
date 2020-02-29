@@ -9,8 +9,8 @@ There are three paths - remote development, local development, and hybrid. For a
     - [ssh super powers - port forwarding and TMUX auto-attach.](#ssh-super-powers---port-forwarding-and-tmux-auto-attach)
 - [Local Development - iSh, iVIM, Working Copy, etc](#local-development---ish-ivim-working-copy-etc)
     - [Run Linux - iSH](#run-linux---ish)
-    - [Run Vim - iVIM](#run-vim---ivim)
     - [Run git - Working copy](#run-git---working-copy)
+    - [Run Vim - iVIM](#run-vim---ivim)
     - [Run python - Pythonista](#run-python---pythonista)
     - [Run Jupyter - Carnets](#run-jupyter---carnets)
     - [Edit markdown](#edit-markdown)
@@ -26,7 +26,7 @@ There are three paths - remote development, local development, and hybrid. For a
 
 ### Remote Development - Blink
 
-This is the easy way, but you're going to need a good low network latency.
+This is the easy way, but you're going to need a good low latency network.
 
 First you need a remote box, I use lightsail. For 10\$ a month I've never run out of CPU or disk. Next you need to be able to connect to the box using SSH, and that requires an ssh client. I use [blink](https://blink.sh/) and couldn't be happier. Great product, great support.
 
@@ -50,7 +50,7 @@ My [dot files](https://github.com/idvorkin/settings) should provide some insight
 
 ```
 
-(For folks that are considering [MOSH](https://mosh.org/), MOSH has great promise, but the project hasn't been updated in years, and still doesn't support true color. For my needs ssh+tmux+auto-reconnect is perfect.)
+(For folks that are considering [MOSH](https://mosh.org/), MOSH has great promise, but the project hasn't been updated in years, and still doesn't support true color. For my needs ssh+TMUX+auto-reconnect is perfect.)
 
 ### Local Development - iSh, iVIM, Working Copy, etc
 
@@ -62,23 +62,47 @@ The holy grail. [iSH](https://iSH.app) takes a very impressive approach. And [tb
 
 iSH Creates an x86 emulated machine (e.g. simulate execution), and run alpine Linux in it. I love this but it has two big gaps. A) Compatibility B) Speed. There are still CPU instructions and system calls that aren't supported so large swaths of applications don't work - E.g. NPM, Rust. B) Because it's emulated it's slow, so I need to use trimmed down versions of all my configurations.
 
-Net; net - with creativity you can get many thing working, it's just slow, sometimes so painfully slow you don't want to do it.
+When your software can run iSH, and is fast enough, you're done. However because of the compatibility and speed concerns, you'll often need other solutions to augment iSH. Here are the ones I use
+
+#### Run git - Working copy
+
+Working Copy - the best git client for iOS, it's truly fantastic. So many features you should read the documentation as carefully as you would for TMUX.
+
+Even though it's graphical it can be automated because it exposes iOS APIs via URL that other tools (like VIM) can execute. Super cool.
+
+A close cousin to git is Git Hawk this tool allows you to monitor your GitHub messages.
 
 #### Run Vim - iVIM
 
 [iVIM](https://github.com/terrychou/iVim) does a great job being VIM, but you tend not to use VIM in isolation, you need Git and Plugins and often some command line integration. There are workarounds, some of which painful, but I'll describe them here.
 
 - git integration
-- bundle integration
+
+This is a bizarre, but surprisingly effective technique. While iVIM can't run git, Working Copy can create a directory it has access to in another app (like iVIM), and execute git commands on it.
+
+The approach here is you setup git repositories into iVIM (working copy calls these TK), then you set the remote of the synced directory to be the git target you want (e.g. github.com/idvorkin/settings). Then every time you want to use git commands, you flip to working copy, and it just works. Given how hacky this sound it works amazingly well.
+
+- bundle/plugin integration
+
+This is painful as most plugin managers execute git behind the covers. To get this to work you need to copy your bundle directory into iVIM using the iOS Files app. For some reason, when I try this it fails.
+
+An alternative I'm planning on trying is git TK
+
+Now because iVIM doesn't support git you need to use Working Copy, and so far that has worked well.
+
 - opening files from other apps
+
+This works decently, you the :idocu command to get the iOS File Picker and then choose files from other apps.
+
 - sharing files to other apps
+
+This works very well, use the share to and you're done.
+
 - font management
 
-#### Run git - Working copy
+While not apple UI friendly it's supported use the :ifont command, e.g.:
 
-Working Copy - the best git (only?) git editor. It's truly fantastic.
-
-- Git Hawk
+    :ifont 0 4
 
 #### Run python - Pythonista
 
@@ -92,11 +116,17 @@ Working Copy - the best git (only?) git editor. It's truly fantastic.
 
 ### The external keyboard.
 
-You'll Keyboard remapping
-
 #### The keyboard I use
 
+I'm a huge fan of ergo keyboards. iClever makes a [cheap folding ergo Bluetooth keyboard](https://www.amazon.com/dp/B01JA6HG88/) that support up to 3 devices. I prefer this to all my laptop keyboards.
+
 #### The iPad stand I use
+
+Getting a good stand is hard and I'm constantly iterating.
+
+For places I use my iPad a lot at home I use this [ergo monitor arm equivalent](https://www.amazon.com/gp/product/B074PFVVBH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). It lets you position your relatively heavy iPad into any position or orientation.
+
+For remote use, I want something that is light and fits in my bag. I've tried slews of stands and I dislike all of them. I'm currently using the [moko folding](https://www.amazon.com/gp/product/B017TU2WGS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) , which I'm not thrilled with, but best I've found.
 
 #### Caps to Control
 
