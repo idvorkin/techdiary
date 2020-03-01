@@ -188,6 +188,7 @@ The rad mini has a geared rear drive, which has solid acceleration, and decent e
 1. Get the step through, it doesn't look as cool, but it's always helpful to have your life be easier.
 2. Despite the name, it's not a mini, it's huge by bike standards. Just mini compared to Rad Power's other giant e-bikes.
 3. Despite being a folding bike, it's not portable or small folded down. At 75lbs you're going to need a few people to lift it, but at least you can get it into a car with folded down seats which wouldn't' be possible with the other giant bikes.
+4. The engine makes a continous "zipping" sound (due to the internal gearing). This "disturbs" the serinity of biking, and wouldn't be present on a mid drive or a direct drive rear drive (but again the trade off is torque)
 
 [Link to Rad Mini](https://www.radpowerbikes.com/products/radmini-step-thru)
 
