@@ -20,6 +20,7 @@
     - [Gym Bag](#gym-bag)
     - [Work Bag](#work-bag)
 - [Bikes](#bikes)
+    - [Bike accouterments](#bike-accouterments)
     - [Folding Bike - The Brompton](#folding-bike---the-brompton)
     - [E-bike theory](#e-bike-theory)
         - [Mid vs Rear drive](#mid-vs-rear-drive)
@@ -138,6 +139,10 @@ https://www.amazon.com/gp/product/B07H4QYC2D/
 ## Bikes
 
 I **love** not driving. Biking is an awesome form of transit. It took a while but I concluded I have several use cases so need several bikes. In fact,
+
+### Bike accouterments
+
+See my post on biking on my main [blog](https://www.idvork.in/bike)
 
 ### Folding Bike - The Brompton
 
