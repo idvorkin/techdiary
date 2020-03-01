@@ -71,7 +71,13 @@ Working Copy - the best git client for iOS, it's truly fantastic. So many featur
 
 Even though it's graphical it can be automated because it exposes iOS APIs via URL that other tools (like VIM) can execute. Super cool.
 
-A close cousin to git is Git Hawk this tool allows you to monitor your GitHub messages.
+Example callbacks I use are:
+
+Pull All Repos:
+
+    working-copy://x-callback-url/pull?key=secret&repo=%2A
+
+A cousin to Working Copy is Git Hawk this tool allows you to monitor your GitHub messages.
 
 #### Run Vim - iVIM
 
