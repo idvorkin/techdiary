@@ -9,6 +9,7 @@ Session.vim
 
 # Temporary
 .netrwhist
+*.bak
 *~
 # Auto-generated tag files
 tags
