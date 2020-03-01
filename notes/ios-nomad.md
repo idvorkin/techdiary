@@ -14,6 +14,7 @@ There are three paths - remote development, local development, and hybrid. For a
     - [Run python - Pythonista](#run-python---pythonista)
     - [Run Jupyter - Carnets](#run-jupyter---carnets)
     - [Edit markdown](#edit-markdown)
+- [Hybrid development - Consistency](#hybrid-development---consistency)
 - [The external keyboard.](#the-external-keyboard)
     - [The keyboard I use](#the-keyboard-i-use)
     - [The iPad stand I use](#the-ipad-stand-i-use)
@@ -120,6 +121,16 @@ While not apple UI friendly it's supported use the :ifont command, e.g.:
 - Editorial - Markdown editor that can interact with Working Copy (seems nicer then Byword)
 - Byword - Markdown editor that can interact with Working Copy
 - MWeb - Markdown editor that can interact with Working Copy
+
+### Hybrid development - Consistency
+
+What is hybrid development? It's remote development when you've got the network and local development when you don't. This model is similar to having to work on multiple machines at the same time.
+
+The main complexity with hybrid development is keeping everything in sync. To do this I keep everything in git, and then run a cron job that's pushing and pulling continuously. My cron job approach is:
+
+https://github.com/idvorkin/Settings/blob/master/shared/cron_git_sync.sh
+
+The two gaps here are merge conflicts (which I handle manually), and not syncing on my iPad, which is tricky because I haven't found a way to do a periodic timer to arbitray command execution yet (TK: Holler if you have a good way to do this)
 
 ### The external keyboard.
 
