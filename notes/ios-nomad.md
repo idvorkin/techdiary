@@ -21,7 +21,7 @@ There are three paths - remote development, local development, and hybrid. For a
     - [Caps to Control](#caps-to-control)
     - [Back tick to escape.](#back-tick-to-escape)
     - [Carrying bags](#carrying-bags)
-- [General iOS Tips](#general-ios-tips)
+- [Related links](#related-links)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -171,6 +171,6 @@ There's also the horizontal version - which is slightly bigger but also nice:
 
 https://www.amazon.com/gp/product/B07H4QYC2D/
 
-### General iOS Tips
+### Related links
 
 You can see my general [iOS tips](notes/ios.md) as well.

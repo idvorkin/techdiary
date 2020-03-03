@@ -2,49 +2,46 @@
 
 ## Why?
 
-<!-- prettier-ignore-start -->
+## Success criteria For this post
+
 <!-- vim-markdown-toc GFM -->
 
-- [Success criteria For this post](#success-criteria-for-this-post)
 - [Micro services](#micro-services)
 - [Containers](#containers)
-    - [Containers are about application packaging and delivery.](#containers-are-about-application-packaging-and-delivery)
-        - [The power of the Dockerfile and image repository.](#the-power-of-the-dockerfile-and-image-repository)
-    - [Containers as execution hosts - vs Virtual and Physical Machines](#containers-as-execution-hosts---vs-virtual-and-physical-machines)
-    - [Container Orchestration](#container-orchestration)
-        - [Kubertnetes](#kubertnetes)
-        - [Everything else](#everything-else)
+  - [Containers are about application packaging and delivery.](#containers-are-about-application-packaging-and-delivery)
+    - [The power of the Dockerfile and image repository.](#the-power-of-the-dockerfile-and-image-repository)
+  - [Containers as execution hosts - vs Virtual and Physical Machines](#containers-as-execution-hosts---vs-virtual-and-physical-machines)
+  - [Container Orchestration](#container-orchestration)
+    - [Kubertnetes](#kubertnetes)
+    - [Everything else](#everything-else)
 - [Front Door - AWS API Gateway](#front-door---aws-api-gateway)
-    - [Caching + Throttling](#caching--throttling)
-    - [Logging/Monitoring/Alarming](#loggingmonitoringalarming)
-    - [Routing + API Transformation](#routing--api-transformation)
-    - [Websocket transformation](#websocket-transformation)
+  - [Caching + Throttling](#caching--throttling)
+  - [Logging/Monitoring/Alarming](#loggingmonitoringalarming)
+  - [Routing + API Transformation](#routing--api-transformation)
+  - [Websocket transformation](#websocket-transformation)
 - [Networking](#networking)
-    - [Connections, data refresh and data transfer](#connections-data-refresh-and-data-transfer)
-        - [Connection Establishment - Client or Service](#connection-establishment---client-or-service)
-        - [Data Refresh - Polling vs Event Driven - Web Sockets](#data-refresh---polling-vs-event-driven---web-sockets)
-        - [Data Transfer - REST vs WebSocket](#data-transfer---rest-vs-websocket)
-    - [Planes - Control, Data, and Management](#planes---control-data-and-management)
-    - [Latency is real](#latency-is-real)
-    - [Communication buses: Envoy](#communication-buses-envoy)
+  - [Connections, data refresh and data transfer](#connections-data-refresh-and-data-transfer)
+    - [Connection Establishment - Client or Service](#connection-establishment---client-or-service)
+    - [Data Refresh - Polling vs Event Driven - Web Sockets](#data-refresh---polling-vs-event-driven---web-sockets)
+    - [Data Transfer - REST vs WebSocket](#data-transfer---rest-vs-websocket)
+  - [Planes - Control, Data, and Management](#planes---control-data-and-management)
+  - [Latency is real](#latency-is-real)
+  - [Communication buses: Envoy](#communication-buses-envoy)
 - [New patterns](#new-patterns)
-    - [Side cars](#side-cars)
+  - [Side cars](#side-cars)
 - [Functions as a Service FaaS](#functions-as-a-service-faas)
-    - [Introduction](#introduction)
-    - [FaaS Orchestration](#faas-orchestration)
-    - [Triggers](#triggers)
-    - [Security](#security)
-    - [Logging](#logging)
-    - [Debugging](#debugging)
+  - [Introduction](#introduction)
+  - [FaaS Orchestration](#faas-orchestration)
+  - [Triggers](#triggers)
+  - [Security](#security)
+  - [Logging](#logging)
+  - [Debugging](#debugging)
 - [Data Systems](#data-systems)
 - [Challenges](#challenges)
-    - [Conways law - Four complier teams implies a four pass complier](#conways-law---four-complier-teams-implies-a-four-pass-complier)
-- [References:](#references)
+  - [Conways law - Four complier teams implies a four pass complier](#conways-law---four-complier-teams-implies-a-four-pass-complier)
+- [Related Reading](#related-reading)
 
 <!-- vim-markdown-toc -->
-<!-- prettier-ignore-end -->
-
-## Success criteria For this post
 
 ## Micro services
 
@@ -180,7 +177,7 @@ Huge topic, see [Data Systems](data-systems.md).
 
 Conway's law is an aphorism in IT that posits the idea that “organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations.” This idea can be traced back to a programmer named Melvin Conway who developed this principle in the late 1960s.
 
-## References:
+## Related Reading
 
 - [Container usage study](https://www.datadoghq.com/container-orchestration/)
 - [Azure cloud patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
