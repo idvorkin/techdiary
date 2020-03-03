@@ -2,7 +2,7 @@
 
 ## Why?
 
-This page contains my knowledge of data systems. Mostly just a summary of  [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=AZ1QGMVFB2K45MWY14X0)
+This page contains my knowledge of data systems. Mostly just a summary of [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=AZ1QGMVFB2K45MWY14X0)
 
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
@@ -37,17 +37,14 @@ This page contains my knowledge of data systems. Mostly just a summary of  [Desi
     - [Write path derived data system flows](#write-path-derived-data-system-flows)
     - [Event sourcing and event logs](#event-sourcing-and-event-logs)
     - [E2E asyncronous verification with apology workflow](#e2e-asyncronous-verification-with-apology-workflow)
-- [References](#references)
+- [Related Reading](#related-reading)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
 
 ## Success criteria For this post
 
-
-
 ## Comparisons
-
 
 ### Dataflows Service vs Database vs Message Broker
 
@@ -65,7 +62,7 @@ Source of truth, vs caches, materialized views, denormalized data etc.
 
 ### Stream vs Batch Processing
 
-Batch jobs take a time window of data and process it at once. Think Full File In -> Full File Out.  Stream processing is a batch job where the 'window' is as small as possible. Think For each new line in file -> create a new file out.
+Batch jobs take a time window of data and process it at once. Think Full File In -> Full File Out. Stream processing is a batch job where the 'window' is as small as possible. Think For each new line in file -> create a new file out.
 
 ### Facts Measures and Dimensions.
 
@@ -79,17 +76,13 @@ Analytics systems like column store are optimized for this type of analysis (lat
 
 ### Data lakes and Data warehouse
 
-The difference is schema on write vs scheme on read. In a warehouse, you figure out your schema upfront, which is expensive, and can result in data loss.  In a lake, you store all your data with the assumption you'll need it eventually and you'll figure out how to use it after its been generated. Given the speed of new technology, I'd highly recommend a data lake.
+The difference is schema on write vs scheme on read. In a warehouse, you figure out your schema upfront, which is expensive, and can result in data loss. In a lake, you store all your data with the assumption you'll need it eventually and you'll figure out how to use it after its been generated. Given the speed of new technology, I'd highly recommend a data lake.
 
 A data warehouse is a database optimized to analyze relational data coming from transactional systems and line of business applications. The data structure, and schema are defined in advance to optimize for fast SQL queries, where the results are typically used for operational reporting and analysis. Data is cleaned, enriched, and transformed so it can act as the “single source of truth” that users can trust.
 
 A data lake is different, because it stores relational data from line of business applications, and non-relational data from mobile apps, IoT devices, and social media. The structure of the data or schema is not defined when data is captured. This means you can store all of your data without careful design or the need to know what questions you might need answers for in the future. Different types of analytics on your data like SQL queries, big data analytics, full text search, real-time analytics, and machine learning can be used to uncover insights.
 
-
-
-
 ## Databases
-
 
 ### Distributed File System - S3
 
@@ -111,7 +104,7 @@ Key-Value store with better indexing on json properties?
 
 High performance analytics since can scan column at once.
 
-### Graph  - AWS Neptune
+### Graph - AWS Neptune
 
 ## Message Brokers
 
@@ -123,14 +116,15 @@ Buffer, Data Loss, Throttle
 
 ### Event BroadCasting- PubSub- SNS
 
-This is similar to broadcasting a message. Multiple publishers can write to a topic, and multiple subscribers can are notified of the message. If someone isn't subscribed at notification time, they will not hear the message. This is useful for scenarios where you want to expose an event occurred, but aren't interested in how they process it. E.g. "There's a new video uploaded by user".  If you need to take an action on this event, you'll need to connect SNS to SQS.
+This is similar to broadcasting a message. Multiple publishers can write to a topic, and multiple subscribers can are notified of the message. If someone isn't subscribed at notification time, they will not hear the message. This is useful for scenarios where you want to expose an event occurred, but aren't interested in how they process it. E.g. "There's a new video uploaded by user". If you need to take an action on this event, you'll need to connect SNS to SQS.
 
 ### Durable Message Queues - SQS
-This is similar to an asynchronous API call. Multiple publishers can write to a topic, and a single consumer is guaranteed to process the message.  Useful scenarios are "tell a worker to encode a video". If no one listens to the "messages" they will queue incurring high costs.
+
+This is similar to an asynchronous API call. Multiple publishers can write to a topic, and a single consumer is guaranteed to process the message. Useful scenarios are "tell a worker to encode a video". If no one listens to the "messages" they will queue incurring high costs.
 
 ### Kinesis - Data Streams
 
-Base layer for Kinesis. A log based message broker with 100ms ish latency.  Can use this with Fire Hose, Data Analaytics or your own Lambda.  Data streams don't yet have elastic scaling and are somewhat expensive.
+Base layer for Kinesis. A log based message broker with 100ms ish latency. Can use this with Fire Hose, Data Analaytics or your own Lambda. Data streams don't yet have elastic scaling and are somewhat expensive.
 
 ### Kinesis - Data Analytics
 
@@ -148,7 +142,6 @@ Auto-upload video while it's being created. Supports video things like compressi
 
 Global integration for common providers (like web hooks) to get remapped to events. Also supports filter and transform to handle impedance mismatches. This 'solves' the web-hook 'call-home' problem.
 
-
 ## Big Ideas
 
 ### Write path vs read path
@@ -159,9 +152,7 @@ Global integration for common providers (like web hooks) to get remapped to even
 
 ### E2E asyncronous verification with apology workflow
 
-
-
-## References
+## Related Reading
 
 - [Azure cloud patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 - [Building Microservices: Designing Fine-Grained Systems](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
