@@ -173,4 +173,6 @@ https://www.amazon.com/gp/product/B07H4QYC2D/
 
 ### Related links
 
-You can see my general [iOS tips](notes/ios.md) as well.
+- My general [iOS tips](notes/ios.md).
+- [Automating iOS]()
+- [x-callback-urls for Working Copy]()

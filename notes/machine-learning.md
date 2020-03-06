@@ -79,7 +79,7 @@
     - [Why is ML so complicated](#why-is-ml-so-complicated)
     - [Deep Fakes](#deep-fakes)
     - [Time Series Analysis](#time-series-analysis)
-- [Resources](#resources)
+- [Other Resources](#other-resources)
     - [What should I read to learn more](#what-should-i-read-to-learn-more)
 
 <!-- vim-markdown-toc -->
@@ -355,7 +355,6 @@ _Thanks Dan Massey for your recommendation to discuss these topics_
 
 ### Guard rails for inputs versus training data
 
-
 ## Natural Language Processing (NLP)
 
 ### Bert
@@ -365,7 +364,6 @@ Word masking NLP models [BERT](https://towardsml.com/2019/09/17/bert-explained-a
 ### Word Embedding
 
 [Introduction to word embeddings](http://jalammar.github.io/illustrated-word2vec)
-
 
 ## Misc Topics
 
@@ -397,7 +395,7 @@ So using this we have create compress_igor(image)->small_state and decompress_ig
 
 Check out [prophet](https://towardsml.com/2018/05/23/time-series-forecasting-the-easy-way-lets-analyze-microsofts-stocks/)
 
-## Resources
+## Other Resources
 
 ### What should I read to learn more
 
