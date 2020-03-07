@@ -174,5 +174,5 @@ https://www.amazon.com/gp/product/B07H4QYC2D/
 ### Related links
 
 - My general [iOS tips](notes/ios.md).
-- [Automating iOS]()
-- [x-callback-urls for Working Copy]()
+- [Automating iOS](https://www.macstories.net/stories/automating-ios-how-pythonista-changed-my-workflow/)
+- [x-callback-urls for OmniFocus](https://inside.omnifocus.com/url-schemes)
