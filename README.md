@@ -342,6 +342,10 @@ The first -ss seeks fast to (approximately) 8min0sec, and then the second -ss se
 
     ffmpeg -ss 00:08:00 -i $infile -ss 00:01:00 -t 00:01:00 -c copy $outfile
 
+Video To Gif on iOS
+
+On github, it's common to share an inline view of a [repro](https://github.com/mzlogin/vim-markdown-toc/issues/62). A great way to do that is to make a gif of the issue. To do that on iOS you need to do do a screen recording, and then save that to a gif. I used GifMaker, seems good engouh.
+
 ### Linters and formatters
 
 You know what sucks less then coding standards? Arguing about coding standards. Nothing pains me more then arguing about formatting (and other minutia). As such I love having lint failures being build breaks and including formatting on save. Even better when you have [opinionated](https://stackoverflow.com/questions/802050/what-is-opinionated-software) formatters that don't have options. Sure standards suck, but they suck much less then arguing.
