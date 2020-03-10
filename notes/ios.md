@@ -24,6 +24,7 @@ I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I 
     - [Inkflow](#inkflow)
     - [Nebo](#nebo)
     - [Keyboards](#keyboards)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Doing development including markdown](#doing-development-including-markdown)
 
 <!-- vim-markdown-toc -->
@@ -155,6 +156,11 @@ I now recommend using Notability, however a few places where Notes Plus still ha
 
 - Google Keyboard - lets you use a swype like gesture
 - Stylus - lets you write by actually writing on the screen (similar to windows ink)
+
+## Keyboard Shortcuts
+
+W-S-3 - Take screen shot
+Long press W - See supported key strokes (varies per app)
 
 ## Doing development including markdown
 
