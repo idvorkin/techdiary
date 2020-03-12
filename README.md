@@ -69,6 +69,7 @@
         - [PlantUML Tools](#plantuml-tools)
         - [PlantUML in Markdown](#plantuml-in-markdown)
         - [Quirks](#quirks)
+    - [Windows Managers](#windows-managers)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -432,11 +433,11 @@ https://hackmd.io/features#UML-Diagrams
 
 You can't directly render PlantUML in Markdown, but you can render images, and get PlantUML to load content from file. E.g:
 
-http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=**URL_with_uml_file**&cache_buster=**increment_to_avoid_caching**
+    http://www.plantuml.com/plantuml/proxy?idx=0&format=svg&src=**URL_with_uml_file**&cache_buster=**increment_to_avoid_caching**
 
 Store your PlantUML file somewhere - e.g.
 
-[https://raw.github.com/idvorkin/techdiary/master/sample_diagrams.puml](https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml)
+    [https://raw.github.com/idvorkin/techdiary/master/sample_diagrams.puml](https://raw.githubusercontent.com/idvorkin/techdiary/master/sample_diagrams.puml)
 
 Then render it like an image e.g.
 
@@ -449,3 +450,10 @@ Then render it like an image e.g.
 - GitHub caches, so increment the c parameter
 - PlantUML doesn't support https (really??) so the PlantUML server URL needs to be **http** (not https).
 - The image URL uses http, and VS Code preview doesn't allow loading things over http by default, so click that 'insecure content' button to allow rendering in unsafe mode (ugh)
+
+### Windows Managers
+
+Tools that let you re-tile
+
+- OSX - Magnets
+- Windows - Windows Power Toys - [FancyZones](https://github.com/microsoft/PowerToys)
