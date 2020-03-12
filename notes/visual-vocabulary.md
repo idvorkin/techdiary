@@ -10,6 +10,7 @@ I'm a visual thinker and here are some notes that help me with drawing/visualizi
 - [Sketch Books](http://sachachua.com/blog/category/visual-book-notes/) - A nice visual summary.
 - [Draw with me ](https://worlddraw.withgoogle.com/draw) - Googles draw a world together.
 - [Flat Icons](https://www.flaticon.com/) - A good library of vectors
+- [Vector Stock](https://www.vectorstock.com/) - Another library of images
 
 ### SVG Editors
 
