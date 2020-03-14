@@ -56,6 +56,7 @@ Not using prettier ignore gaurds as vimtoc gets confused here.
 - [App Launchers](#app-launchers)
 - [Chrome extensions](#chrome-extensions)
 - [Web tools (http)](#web-tools-http)
+  - [http-prompt](#http-prompt)
   - [httpie](#httpie)
   - [Link Checkers](#link-checkers)
 - [Video Manipulation Tools](#video-manipulation-tools)
@@ -307,6 +308,10 @@ zsh path append
 - Fail to load dinosaur - Not an extension but you can play a little game with the dinosaur by pressing <space> on the chrome dinosaur
 
 ### Web tools (http)
+
+#### http-prompt
+
+An interactive [http prompt](http://http-prompt.com/)
 
 #### httpie
 
