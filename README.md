@@ -28,53 +28,53 @@
 
 ## Awesome Lists
 
-<!-- prettier-ignore-start -->
+<!--
+Not using prettier ignore gaurds as vimtoc gets confused here.
+-->
 <!-- vim-markdown-toc GFM -->
 
-- [\_](#)
-    - [Markdown](#markdown)
-    - [VIM](#vim)
-    - [C Sharp](#c-sharp)
-    - [Java](#java)
-    - [Python](#python)
-    - [Typescript](#typescript)
-    - [Apple](#apple)
-    - [Home Automation](#home-automation)
-    - [Powershell](#powershell)
-    - [Text manipulation tools](#text-manipulation-tools)
-        - [jq](#jq)
-    - [Cool shell tools](#cool-shell-tools)
-    - [Natural Language Processing](#natural-language-processing)
-    - [Azure One Liners](#azure-one-liners)
-        - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
-    - [git](#git)
-    - [GitHub](#github)
-    - [SSH](#ssh)
-    - [TMUX](#tmux)
-    - [Random 1-liners](#random-1-liners)
-    - [App Launchers](#app-launchers)
-    - [Chrome extensions](#chrome-extensions)
-    - [Web tools (http)](#web-tools-http)
-        - [httpie](#httpie)
-        - [Link Checkers](#link-checkers)
-    - [Video Manipulation Tools](#video-manipulation-tools)
-    - [Linters and formatters](#linters-and-formatters)
-    - [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
-    - [Spelling](#spelling)
-    - [Web scripting](#web-scripting)
-    - [Programming Helpers](#programming-helpers)
-        - [howdoi](#howdoi)
-    - [PlantUML alternatives](#plantuml-alternatives)
-    - [PlantUML](#plantuml)
-        - [PlantUML Tools](#plantuml-tools)
-        - [PlantUML in Markdown](#plantuml-in-markdown)
-        - [Quirks](#quirks)
-    - [Windows Managers](#windows-managers)
+- [Markdown](#markdown)
+- [VIM](#vim)
+- [C Sharp](#c-sharp)
+- [Java](#java)
+- [Python](#python)
+- [Typescript](#typescript)
+- [Apple](#apple)
+- [Home Automation](#home-automation)
+- [Powershell](#powershell)
+- [Text manipulation tools](#text-manipulation-tools)
+  - [jq](#jq)
+- [Cool shell tools](#cool-shell-tools)
+- [Natural Language Processing](#natural-language-processing)
+- [Azure One Liners](#azure-one-liners)
+  - [Deploy webapp via git checkin](#deploy-webapp-via-git-checkin)
+- [git](#git)
+- [GitHub](#github)
+- [SSH](#ssh)
+- [TMUX](#tmux)
+- [Random 1-liners](#random-1-liners)
+- [App Launchers](#app-launchers)
+- [Chrome extensions](#chrome-extensions)
+- [Web tools (http)](#web-tools-http)
+  - [httpie](#httpie)
+  - [Link Checkers](#link-checkers)
+- [Video Manipulation Tools](#video-manipulation-tools)
+- [Linters and formatters](#linters-and-formatters)
+- [Switching between Unix and DOS file ending](#switching-between-unix-and-dos-file-ending)
+- [Spelling](#spelling)
+- [Web scripting](#web-scripting)
+- [Programming Helpers](#programming-helpers)
+  - [howdoi](#howdoi)
+- [PlantUML alternatives](#plantuml-alternatives)
+- [PlantUML](#plantuml)
+  - [PlantUML Tools](#plantuml-tools)
+  - [PlantUML in Markdown](#plantuml-in-markdown)
+  - [Quirks](#quirks)
+- [Windows Managers](#windows-managers)
+- [CLI Screen Recoding](#cli-screen-recoding)
+- [Other Resources](#other-resources)
 
 <!-- vim-markdown-toc -->
-<!-- prettier-ignore-end -->
-
-## \_
 
 ### Markdown
 
@@ -170,7 +170,7 @@ Decent blog posts:
 - glances - Prettier Top
 - iftop - Network based top based on network connection
 - nethogs - Network based top based on process
-- [fd](https://github.com/sharkdp/fd) - Better find/recurse.
+- [fd](https://github.com/sharkdp/fd) - Better find/recurse. (fd "regexp")
 
 ### Natural Language Processing
 
@@ -200,6 +200,8 @@ Find when text is [deleted](https://stackoverflow.com/questions/12591247/find-wh
 git log -c -S'missingtext' /path/to/file
 ```
 
+[Diff so fancy](https://github.com/so-fancy/diff-so-fancy) - a very nice diff
+
 My original [git tricks](https://ig2600.blogspot.com/2014/10/cool-tools-git-helpers.html) from 2014 :)
 
 ### GitHub
@@ -207,6 +209,7 @@ My original [git tricks](https://ig2600.blogspot.com/2014/10/cool-tools-git-help
 - Serve HTML files directly from GitHub: https://rawgit.com/idvorkin/linqpadsnippets/master/js/DetectBackButton.html
 - Keyboard shortcuts: https://help.github.com/articles/using-keyboard-shortcuts/
 - Grip - Local renders of GHFM https://github.com/joeyespo/grip
+- hub a better git client that understands everything comes from github
 
 ### SSH
 
@@ -457,3 +460,19 @@ Tools that let you re-tile
 
 - OSX - Magnets
 - Windows - Windows Power Toys - [FancyZones](https://github.com/microsoft/PowerToys)
+
+### CLI Screen Recoding
+
+OK, this is a 2 putter: First run [asciinema](https://github.com/asciinema/asciinema), then [svgterm](https://github.com/marionebl/svg-term-cli)
+
+```
+asciinema rec foo.cast
+# records till you hit C-D  (curious how that works)
+cat foo.cast | svg-term --out foo.svg
+# Copy out your svg file
+
+```
+
+### Other Resources
+
+Good list of [tools](https://github.com/Kikobeats/awesome-cli/blob/master/README.md)
