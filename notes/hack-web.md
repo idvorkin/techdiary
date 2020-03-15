@@ -14,6 +14,9 @@ Now a days javascript and HTML are the assembly language of the web (I first [sa
   - [Capturing an object for later use](#capturing-an-object-for-later-use)
   - [Black boxing](#black-boxing)
   - [Event Handlers](#event-handlers)
+- [Real life examples](#real-life-examples)
+  - [Reverse Engineering Fly out TOC](#reverse-engineering-fly-out-toc)
+  - [Automating todo item creation in omnifocus for web](#automating-todo-item-creation-in-omnifocus-for-web)
 - [Other resources](#other-resources)
 
 <!-- vim-markdown-toc -->
@@ -53,6 +56,24 @@ Often there's a useful object, that's only available in the closure. You can alw
 ### Black boxing
 
 ### Event Handlers
+
+## Real life examples
+
+These should break all the time, and be of minimal interst to anyone but Igor, but it's my blog so there.
+
+### Reverse Engineering Fly out TOC
+
+OK, I like the fly out ToC in hack MD.
+
+### Automating todo item creation in omnifocus for web
+
+**Too painful - got into some react/redux sync model, gave up**
+
+Ominfocus doesn't supprot APIs, so we need to automate the web.
+
+In omnifocus, you can add a task by pressing the 'c' key, which brings up a dialog. We can "hook that", by setting a breakpoing on global keypress events.
+
+From there, we get into a closure that has an interesting object. Copy that to global scope.
 
 ## Other resources
 
