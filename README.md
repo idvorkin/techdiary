@@ -10,6 +10,7 @@
   - [In Real Life](notes/irl.md)
   - [Design and Architecture](notes/design.md)
   - [How to be an iOS only developer](notes/ios-nomad.md)
+  - [Hacking the web for fun and profit](notes/hack-web.md)
 - Minor Tips
   - [VLC Player](notes/vlc_player.md)
   - [Pandas](notes/pandas-tutorial.md)
@@ -204,6 +205,8 @@ git log -c -S'missingtext' /path/to/file
 [Diff so fancy](https://github.com/so-fancy/diff-so-fancy) - a very nice diff
 
 My original [git tricks](https://ig2600.blogspot.com/2014/10/cool-tools-git-helpers.html) from 2014 :)
+
+[Git stats](https://github.com/arzzen/git-quick-stats)
 
 ### GitHub
 
