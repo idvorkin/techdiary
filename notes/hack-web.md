@@ -5,18 +5,19 @@ Now a days javascript and HTML are the assembly language of the web (I first [sa
 <!-- vim-markdown-toc GFM -->
 
 - [Script Injection](#script-injection)
-  - [Bookmarklets](#bookmarklets)
-  - [Grease Monkey](#grease-monkey)
+    - [Bookmarklets](#bookmarklets)
+    - [Grease Monkey](#grease-monkey)
 - [Console Tricks](#console-tricks)
-  - [Load Jquery](#load-jquery)
-  - [CSS selectors](#css-selectors)
+    - [Load Jquery](#load-jquery)
+    - [CSS selectors](#css-selectors)
 - [Debugging 101](#debugging-101)
-  - [Capturing an object for later use](#capturing-an-object-for-later-use)
-  - [Black boxing](#black-boxing)
-  - [Event Handlers](#event-handlers)
+    - [Force reloading](#force-reloading)
+    - [Capturing an object for later use](#capturing-an-object-for-later-use)
+    - [Black boxing](#black-boxing)
+    - [Event Handlers](#event-handlers)
 - [Real life examples](#real-life-examples)
-  - [Reverse Engineering Fly out TOC](#reverse-engineering-fly-out-toc)
-  - [Automating todo item creation in omnifocus for web](#automating-todo-item-creation-in-omnifocus-for-web)
+    - [Reverse Engineering Fly out TOC](#reverse-engineering-fly-out-toc)
+    - [Automating todo item creation in omnifocus for web](#automating-todo-item-creation-in-omnifocus-for-web)
 - [Other resources](#other-resources)
 
 <!-- vim-markdown-toc -->
@@ -46,6 +47,12 @@ A full [summary](https://www.w3schools.com/cssref/css_selectors.asp), below are 
 - \$(element) #e.g. h1
 
 ## Debugging 101
+
+### Force reloading
+
+Often needed for CSS -
+* A) C-S-R
+* Network Tab -> Disable caching
 
 ### Capturing an object for later use
 
