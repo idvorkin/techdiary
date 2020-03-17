@@ -11,13 +11,16 @@ Now a days javascript and HTML are the assembly language of the web (I first [sa
     - [Load Jquery](#load-jquery)
     - [CSS selectors](#css-selectors)
 - [Debugging 101](#debugging-101)
+    - [Chrome Keyboard shortcuts](#chrome-keyboard-shortcuts)
     - [Force reloading](#force-reloading)
     - [Capturing an object for later use](#capturing-an-object-for-later-use)
     - [Black boxing](#black-boxing)
     - [Event Handlers](#event-handlers)
 - [Real life examples](#real-life-examples)
-    - [Reverse Engineering Fly out TOC](#reverse-engineering-fly-out-toc)
     - [Automating todo item creation in omnifocus for web](#automating-todo-item-creation-in-omnifocus-for-web)
+- [Fly out TOC](#fly-out-toc)
+    - [CSS](#css)
+    - [Javscript Reverse Engineering Fly out TOC](#javscript-reverse-engineering-fly-out-toc)
 - [Other resources](#other-resources)
 
 <!-- vim-markdown-toc -->
@@ -48,9 +51,22 @@ A full [summary](https://www.w3schools.com/cssref/css_selectors.asp), below are 
 
 ## Debugging 101
 
+### Chrome Keyboard shortcuts
+
+https://developers.google.com/web/tools/chrome-devtools/shortcuts
+
+| Key   | Command                       |
+| ----- | ----------------------------- |
+| C-S-I | Enter dev tools               |
+| C-S-M | Toggle Mobile Emulator        |
+| C-S-R | Hard reload (breaking cache)  |
+| C-S-P | Command Pallette (super cool) |
+
+
 ### Force reloading
 
 Often needed for CSS -
+
 * A) C-S-R
 * Network Tab -> Disable caching
 
@@ -68,9 +84,6 @@ Often there's a useful object, that's only available in the closure. You can alw
 
 These should break all the time, and be of minimal interst to anyone but Igor, but it's my blog so there.
 
-### Reverse Engineering Fly out TOC
-
-OK, I like the fly out ToC in hack MD.
 
 ### Automating todo item creation in omnifocus for web
 
@@ -82,6 +95,17 @@ In omnifocus, you can add a task by pressing the 'c' key, which brings up a dial
 
 From there, we get into a closure that has an interesting object. Copy that to global scope.
 
-## Other resources
+## Fly out TOC
 
-I first had this idea back in 2012.
+I started by trying to create this myself, but as with most "build" vs "buy", you're better off stealing and buying. Looks like this exists in:
+
+### CSS
+
+* Foundation - called [magellon](https://get.foundation/sites/docs/magellan.html)
+* Bootstrap - called [scroll spy](https://getbootstrap.com/docs/4.4/components/scrollspy/)
+
+### Javscript Reverse Engineering Fly out TOC
+
+Looks like the CSS needs to have the data setup correctly. I found some javascript to do this in [hackmd](https://github.com/hackmdio/codimd/search?q=generateToc&unscoped_q=generateToc), and started putzing with it. Looks like that gets me the DOM in the form I need.
+
+## Other resources
