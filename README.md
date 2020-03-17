@@ -473,14 +473,15 @@ Tools that let you re-tile
 
 OK, this is a 2 putter: First run [asciinema](https://github.com/asciinema/asciinema), then [svgterm](https://github.com/marionebl/svg-term-cli)
 
-```
+``` 
 asciinema rec foo.cast
 # records till you hit C-D  (curious how that works)
 cat foo.cast | svg-term --out foo.svg
 # Copy out your svg file
-
 ```
+![inamged image](https://raw.githubusercontent.com/idvorkin/techdiary/master/images/demo-cli-screen-recording.svg?sanitize=true)
 
+*(Note, to include an svg from raw.githubusercontent.com/blah.svg you'll need to add blah.svg?sanatize=true)*
 ### Other Resources
 
 Good list of [tools](https://github.com/Kikobeats/awesome-cli/blob/master/README.md)
