@@ -49,6 +49,13 @@ A full [summary](https://www.w3schools.com/cssref/css_selectors.asp), below are 
 - \$(#id)
 - \$(element) #e.g. h1
 
+When nesting selectors here are the [operators](https://techbrij.com/css-selector-adjacent-child-sibling)
+
+* space - decendant at any level
+* > - immediate decendant
+* + - Adjecent (e.g. sibling)
+* ~  - Not  Adjecent (e.g. not sibling)
+
 ## Debugging 101
 
 ### Chrome Keyboard shortcuts
