@@ -41,6 +41,7 @@ Because most of what you find doesn't say if it's bedrock or java, start by chec
 From Minecraft itself:
 
 https://www.minecraft.net/en-us/download/server/bedrock/
+https://www.reddit.com/user/ProfessorValko/comments/9f438p/bedrock_dedicated_server_tutorial/
 
 Here's a container recipe
 https://hub.docker.com/r/itzg/minecraft-server/

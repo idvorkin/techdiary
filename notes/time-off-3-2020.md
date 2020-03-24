@@ -43,6 +43,9 @@
                     - [☑ Bedrock Server](#-bedrock-server)
                     - [EC2 Updating](#ec2-updating)
                     - [Ubuntu vs CentOS](#ubuntu-vs-centos)
+                    - [NLP](#nlp)
+                    - [☑  Building 'generative text' from my chat logs](#--building-generative-text-from-my-chat-logs)
+                    - [☑  'generative text' from my journal entries](#--generative-text-from-my-journal-entries)
                 - [Windows](#windows)
                     - [☑ Remote access to a mac - Teamviewer](#-remote-access-to-a-mac---teamviewer)
                 - [Magic](#magic)
@@ -108,6 +111,18 @@ See detailed notes @ https://github.com/idvorkin/techdiary/blob/master/notes/min
 #### Ubuntu vs CentOS
 
 Yeah, use Ubuntu unless you need CentOS.
+
+#### NLP
+
+I'm a huge fan of NLP, and have a pretty good corpus in my journal entries.
+However, try as I might I get few insights beyond the fact I generate lots of typos.
+
+#### ☑ Building 'generative text' from my chat logs
+
+#### ☑ 'generative text' from my journal entries
+
+https://github.com/minimaxir/textgenrnn
+https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 
 ### Windows
 
