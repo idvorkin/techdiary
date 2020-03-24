@@ -24,7 +24,7 @@ I've got some time off between leaving FB and joing Amazon, here's some stuff I'
 
 ### Blog Tech
 
-#### [X] Serve images off of blob repo
+#### &#x2611; Serve images off of blob repo
 
 https://github.com/idvorkin/blob
 
