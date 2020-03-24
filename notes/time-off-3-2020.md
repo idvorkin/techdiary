@@ -1,4 +1,4 @@
-# Lots oh things
+# Igor's Adventures March and April 2020
 
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
@@ -13,9 +13,11 @@
     - [☑ Digraphs to support TODO and not-TODO](#-digraphs-to-support-todo-and-not-todo)
     - [☑ FZF super powers](#-fzf-super-powers)
 - [Minecraft](#minecraft)
-    - [Bedrock Server](#bedrock-server)
+    - [☑ Bedrock Server](#-bedrock-server)
     - [EC2 Updating](#ec2-updating)
     - [Ubuntu vs CentOS](#ubuntu-vs-centos)
+- [Windows](#windows)
+    - [☑ Remote access to a mac - Teamviewer](#-remote-access-to-a-mac---teamviewer)
 - [Magic](#magic)
     - [Card Appear and Disappear](#card-appear-and-disappear)
 - [Kids Show](#kids-show)
@@ -62,13 +64,17 @@ Have C-O open interesting files across my repros and move there
 
 See detailed notes @ https://github.com/idvorkin/techdiary/blob/master/notes/minecraft.md
 
-#### Bedrock Server
+#### ☑ Bedrock Server
 
 #### EC2 Updating
 
 #### Ubuntu vs CentOS
 
 Yeah, use Ubuntu unless you need CentOS.
+
+### Windows
+
+#### ☑ Remote access to a mac - Teamviewer
 
 ### Magic
 
