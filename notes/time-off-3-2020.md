@@ -30,7 +30,14 @@ https://github.com/idvorkin/blob
 
 https://github.com/idvorkin/idvorkin.github.io/blob/5b761434c748272450a899d36789bf52fde39ab6/_includes/head.html#L56b
 
-#### [x] New logo
+#### - [x] New logo
+
+- [ ] Cool tasks
+- [ ] a task list item
+- [X] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
 
 https://github.com/idvorkin/blob/blob/master/idvorkin-bunny-ears-ar-2020-180-180.png
 
