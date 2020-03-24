@@ -3,6 +3,7 @@
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
+<<<<<<< HEAD
     - [☑ Serve images off of blob repository](#-serve-images-off-of-blob-repository)
     - [☑ New logo](#-new-logo)
     - [☑ Redo CSS to be foundation based](#-redo-css-to-be-foundation-based)
@@ -26,12 +27,48 @@
     - [☐ Silk Changing color](#-silk-changing-color)
 - [Biking](#biking)
     - [Got my e-bikes](#got-my-e-bikes)
+=======
+                - [Blog Tech](#blog-tech)
+- [](#)
+                    - [☑ Serve images off of blob repository](#-serve-images-off-of-blob-repository)
+                    - [☑ New logo](#-new-logo)
+                    - [☑ Redo CSS to be foundation based](#-redo-css-to-be-foundation-based)
+                - [CSS](#css)
+                    - [☑ Blog ToC Drop Up Menu Mobile](#-blog-toc-drop-up-menu-mobile)
+                    - [☐ Blog ToC Side Bar Desktop](#-blog-toc-side-bar-desktop)
+                - [vim](#vim)
+                    - [☑ Digraphs to support TODO and not-TODO](#-digraphs-to-support-todo-and-not-todo)
+                    - [☑ FZF super powers](#-fzf-super-powers)
+                - [Minecraft](#minecraft)
+                    - [☑ Bedrock Server](#-bedrock-server)
+                    - [EC2 Updating](#ec2-updating)
+                    - [Ubuntu vs CentOS](#ubuntu-vs-centos)
+                - [Windows](#windows)
+                    - [☑ Remote access to a mac - Teamviewer](#-remote-access-to-a-mac---teamviewer)
+                - [Magic](#magic)
+                    - [Card Appear and Disappear](#card-appear-and-disappear)
+                - [Kids Show](#kids-show)
+                    - [☐ Remote Setup - Considering Zoom](#-remote-setup---considering-zoom)
+                    - [☐ Unexpected dots](#-unexpected-dots)
+                    - [☐ Silk Changing color](#-silk-changing-color)
+                - [Biking](#biking)
+                    - [Got my e-bikes](#got-my-e-bikes)
+>>>>>>> Save time-off-3-2020.md
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
 
 I've got some time off between leaving FB and joining Amazon, here's some stuff I've been up to
 
+<<<<<<< HEAD
+=======
+### Blog Tech
+
+####
+
+☑ Fix search index view to not have #undefined suffix
+
+>>>>>>> Save time-off-3-2020.md
 #### ☑ Serve images off of blob repository
 
 https://github.com/idvorkin/blob
