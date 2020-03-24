@@ -18,8 +18,8 @@ I've got some time off between leaving FB and joining Amazon, here's some stuff 
     - [☑ FZF super powers](#-fzf-super-powers)
 - [Minecraft](#minecraft)
     - [☑ Bedrock Server](#-bedrock-server)
-    - [EC2 Updating](#ec2-updating)
-    - [Ubuntu vs CentOS](#ubuntu-vs-centos)
+    - [☐ EC2 Updating](#-ec2-updating)
+    - [☐ Ubuntu vs CentOS](#-ubuntu-vs-centos)
 - [NLP](#nlp)
     - [☑ Building 'generative text' from my chat logs](#-building-generative-text-from-my-chat-logs)
     - [☑ 'generative text' from my journal entries](#-generative-text-from-my-journal-entries)
@@ -32,7 +32,7 @@ I've got some time off between leaving FB and joining Amazon, here's some stuff 
     - [☐ Unexpected dots](#-unexpected-dots)
     - [☐ Silk Changing color](#-silk-changing-color)
 - [Biking](#biking)
-    - [Got my e-bikes](#got-my-e-bikes)
+    - [☑  Got my e-bikes](#--got-my-e-bikes)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -77,9 +77,9 @@ See detailed notes @ https://github.com/idvorkin/techdiary/blob/master/notes/min
 
 #### ☑ Bedrock Server
 
-#### EC2 Updating
+#### ☐ EC2 Updating
 
-#### Ubuntu vs CentOS
+#### ☐ Ubuntu vs CentOS
 
 Yeah, use Ubuntu unless you need CentOS.
 
@@ -113,6 +113,6 @@ https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 
 ### Biking
 
-#### Got my e-bikes
+#### ☑ Got my e-bikes
 
 https://github.com/idvorkin/techdiary/blob/master/notes/irl.md#bikes
