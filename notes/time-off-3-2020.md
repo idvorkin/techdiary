@@ -33,6 +33,7 @@ I've got some time off between leaving FB and joining Amazon, here's some stuff 
     - [☐ Silk Changing color](#-silk-changing-color)
 - [Biking](#biking)
     - [☑  Got my e-bikes](#--got-my-e-bikes)
+- [Inspirations](#inspirations)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -116,3 +117,8 @@ https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 #### ☑ Got my e-bikes
 
 https://github.com/idvorkin/techdiary/blob/master/notes/irl.md#bikes
+
+### Inspirations
+
+- Clown Philospoher - [Slava Polunin](https://www.youtube.com/watch?v=k4uT3ergY04)
+- Dude who wire walked the world trade towners [Phillipe Petit](https://en.wikipedia.org/wiki/Philippe_Petit)
