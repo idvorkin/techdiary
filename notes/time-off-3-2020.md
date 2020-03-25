@@ -7,6 +7,7 @@ I've got some time off between leaving FB and joining Amazon, here's some stuff 
 
 - [Blog Tech](#blog-tech)
     - [Misc](#misc)
+    - [Better broken link checker](#better-broken-link-checker)
     - [☑ Serve images off of blob repository](#-serve-images-off-of-blob-repository)
     - [☑ New logo](#-new-logo)
     - [☑ Redo CSS to be foundation based](#-redo-css-to-be-foundation-based)
@@ -25,14 +26,17 @@ I've got some time off between leaving FB and joining Amazon, here's some stuff 
     - [☑ 'generative text' from my journal entries](#-generative-text-from-my-journal-entries)
 - [Windows](#windows)
     - [☑ Remote access to a mac - Teamviewer](#-remote-access-to-a-mac---teamviewer)
+- [Vision systems - OpenCV](#vision-systems---opencv)
+    - [☐ Remove 'non-changing' images from ring doorbell library](#-remove-non-changing-images-from-ring-doorbell-library)
 - [Magic](#magic)
     - [Card Appear and Disappear](#card-appear-and-disappear)
 - [Kids Show](#kids-show)
     - [☐ Remote Setup - Considering Zoom](#-remote-setup---considering-zoom)
+    - [☐ Better webcam - ivCam](#-better-webcam---ivcam)
     - [☐ Unexpected dots](#-unexpected-dots)
     - [☐ Silk Changing color](#-silk-changing-color)
 - [Biking](#biking)
-    - [☑  Got my e-bikes](#--got-my-e-bikes)
+    - [☑ Got my e-bikes](#-got-my-e-bikes)
 - [Inspirations](#inspirations)
 
 <!-- vim-markdown-toc -->
@@ -43,6 +47,10 @@ I've got some time off between leaving FB and joining Amazon, here's some stuff 
 #### Misc
 
 ☑ Fix search index view to not have #undefined suffix
+
+#### Better broken link checker
+
+https://dev.to/pjcalvo/broken-links-checker-with-python-and-scrapy-webcrawler-1gom
 
 #### ☑ Serve images off of blob repository
 
@@ -100,6 +108,10 @@ https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 
 #### ☑ Remote access to a mac - Teamviewer
 
+### Vision systems - OpenCV
+
+#### ☐ Remove 'non-changing' images from ring doorbell library
+
 ### Magic
 
 #### Card Appear and Disappear
@@ -107,6 +119,8 @@ https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 ### Kids Show
 
 #### ☐ Remote Setup - Considering Zoom
+
+#### ☐ Better webcam - ivCam
 
 #### ☐ Unexpected dots
 
