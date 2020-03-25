@@ -67,6 +67,10 @@ Have C-O open interesting files across my repros and move there
 
 Turns out there's a new version of [ctags](https://github.com/universal-ctags/homebrew-universal-ctags), that support markdown, which you want for fzf :Tags
 
+Also build interesting tag files for a markdown repo, by only using fd, which honors .gitignore
+
+    ctags `fd md$`
+
 ### Minecraft
 
 See detailed notes @ https://github.com/idvorkin/techdiary/blob/master/notes/minecraft.md
