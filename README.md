@@ -309,6 +309,10 @@ zsh path append
 - Vim in any text box [Wasavi](https://chrome.google.com/webstore/detail/wasavi/dgogifpkoilgiofhhhodbodcfgomelhe)
 - Speed up YouTube playback via keyboard shortcut [YouTube playback speed control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)
 - Fail to load dinosaur - Not an extension but you can play a little game with the dinosaur by pressing <space> on the chrome dinosaur
+- Custom searchh engines are cool. You can use them for search sites you frequently use. For example my github repo and my blog:
+
+  ghtd: https://github.com/search?l=&q=%s+user%3Aidvorkin&type=Code&s=indexed
+  ig: https://www.idvork.in/index.html?q=%s
 
 ### Web tools (http)
 
@@ -473,15 +477,17 @@ Tools that let you re-tile
 
 OK, this is a 2 putter: First run [asciinema](https://github.com/asciinema/asciinema), then [svgterm](https://github.com/marionebl/svg-term-cli)
 
-``` 
+```
 asciinema rec foo.cast
 # records till you hit C-D  (curious how that works)
 cat foo.cast | svg-term --out foo.svg
 # Copy out your svg file
 ```
+
 ![inamged image](https://raw.githubusercontent.com/idvorkin/techdiary/master/images/demo-cli-screen-recording.svg?sanitize=true)
 
-*(Note, to include an svg from raw.githubusercontent.com/blah.svg you'll need to add blah.svg?sanatize=true)*
+_(Note, to include an svg from raw.githubusercontent.com/blah.svg you'll need to add blah.svg?sanatize=true)_
+
 ### Other Resources
 
 Good list of [tools](https://github.com/Kikobeats/awesome-cli/blob/master/README.md)
