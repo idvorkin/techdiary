@@ -2,8 +2,7 @@
 
 <!-- vim-markdown-toc GFM -->
 
-    - [Misc](#misc)
-
+- [Misc](#misc)
 - [Blog Tech](#blog-tech)
   - [☑ Clone tech diary into tech blog](#-clone-tech-diary-into-tech-blog)
   - [Better broken link checker](#better-broken-link-checker)
@@ -16,7 +15,7 @@
 - [vim](#vim)
   - [☑ Digraphs to support TODO and not-TODO](#-digraphs-to-support-todo-and-not-todo)
   - [☑ FZF super powers](#-fzf-super-powers)
-- [tags](#tags)
+  - [tags](#tags)
 - [Minecraft](#minecraft)
   - [☑ Bedrock Server](#-bedrock-server)
   - [☐ EC2 Updating](#-ec2-updating)
@@ -41,7 +40,7 @@
 
 <!-- vim-markdown-toc -->
 
-#### Misc
+### Misc
 
 ### Blog Tech
 
@@ -75,7 +74,7 @@ Digraphs let you use completion without needing GHFM which only works in lists.
 
 Have C-O open interesting files across my repros and move there
 
-### tags
+#### tags
 
 Turns out there's a new version of [ctags](https://github.com/universal-ctags/homebrew-universal-ctags), that support markdown, which you want for fzf :Tags
 
