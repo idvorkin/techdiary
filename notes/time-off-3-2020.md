@@ -16,6 +16,7 @@
   - [☑ Digraphs to support TODO and not-TODO](#-digraphs-to-support-todo-and-not-todo)
   - [☑ FZF super powers](#-fzf-super-powers)
   - [tags](#tags)
+  - [Community](#community)
 - [Minecraft](#minecraft)
   - [☑ Bedrock Server](#-bedrock-server)
   - [☐ EC2 Updating](#-ec2-updating)
@@ -81,6 +82,12 @@ Turns out there's a new version of [ctags](https://github.com/universal-ctags/ho
 Also build interesting tag files for a markdown repo, by only using fd, which honors .gitignore
 
     ctags `fd md$`
+
+#### Community
+
+Find the community: 1
+
+1. Subscribed to rss feed for reddit via https://reddit/r/subreddit.rss
 
 ### Minecraft
 
