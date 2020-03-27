@@ -84,7 +84,11 @@ https://www.reddit.com/r/MCPE/comments/aqlld1/using_a_saved_realm_world_on_a_bed
 
 ### World Editors
 
-Minecraft tool chest - https://mcctoolchest.weebly.com/blockeditor.html
+Minecraft tool chest (for Java - https://mcctoolchest.weebly.com/blockeditor.html)
+
+Minecraft tool chest for PE:
+
+http://www.mcctoolchest.com/Download
 
 ## Minecraft Education Edition
 
