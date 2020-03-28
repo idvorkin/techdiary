@@ -12,6 +12,7 @@
   - [How to be an iOS only developer](notes/ios-nomad.md)
   - [Hacking the web for fun and profit](notes/hack-web.md)
 - Minor Tips
+  - [Time off 2020](notes/time-off-3-2020.md)
   - [VLC Player](notes/vlc_player.md)
   - [Pandas](notes/pandas-tutorial.md)
   - [iOS Usage](notes/ios.md)
