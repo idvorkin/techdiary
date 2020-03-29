@@ -485,6 +485,8 @@ cat foo.cast | svg-term --out foo.svg
 # Copy out your svg file
 ```
 
+_If on iOS then you need to click to open the image in a new tag_
+
 ![inamged image](https://raw.githubusercontent.com/idvorkin/techdiary/master/images/demo-cli-screen-recording.svg?sanitize=true)
 
 _(Note, to include an svg from raw.githubusercontent.com/blah.svg you'll need to add blah.svg?sanatize=true)_
