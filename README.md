@@ -464,8 +464,6 @@ Then render it like an image e.g.
 #### Quirks
 
 - GitHub caches, so increment the c parameter
-- PlantUML doesn't support https (really??) so the PlantUML server URL needs to be **http** (not https).
-- The image URL uses http, and VS Code preview doesn't allow loading things over http by default, so click that 'insecure content' button to allow rendering in unsafe mode (ugh)
 
 ### Windows Managers
 
