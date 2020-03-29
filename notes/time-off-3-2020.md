@@ -15,7 +15,7 @@
 - [vim](#vim)
   - [☑ Digraphs to support TODO and not-TODO](#-digraphs-to-support-todo-and-not-todo)
   - [☑ FZF super powers](#-fzf-super-powers)
-  - [tags](#tags)
+  - [☑ tags](#-tags)
   - [Community](#community)
 - [Minecraft](#minecraft)
   - [☑ Bedrock Server](#-bedrock-server)
@@ -38,6 +38,9 @@
 - [Biking](#biking)
   - [☑ Got my e-bikes](#-got-my-e-bikes)
 - [Inspirations](#inspirations)
+- [Books](#books)
+  - [Upstream Thinking Upstream](#upstream-thinking-upstream)
+  - [Inspired Product Management](#inspired-product-management)
 
 <!-- vim-markdown-toc -->
 
@@ -75,7 +78,7 @@ Digraphs let you use completion without needing GHFM which only works in lists.
 
 Have C-O open interesting files across my repros and move there
 
-#### tags
+#### ☑ tags
 
 Turns out there's a new version of [ctags](https://github.com/universal-ctags/homebrew-universal-ctags), that support markdown, which you want for fzf :Tags
 
@@ -145,3 +148,9 @@ https://github.com/idvorkin/techdiary/blob/master/notes/irl.md#bikes
 
 - Clown Philospoher - [Slava Polunin](https://www.youtube.com/watch?v=k4uT3ergY04)
 - Dude who wire walked the world trade towners [Phillipe Petit](https://en.wikipedia.org/wiki/Philippe_Petit)
+
+### Books
+
+#### Upstream Thinking Upstream
+
+#### Inspired Product Management
