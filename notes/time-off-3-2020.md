@@ -8,8 +8,8 @@
   - [☐ Better broken link checker](#-better-broken-link-checker)
   - [☑ Serve images off of blob repository](#-serve-images-off-of-blob-repository)
   - [☑ New logo](#-new-logo)
-  - [☑ Redo CSS to be foundation based](#-redo-css-to-be-foundation-based)
-- [CSS](#css)
+  - [☑ Deep dive into CSS and bootstrap (great idea)](#-deep-dive-into-css-and-bootstrap-great-idea)
+  - [☑ Redo CSS to be bootstrapped base](#-redo-css-to-be-bootstrapped-base)
   - [☑ Blog ToC Drop Up Menu Mobile](#-blog-toc-drop-up-menu-mobile)
   - [☑ Blog ToC Side Bar Desktop](#-blog-toc-side-bar-desktop)
 - [vim](#vim)
@@ -64,9 +64,11 @@
 
 https://github.com/idvorkin/blob/blob/master/idvorkin-bunny-ears-ar-2020-180-180.png
 
-#### ☑ Redo CSS to be foundation based
+#### ☑ Deep dive into CSS and bootstrap (great idea)
 
-### CSS
+Quick notes [here](https://github.com/idvorkin/techdiary/blob/9e8e206a80219db32277459b00ae6773e3b61e62/notes/hack-web.md#fly-out-toc)
+
+#### ☑ Redo CSS to be bootstrapped base
 
 #### ☑ Blog ToC Drop Up Menu Mobile
 
