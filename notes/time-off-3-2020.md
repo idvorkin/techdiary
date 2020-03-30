@@ -44,6 +44,7 @@
 - [Books](#books)
   - [☐ Upstream Thinking Upstream](#-upstream-thinking-upstream)
   - [☐ Inspired Product Management](#-inspired-product-management)
+  - [☑ 5 Dysfunctions of a team](#-5-dysfunctions-of-a-team)
 
 <!-- vim-markdown-toc -->
 
@@ -164,3 +165,21 @@ https://github.com/idvorkin/techdiary/blob/master/notes/irl.md#bikes
 #### ☐ Upstream Thinking Upstream
 
 #### ☐ Inspired Product Management
+
+#### ☑ 5 Dysfunctions of a team
+
+Fast read:
+
+- Lack of Trust
+- Lack of Debate
+- Lack of Commitment
+- Lack of Accountability
+- Lack of Delivering results
+
+I think in modern terms:
+
+1. Pyschological Safety
+1. Healthy Debate
+1. Disagree and Commit
+1. Hold each othe accountable
+1. Deliver value
