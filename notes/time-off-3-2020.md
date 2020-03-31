@@ -3,11 +3,16 @@
 <!-- vim-markdown-toc GFM -->
 
 - [Misc](#misc)
+- [Blog Content](#blog-content)
+  - [☐ New logo](#-new-logo)
+  - [☐ The manager book](#-the-manager-book)
+  - [☐ Eulogy](#-eulogy)
+  - [☐ Job Hunt Rollercoaster Post](#-job-hunt-rollercoaster-post)
 - [Blog Tech](#blog-tech)
   - [☑ Clone tech diary into tech blog](#-clone-tech-diary-into-tech-blog)
   - [☐ Better broken link checker](#-better-broken-link-checker)
   - [☑ Serve images off of blob repository](#-serve-images-off-of-blob-repository)
-  - [☑ New logo](#-new-logo)
+  - [☑ New logo](#-new-logo-1)
   - [☑ Deep dive into CSS and bootstrap (great idea)](#-deep-dive-into-css-and-bootstrap-great-idea)
   - [☑ Redo CSS to be bootstrapped base](#-redo-css-to-be-bootstrapped-base)
   - [☑ Blog ToC Drop Up Menu Mobile](#-blog-toc-drop-up-menu-mobile)
@@ -44,11 +49,22 @@
 - [Books](#books)
   - [☐ Upstream Thinking Upstream](#-upstream-thinking-upstream)
   - [☐ Inspired Product Management](#-inspired-product-management)
+  - [☐ Joy on Demand](#-joy-on-demand)
   - [☑ 5 Dysfunctions of a team](#-5-dysfunctions-of-a-team)
 
 <!-- vim-markdown-toc -->
 
 ### Misc
+
+### Blog Content
+
+#### ☐ New logo
+
+#### ☐ The manager book
+
+#### ☐ Eulogy
+
+#### ☐ Job Hunt Rollercoaster Post
 
 ### Blog Tech
 
@@ -167,6 +183,8 @@ https://github.com/idvorkin/techdiary/blob/master/notes/irl.md#bikes
 #### ☐ Upstream Thinking Upstream
 
 #### ☐ Inspired Product Management
+
+#### ☐ Joy on Demand
 
 #### ☑ 5 Dysfunctions of a team
 
