@@ -2,6 +2,7 @@
 
 <!-- vim-markdown-toc GFM -->
 
+- [A note on Corona Virus](#a-note-on-corona-virus)
 - [Priorities](#priorities)
   - [Physical because my body is the only one I've got.](#physical-because-my-body-is-the-only-one-ive-got)
   - [Emotional health because that's how I experience the world.](#emotional-health-because-thats-how-i-experience-the-world)
@@ -20,7 +21,7 @@
 - [NLP](#nlp)
   - [☑ Building 'generative text' from my chat logs](#-building-generative-text-from-my-chat-logs)
   - [☑ 'generative text' from my journal entries](#-generative-text-from-my-journal-entries)
-  - [☐ 'generative text' using gpt-2](#--generative-text-using-gpt-2)
+  - [☐ 'generative text' using gpt-2](#-generative-text-using-gpt-2)
 - [Windows](#windows)
   - [☑ Remote access to a mac - Teamviewer](#-remote-access-to-a-mac---teamviewer)
 - [Vision systems - OpenCV](#vision-systems---opencv)
@@ -66,6 +67,10 @@
   - [Trip to Canada](#trip-to-canada)
 
 <!-- vim-markdown-toc -->
+
+### A note on Corona Virus
+
+My time off correlated perfectly to the Corona Virus and as a result I wasted lots of my mental energy thinking about the Corona Virus, and adjusting to being in pseudo-quarantine. Took me a while, but I finally realized i should ignore it, or at least minimize my time thinking about it.
 
 ### Priorities
 
