@@ -7,23 +7,26 @@ Kids love minecraft, dad loves tech. Here's my experineces in the world of minec
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
-- [Bedrock not Java](#bedrock-not-java)
+- [Minecraft Notes](#minecraft-notes)
+  - [Why?](#why)
+  - [Bedrock not Java](#bedrock-not-java)
     - [Bedrock Server](#bedrock-server)
     - [The X-Box Proxy Hack](#the-x-box-proxy-hack)
     - [Run bedrock server on lightsail/AWS](#run-bedrock-server-on-lightsailaws)
-- [Scripting](#scripting)
+  - [Scripting](#scripting)
     - [Command Blocks](#command-blocks)
     - [Functions](#functions)
     - [Resource Packs](#resource-packs)
     - [Behavior Packs](#behavior-packs)
     - [Connecting to a javascript 'script'](#connecting-to-a-javascript-script)
-- [Meta Stuff](#meta-stuff)
+  - [Meta Stuff](#meta-stuff)
     - [Copying worlds between servers and stand alone](#copying-worlds-between-servers-and-stand-alone)
     - [World Editors](#world-editors)
-- [Minecraft Education Edition](#minecraft-education-edition)
-- [Cool Stuff](#cool-stuff)
+  - [Minecraft Education Edition](#minecraft-education-edition)
+  - [Mod editors](#mod-editors)
+  - [Cool Stuff](#cool-stuff)
     - [Fany worlds](#fany-worlds)
-- [Other Resources](#other-resources)
+  - [Other Resources](#other-resources)
 
 <!-- vim-markdown-toc -->
 <!-- prettier-ignore-end -->
@@ -97,6 +100,10 @@ http://www.mcctoolchest.com/Download
 ## Minecraft Education Edition
 
 Not sure what this is as you need an education account. Looks like you have an 'agent' that you can brogram using blockly. That's pretty cool.
+
+## Mod editors
+
+[Bridge](https://github.com/bridge-core/bridge)
 
 ## Cool Stuff
 
