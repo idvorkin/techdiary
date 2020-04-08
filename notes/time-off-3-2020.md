@@ -4,70 +4,70 @@
 
 - [A note on Corona Virus](#a-note-on-corona-virus)
 - [Priorities](#priorities)
-  - [Physical because my body is the only one I've got.](#physical-because-my-body-is-the-only-one-ive-got)
-  - [Emotional health because that's how I experience the world.](#emotional-health-because-thats-how-i-experience-the-world)
-  - [Living the 7 habits, because that's my bible.](#living-the-7-habits-because-thats-my-bible)
+    - [Physical because my body is the only one I've got.](#physical-because-my-body-is-the-only-one-ive-got)
+    - [Emotional health because that's how I experience the world.](#emotional-health-because-thats-how-i-experience-the-world)
+    - [Living the 7 habits, because that's my bible.](#living-the-7-habits-because-thats-my-bible)
 - [Blog Content](#blog-content)
-  - [☑ New logo](#-new-logo)
-  - [☐ The manager book](#-the-manager-book)
-  - [☐ Eulogy](#-eulogy)
-  - [☐ Job Hunt Rollercoaster Post](#-job-hunt-rollercoaster-post)
-  - [☐ Emotional Health Posts](#-emotional-health-posts)
-  - [☐ Money Ideas](#-money-ideas)
+    - [☑ New logo](#-new-logo)
+    - [☐ The manager book](#-the-manager-book)
+    - [☐ Eulogy](#-eulogy)
+    - [☐ Job Hunt Rollercoaster Post](#-job-hunt-rollercoaster-post)
+    - [☐ Emotional Health Posts](#-emotional-health-posts)
+    - [☐ Money Ideas](#-money-ideas)
 - [Minecraft](#minecraft)
-  - [☑ Bedrock Server](#-bedrock-server)
-  - [☐ EC2 Updating](#-ec2-updating)
-  - [☐ Ubuntu vs CentOS](#-ubuntu-vs-centos)
+    - [☑ Bedrock Server](#-bedrock-server)
+    - [☐ EC2 Updating](#-ec2-updating)
+    - [☐ Ubuntu vs CentOS](#-ubuntu-vs-centos)
 - [NLP](#nlp)
-  - [☑ Building 'generative text' from my chat logs](#-building-generative-text-from-my-chat-logs)
-  - [☑ 'generative text' from my journal entries](#-generative-text-from-my-journal-entries)
-  - [☐ 'generative text' using gpt-2](#-generative-text-using-gpt-2)
+    - [☑ Building 'generative text' from my chat logs](#-building-generative-text-from-my-chat-logs)
+    - [☑ 'generative text' from my journal entries](#-generative-text-from-my-journal-entries)
+    - [☐ 'generative text' using gpt-2](#-generative-text-using-gpt-2)
 - [Windows](#windows)
-  - [☑ Remote access to a mac - Teamviewer](#-remote-access-to-a-mac---teamviewer)
+    - [☑ Remote access to a mac - Teamviewer](#-remote-access-to-a-mac---teamviewer)
 - [Vision systems - OpenCV](#vision-systems---opencv)
-  - [☐ Remove 'non-changing' images from ring doorbell library](#-remove-non-changing-images-from-ring-doorbell-library)
+    - [☐ Remove 'non-changing' images from ring doorbell library](#-remove-non-changing-images-from-ring-doorbell-library)
 - [Magic - Sleight of Hand](#magic---sleight-of-hand)
-  - [☐ Hannibal Road Show](#-hannibal-road-show)
-  - [☐ Multi Card Appear and Disappear](#-multi-card-appear-and-disappear)
-  - [☐ Write my magic homework](#-write-my-magic-homework)
-  - [☐ Carl's Unicorns](#-carls-unicorns)
+    - [☐ Hannibal Road Show](#-hannibal-road-show)
+    - [☐ Multi Card Appear and Disappear](#-multi-card-appear-and-disappear)
+    - [☐ Write my magic homework](#-write-my-magic-homework)
+    - [☐ Carl's Unicorns](#-carls-unicorns)
 - [Kids Show - I can do a 15 minute parlor show](#kids-show---i-can-do-a-15-minute-parlor-show)
-  - [☐ Chris. T. Magician](#-chris-t-magician)
-  - [☐ Silly Billy](#-silly-billy)
-  - [☐ White board](#-white-board)
-  - [☐ Silk Changing color](#-silk-changing-color)
-  - [☐ Unexpected dots](#-unexpected-dots)
-  - [☐ Remote Setup - Considering Zoom](#-remote-setup---considering-zoom)
-  - [☐ Better webcam - ivCam](#-better-webcam---ivcam)
+    - [☐ Chris. T. Magician](#-chris-t-magician)
+    - [☐ Silly Billy](#-silly-billy)
+    - [☐ White board](#-white-board)
+    - [☐ Silk Changing color](#-silk-changing-color)
+    - [☐ Unexpected dots](#-unexpected-dots)
+    - [☐ Remote Setup - Considering Zoom](#-remote-setup---considering-zoom)
+    - [☐ Better webcam - ivCam](#-better-webcam---ivcam)
 - [Biking](#biking)
-  - [☑ Got my e-bikes](#-got-my-e-bikes)
-  - [☑ Kids biking](#-kids-biking)
+    - [☑ Got my e-bikes](#-got-my-e-bikes)
+    - [☑ Kids biking](#-kids-biking)
 - [Inspirations](#inspirations)
 - [iOS](#ios)
-  - [☐ Video Editting - Luma Fusion](#-video-editting---luma-fusion)
+    - [☐ Video Editting - Luma Fusion](#-video-editting---luma-fusion)
 - [Books](#books)
-  - [☐ How will you measure your life](#-how-will-you-measure-your-life)
-  - [☑ StoryBrand](#-storybrand)
-  - [☐ Upstream Thinking Upstream](#-upstream-thinking-upstream)
-  - [☐ Inspired Product Management](#-inspired-product-management)
-  - [☐ HBR Thinking Strategically](#-hbr-thinking-strategically)
-  - [☐ Joy on Demand](#-joy-on-demand)
-  - [☑ 5 Dysfunctions of a team](#-5-dysfunctions-of-a-team)
-  - [☐ Creativity](#-creativity)
+    - [☐ How will you measure your life](#-how-will-you-measure-your-life)
+    - [☑ StoryBrand](#-storybrand)
+    - [☐ Upstream Thinking Upstream](#-upstream-thinking-upstream)
+    - [☐ Inspired Product Management](#-inspired-product-management)
+    - [☐ HBR Thinking Strategically](#-hbr-thinking-strategically)
+    - [☐ Joy on Demand](#-joy-on-demand)
+    - [☑ 5 Dysfunctions of a team](#-5-dysfunctions-of-a-team)
+    - [☐ Creativity](#-creativity)
 - [Family](#family)
-  - [Amelia](#amelia)
-  - [Zach](#zach)
-  - [☐ Tori](#-tori)
+    - [Amelia](#amelia)
+    - [Zach](#zach)
+    - [☐ Tori](#-tori)
 - [Blog Tech](#blog-tech)
-  - [☑ Clone tech diary into tech blog](#-clone-tech-diary-into-tech-blog)
-  - [☐ Better broken link checker](#-better-broken-link-checker)
-  - [☑ Deep dive into CSS and bootstrap (great idea)](#-deep-dive-into-css-and-bootstrap-great-idea)
-  - [☑ Redo CSS to be bootstrapped base](#-redo-css-to-be-bootstrapped-base)
-  - [☑ Create ToC](#-create-toc)
+    - [☑ Clone tech diary into tech blog](#-clone-tech-diary-into-tech-blog)
+    - [☐ Better broken link checker](#-better-broken-link-checker)
+    - [☑ Deep dive into CSS and bootstrap (great idea)](#-deep-dive-into-css-and-bootstrap-great-idea)
+    - [☑ Redo CSS to be bootstrapped base](#-redo-css-to-be-bootstrapped-base)
+    - [☑ Create ToC](#-create-toc)
 - [vim](#vim)
-  - [☐ Screen cast of my cool setup](#-screen-cast-of-my-cool-setup)
+    - [☐ Screen cast of my cool setup](#-screen-cast-of-my-cool-setup)
 - [Cut](#cut)
-  - [Trip to Canada](#trip-to-canada)
+    - [Trip to Canada](#trip-to-canada)
 
 <!-- vim-markdown-toc -->
 
@@ -237,24 +237,29 @@ Chapter 2:
 
 Work Sat is two independant axis 1) Sat and 2) Hygiene
 
-1. Sat is AMP
-2. DSat is the extrinsic motivators
+1) Sat is AMP
+2) DSat is the extrinsic motivators
 
 Money, annoying boss, nice office. !Hygiene does not equals Sat.
 
 Chapter 3:
 
-Strategy is deliberate and emmirgent, e.g. what you discover is more important then what you think. Flexibility and seeing what's most importan matters.
+Strategy is deliberate and emmirgent, e.g. what you discover  is more important then what you think. Flexibility and seeing what's most importan matters.
+
 
 - Test core strategies assumptions (Irridium cell phone)
 
 Chapter 4: How you spend your enegy is your actual strategy, and invest early.
+
+
+
 
 Elilogue:
 
 Being 100% committed easier then 98%.
 
 98% means always need to think about it, and easy to give in. Juicing vs dieting
+
 
 Chapter 5
 
@@ -276,6 +281,7 @@ Milkshake purpose 1) fun get to work snack - slow == good2) way to reward kids -
 Chapter 7
 Chapter 8
 Chapter 9
+
 
 #### ☑ StoryBrand
 
