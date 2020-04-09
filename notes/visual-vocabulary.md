@@ -1,3 +1,5 @@
+# Visual Thinking Notes
+
 I'm a visual thinker and here are some notes that help me with drawing/visualizing and having a visual vocabulary:
 
 ### Visual Vocabulary

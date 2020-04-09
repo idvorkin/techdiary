@@ -1,3 +1,5 @@
+# Usb Tech
+
 I'll admit it, I have a USB charging fetish. Here's my brain dump:
 
 ## It just works USB charging (but kinda slow - 5W and 12.5W)

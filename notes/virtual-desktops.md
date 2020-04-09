@@ -1,3 +1,5 @@
+# Virtual desktops in Wox
+
 ## Success Criteria
 
 - Able to switch virtual desktops from WoX

@@ -1,4 +1,4 @@
-# Igor's In Real Life Diary
+# In Real Life Diary
 
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->

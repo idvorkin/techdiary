@@ -1,4 +1,4 @@
-## Accessing iMessage history
+# Accessing iMessage history
 
 iMessage is just a sqllite file located @
 

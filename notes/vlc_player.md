@@ -1,3 +1,5 @@
+# VLC Play Notes
+
 Now a day it's all about video. What tools do we have to watch videos? So far VLC Media Player.
 Lets figure out how to use it:
 

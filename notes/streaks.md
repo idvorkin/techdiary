@@ -1,3 +1,5 @@
+# Habit tracking app
+
 ## Success Critera
 
 - Learn Firebase and React JS

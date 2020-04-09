@@ -1,29 +1,31 @@
+# iOS and iPadOS tips
+
 I spent a **LOT** of time on my iPhone/iPad - here are some of the tools/tips I use.
 
 <!-- prettier-ignore-start -->
 <!-- vim-markdown-toc GFM -->
 
 - [General](#general)
-    - [Global Controls (For iPhone X)](#global-controls-for-iphone-x)
-    - [Siri (For iPhone X)](#siri-for-iphone-x)
-    - [HomeKit](#homekit)
-    - [Health Kit](#health-kit)
-    - [Photos](#photos)
+  - [Global Controls (For iPhone X)](#global-controls-for-iphone-x)
+  - [Siri (For iPhone X)](#siri-for-iphone-x)
+  - [HomeKit](#homekit)
+  - [Health Kit](#health-kit)
+  - [Photos](#photos)
 - [Apps](#apps)
-    - [All](#all)
-    - [Chrome](#chrome)
-    - [Launcher](#launcher)
-    - [Workflow](#workflow)
+  - [All](#all)
+  - [Chrome](#chrome)
+  - [Launcher](#launcher)
+  - [Workflow](#workflow)
 - [Watch](#watch)
 - [Augmented Reality Apps](#augmented-reality-apps)
 - [Pen](#pen)
-    - [Notability](#notability)
-    - [Notes Plus](#notes-plus)
-    - [OneNote](#onenote)
-    - [Adobe Sketch](#adobe-sketch)
-    - [Inkflow](#inkflow)
-    - [Nebo](#nebo)
-    - [Keyboards](#keyboards)
+  - [Notability](#notability)
+  - [Notes Plus](#notes-plus)
+  - [OneNote](#onenote)
+  - [Adobe Sketch](#adobe-sketch)
+  - [Inkflow](#inkflow)
+  - [Nebo](#nebo)
+  - [Keyboards](#keyboards)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Doing development including markdown](#doing-development-including-markdown)
 

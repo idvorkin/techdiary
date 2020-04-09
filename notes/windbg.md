@@ -1,3 +1,5 @@
+# WinDBG notes
+
 Set breakpoint when runtime loads (e.g exception when loading clr)
 
     sxe ld:clr
