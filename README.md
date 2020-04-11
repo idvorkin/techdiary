@@ -3,29 +3,29 @@
 ## Projects
 
 - Major Research Areas and Musing
-  - [Cloud first applications](notes/cloud-first-applications.md)
-  - [Machine Learning](notes/machine-learning.md)
-  - [Security](notes/better-security-design.md)
-  - [Data Systems](notes/data-systems.md)
-  - [In Real Life](notes/irl.md)
-  - [Design and Architecture](notes/design.md)
-  - [How to be an iOS only developer](notes/ios-nomad.md)
-  - [Hacking the web for fun and profit](notes/hack-web.md)
+  - [Cloud first applications](cloud-first-applications.md)
+  - [Machine Learning](machine-learning.md)
+  - [Security](better-security-design.md)
+  - [Data Systems](data-systems.md)
+  - [In Real Life](irl.md)
+  - [Design and Architecture](design.md)
+  - [How to be an iOS only developer](ios-nomad.md)
+  - [Hacking the web for fun and profit](hack-web.md)
 - Minor Tips
-  - [Time off 2020](notes/time-off-3-2020.md)
-  - [VLC Player](notes/vlc_player.md)
-  - [Pandas](notes/pandas-tutorial.md)
-  - [iOS Usage](notes/ios.md)
-  - [Mosh](notes/mosh.md)
-  - [USB Tech](notes/usbtech.md)
-  - [Visual Vocabulary](notes/visual-vocabulary.md)
+  - [Time off 2020](time-off-3-2020.md)
+  - [VLC Player](vlc_player.md)
+  - [Pandas](pandas-tutorial.md)
+  - [iOS Usage](ios.md)
+  - [Mosh](mosh.md)
+  - [USB Tech](usbtech.md)
+  - [Visual Vocabulary](visual-vocabulary.md)
 - Complete Projects
-  - [Ring Video Downloader](notes/ring-video-download.md)
-  - [Extract message history on OSX](notes/dump_imessage_history.md)
+  - [Ring Video Downloader](ring-video-download.md)
+  - [Extract message history on OSX](dump_imessage_history.md)
 - In Progress Projects
-  - [Deploy a private web site](notes/private_web_site.md)
-  - [Windows Virtual Desktop](notes/virtual-desktops.md)
-  - [Alexa Skill](notes/alexa-skill.md)
+  - [Deploy a private web site](private_web_site.md)
+  - [Windows Virtual Desktop](virtual-desktops.md)
+  - [Alexa Skill](alexa-skill.md)
   - [ManageMe](https://github.com/idvorkin/manage-me)
 
 ## Awesome Lists
@@ -127,8 +127,8 @@ Not using prettier ignore gaurds as vimtoc gets confused here.
 ### Apple
 
 - Copy files **without** iTunes - [CopyTrans Manager](https://www.copytrans.net/copytransmanager/)
-- Tips and tricks for [iOS](https://idvork.in/td/notes/ios)
-- How to be an [iPad nomad](https://idvork.in/td/notes/ios-nomad)
+- Tips and tricks for [iOS](ios.md)
+- How to be an [iPad nomad](ios-nomad.md)
 
 ### Home Automation
 
@@ -188,7 +188,7 @@ Decent blog posts:
 - Rant - a cool c# human [language generator](https://berkin.me/rant/)
 - Rhymebrain -
 - Tranquil
-- [Sentiment Analysis](notes/sentiment_analysis.md)
+- [Sentiment Analysis](sentiment_analysis.md)
 
 ### Azure One Liners
 
