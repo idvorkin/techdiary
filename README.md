@@ -66,7 +66,8 @@ Not using prettier ignore gaurds as vimtoc gets confused here.
   - [httplab](#httplab)
   - [httpie](#httpie)
   - [httpprompt](#httpprompt)
-  - [Link Checkers](#link-checkers)
+  - [bcl - Link Checkers](#bcl---link-checkers)
+  - [scrapy - Link Checkers](#scrapy---link-checkers)
   - [brow.sh - Text based web browser](#browsh---text-based-web-browser)
   - [w3m - Text based web browser](#w3m---text-based-web-browser)
 - [Video Manipulation Tools](#video-manipulation-tools)
@@ -361,13 +362,17 @@ Here's an example of sending content to a web hook which would send a message to
 
 Graphical httpie with [tab completion](https://github.com/eliangcs/http-prompt). It's actually built on httpie
 
-#### Link Checkers
+#### bcl - Link Checkers
 
 You'd think there would be a slew of these, but all the ones I tried weren't great (can't limit recurse depth, don't group errors, etc). I'm using [bcl](https://github.com/stevenvachon/broken-link-checker) right now, but would love a good alternative.
 
 Using BLC I crawl my website using (-r recurse ; -o group output; -e skip external):
 
         blc https://idvork.in/d -roe
+
+#### scrapy - Link Checkers
+
+I disliked bcl so much I [wrote my own](https://github.com/idvorkin/LinqPadSnippets/blob/master/python/linkchecker.py) using scrapy
 
 #### brow.sh - Text based web browser
 
