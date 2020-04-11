@@ -172,7 +172,7 @@ The keyboard I use has backtick where escape should be. In VIM this is super pai
 
 Slightly off topic, but if you made it this far, you probably care about small bags as well.
 
-It's taken me several tries, but [I've concluded](notes/irl.md#work-bag) I like the smallest bag possible. I use a 13" macbook pro laptop and an iPad Pro 10" and this is the perfect bag for me:
+It's taken me several tries, but [I've concluded](https://idvork.in/td/irl.md#work-bag) I like the smallest bag possible. I use a 13" macbook pro laptop and an iPad Pro 10" and this is the perfect bag for me:
 
 https://www.amazon.com/gp/product/B07WNPPF72
 
@@ -182,6 +182,6 @@ https://www.amazon.com/gp/product/B07H4QYC2D/
 
 ### Related links
 
-- My general [iOS tips](notes/ios.md).
+- My general [iOS tips](ios.md).
 - [Automating iOS](https://www.macstories.net/stories/automating-ios-how-pythonista-changed-my-workflow/)
 - [x-callback-urls for OmniFocus](https://inside.omnifocus.com/url-schemes)
