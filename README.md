@@ -1,3 +1,10 @@
+# This version is now obsolete - see https://idvork.in/td
+
+Cardinal copy is @ https://idvork.in/td
+Leaving this stuff here for history.
+
+---
+
 # Igor's Technical Diary
 
 ## Projects
@@ -31,11 +38,14 @@
 ## Awesome Lists
 
 <!--
-Not using prettier ignore gaurds as vimtoc gets confused here.
--->
+### Markdown
+
+- Typora
+- Visual Studio Code
+- Macdown
+
 <!-- vim-markdown-toc GFM -->
 
-- [Markdown](#markdown)
 - [VIM](#vim)
 - [C Sharp](#c-sharp)
 - [Java](#java)
@@ -88,12 +98,6 @@ Not using prettier ignore gaurds as vimtoc gets confused here.
 - [Other Resources](#other-resources)
 
 <!-- vim-markdown-toc -->
-
-### Markdown
-
-- Typora
-- Visual Studio Code
-- Macdown
 
 ### VIM
 
